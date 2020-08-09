@@ -23,6 +23,7 @@ public void Main()
 {
     configList = new List<ConfigLookupEntry>();
     ProcessDirectory(originalSourceFolder);
+    ProcessDirectory(manualSourceFolder);
     WriteConfig(configList, "Config-new.yaml");
 }
 
@@ -44,9 +45,20 @@ public void ProcessFile(string path)
 {
     string fileName = Path.GetFileName(path);
     if (fileName == "README.md") return;
-    
+
     string fileNameNoExt = fileName.Split(".")[0];
-    string serviceName = fileName.Substring(19).Split(".")[0].Replace("-", "");
+
+    string serviceName = "";
+
+    if (path.Contains("official"))
+    {
+        serviceName = fileName.Substring(19).Split(".")[0].Replace("-", "");
+    }
+    else
+    {
+        serviceName = fileName.Split(".")[0].Replace("-", "");
+    }
+
     string serviceCategory = System.IO.Directory.GetParent(path).Name.Replace(" ", "").Replace("+", "");
 
     configList.Add(new ConfigLookupEntry { Category = serviceCategory, ServiceSource = fileNameNoExt, ServiceTarget = serviceName });

@@ -10,6 +10,18 @@ AzureEntityColoring(AnalysisServices)
 !define AnalysisServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AnalysisServices, AnalysisServices)
 !define AnalysisServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AnalysisServices, AnalysisServices)
 
+sprite $AzureDatabricks [67x70/16z] {
+fTS5SiD044HHQN7W_kSDW-5RBUZ2q2jlBqnbsSuwVIoNCjpC12A1x_HpGBVRj9F05QGPfUu7ghrAEG1SGOg9pFKIe95rsgxuq2T9PsX0Prm1yDHt17GQ7CN3
+gGGSH-noHePV0ZmiKo02oFmaCi9F0f5VX404y4SSNutxD_1DCA9Bk248qG0IZ32012CC0C681hw902DS0hV4EWGYWEXVBsRkMOq72F7x51UNYFCQoiq050W2
+NX_6S22oKGACwS78gnPncFFlyZVTAivYH5wlhpm10g6MLvx57W9udj3h56S8Z-qjSWCGei-zzoFNWN_Ju2UCCE2HbYaHyIks-Hb3NlvlGYAYBfDjPVZL8I0t
+pEJ6y_A04CYn8H2kFW4G0b4lg1M1o6F_ULchxqCst_0MY6Z0cto_vI2xpJfvBcuCih4-_okIY32GjYuGxZKsMeHGhzmYXdiLBMBM0GYqYE5UkKMDU7AyBXpT
+gsvHzwfRrBt6f18qCkLHqYakMzIfhbjy1m
+}
+
+AzureEntityColoring(AzureDatabricks)
+!define AzureDatabricks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabricks, AzureDatabricks)
+!define AzureDatabricks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabricks, AzureDatabricks)
+
 sprite $AzureDataExplorerClusters [70x70/16z] {
 pT854kD050FHeJ_Etl_0ImfOrOwMeGi3VYQr_wrUXqAtHyTwMpLb21GWw3kLZ9IKaHGYLDHC2X4gcJ4aA9a1CkQbaXaXzZR4G4aC435KCaE4J3Km0HbDzQ0O
 0oHV2nWWOCQ24fWD9BuZCaJoNiWGOLJ84E73cArDKyWG4ME865ES8IB64J7N2WVH-MsxPmhw3GePZYtSKMJ6ieH0oGmNYpSTc5XGCZFx24faV2SzAsekOu2G
@@ -114,4 +126,17 @@ R1T99-yrek6WhIGobE7zDcv1St7I8Lo8sOgeoWRHL0u--PG27P0jq05-5gW22dGUoUK8NCWcF_m6
 AzureEntityColoring(StreamAnalyticsJobs)
 !define StreamAnalyticsJobs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StreamAnalyticsJobs, StreamAnalyticsJobs)
 !define StreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StreamAnalyticsJobs, StreamAnalyticsJobs)
+
+sprite $TimeSeriesInsights [68x70/16z] {
+fPW7qkim28Gjwkh-1txLZJ_Pe8ntUepNVC2ePACQQf70d426wzY-bJZc3y5bMzSe1iLcB3h4_A1OISPde-XoKSnMi8yMBnX09bvyawSY9HYtVefwVQODH-a0
+Q_Tx7ki_OpSN9nR5WRbm4xrwrqmFnH6U14zOgpiEYpA6JVjGwfxrLwxwnIpfKGjkKkiwc4MFSw97gT6Iz0UDyAanMcAltyrYMGJVc71_IofQ_HYOHNqjw7WE
+5EUYyjxHbF4-YiF8zQAHD7Ptj0kMdHKL5YDT8dcWW8RurhLcA8tCwivdH9sXxEOBCB7dGz8WrIPYQN2ONfXakIAY2nvQc3uDnGCOtwV7xp2QxnJwzmbUTNHL
+RZ23RUScaoeF9koZJuJW7d92QMdsgiT1SC5WCZbd6LU3S2GqyIhRDebyAxztIEN1k1qm-MZQybQyyM3goM5XMQFC2udvhmKO8K_aN1HR62SPNett3WPiEOqh
+f8DHjap9HMMVOO8nuhPouYCC1ZiBsJqd_mHZRAT4BRnmcAJhljVYWCC88y7huOf8wU1PPUCbuVUSPEVDTOivQeMu2RUetVBr7Nha5Kky8QktnYILxdX6p691
+JM0BrwWStSffexd2vyhjDkjPNIph1iPaimWPRd_aaRFAchvrwbjdU7JTFohtu6-7Ml_kJvHU6dXZ4DzksM9t7uJpGlu6
+}
+
+AzureEntityColoring(TimeSeriesInsights)
+!define TimeSeriesInsights(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, TimeSeriesInsights, TimeSeriesInsights)
+!define TimeSeriesInsights(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, TimeSeriesInsights, TimeSeriesInsights)
 

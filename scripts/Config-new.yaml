@@ -7,6 +7,10 @@
     Target: CognitiveServices
   - Source: 10165-icon-service-Bot-Services
     Target: BotServices
+  - Source: Machine-Learning-Service
+    Target: MachineLearningService
+  - Source: Microsoft-Genomics
+    Target: MicrosoftGenomics
 - Name: Analytics
   Services:
   - Source: 00009-icon-service-Log-Analytics-Workspaces
@@ -37,6 +41,10 @@
     Target: EventHubClusters
   - Source: 10150-icon-service-Data-Lake-Store-Gen1
     Target: DataLakeStoreGen1
+  - Source: Azure-Databricks
+    Target: AzureDatabricks
+  - Source: Time-Series-Insights
+    Target: TimeSeriesInsights
 - Name: AppServices
   Services:
   - Source: 00046-icon-service-App-Service-Plans
@@ -137,6 +145,8 @@
     Target: ServiceFabricClusters
   - Source: 10105-icon-service-Container-Registries
     Target: ContainerRegistries
+  - Source: Container-Instances
+    Target: ContainerInstances
 - Name: CXP
   Services:
   - Source: 00474-Icon-Service-Elixir Purple
@@ -195,6 +205,16 @@
     Target: DevTestLabs
   - Source: 10265-icon-service-Lab-Services
     Target: LabServices
+  - Source: Artifacts
+    Target: Artifacts
+  - Source: Boards
+    Target: Boards
+  - Source: Pipelines
+    Target: Pipelines
+  - Source: Repos
+    Target: Repos
+  - Source: TestPlans
+    Target: TestPlans
 - Name: General
   Services:
   - Source: 10001-icon-service-All-Resources
@@ -393,6 +413,8 @@
     Target: AppRegistrations
   - Source: 10235-icon-service-Identity-Governance
     Target: IdentityGovernance
+  - Source: ActiveDirectory-B2C
+    Target: ActiveDirectoryB2C
 - Name: Integration
   Services:
   - Source: 00036-icon-service-SQL-Data-Warehouses
@@ -445,6 +467,12 @@
     Target: IoTCentralApplications
   - Source: 10201-icon-service-Logic-Apps
     Target: LogicApps
+  - Source: Digital-Twins
+    Target: DigitalTwins
+  - Source: IoT-Edge
+    Target: IoTEdge
+  - Source: IoT-Hub
+    Target: IoTHub
 - Name: ManagementGovernance
   Services:
   - Source: 00001-icon-service-Monitor
@@ -571,6 +599,8 @@
     Target: ReservedIPAddresses(Classic)
   - Source: 10372-icon-service-Public-IP-Prefixes
     Target: PublicIPPrefixes
+  - Source: Virtual-WAN
+    Target: VirtualWAN
 - Name: Other
   Services:
   - Source: 00378-icon-service-Detonation
@@ -591,6 +621,12 @@
     Target: InstancePools
   - Source: 10310-icon-service-NAT
     Target: NAT
+  - Source: Azure-Maps
+    Target: AzureMaps
+  - Source: Managed-Applications
+    Target: ManagedApplications
+  - Source: Site-Recovery
+    Target: SiteRecovery
 - Name: Preview
   Services:
   - Source: 00559-icon-service-Azure-Cloud-Shell
@@ -637,3 +673,11 @@
     Target: NotificationHubNamespaces
   - Source: 10309-icon-service-Azure-Media-Service
     Target: AzureMediaService
+  - Source: SignalR-Service
+    Target: SignalRService
+- Name: Security
+  Services:
+  - Source: Key-Vault
+    Target: KeyVault
+  - Source: Sentinel
+    Target: Sentinel

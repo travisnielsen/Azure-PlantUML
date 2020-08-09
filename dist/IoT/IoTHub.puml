@@ -1,0 +1,11 @@
+sprite $IoTHub [70x70/16z] {
+xPXdWY9124P9bU3-vzraGAkbMTaStgyPmwi8dmflGsex2c_JxCYVOU6XffE_pJBimYnPNEAQgaNCQMNBYcy3pZlht8Bs2440dLl87f7lOk6Y1TGUmAfbcBEW
+OjaBbyiMaBjcGDq2lEmpEgGo5uTxxooVmAB5GVb4rUAGIBociIv02ei8mJUpRKqHygsfyltNH8HGme-xJ_k4TeGor9PTKOOoovoofji3Yb02pKcgl3Nvob1L
+2C3B2JHu1IvxXWA97X8CaOYOvJEwMIHfiohCid6qSDRofxmWNT4UFqkUO2OYZ7StjbpUYVksEIqDiPOVzOA0djtBwHAbj4vQLDH3xS9g0CcjaxZ1jBxKT8xp
+XeNI6F8Sg7NF_Qtemc_fkrnC18z7_w-UHzL4sBUski4yvXnDDkrxay7bRRy-cRLLJdZQrBuWU5g3_SNH4nwhUGPJ2IRJbvdfGBXmLkvgTu8Ue9nRLjJTU4iu
+joJVaGAzZTH2GTCdUm0p2xJNlKlsF71B_D5v2PnOEBOuI7XqlxEY6Dq2eMPfUzY-o4I2bB6LXXrHo6dwb1bM_Ur1ccT6nUByjoHewQHtFW8
+}
+
+AzureEntityColoring(IoTHub)
+!define IoTHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IoTHub, IoTHub)
+!define IoTHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IoTHub, IoTHub)

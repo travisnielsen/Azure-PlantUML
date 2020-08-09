@@ -30,13 +30,17 @@ There is also a PowerPoint file (PPTX) which includes alls Azure symbols as SVGs
 > If the size of the generated PNG images is not enough for you, take a look at [how you can build Azure-PlantUML on your own](scripts/README.md).
 
 ## All generated Azure symbols (SVG and PNG) and PlantUML sprites
+
 Category | Macro (Name) | <pre>Color</pre> | <pre>Mono </pre> | Url
   ---    |  ---  | :---:  | :---: | ---
 **AIMachineLearning** | | | | **AIMachineLearning/all.puml**
 AIMachineLearning | BotServices </br> (Bot Services) | ![BotServices](dist/AIMachineLearning/BotServices.png?raw=true) | ![BotServices](dist/AIMachineLearning/BotServices(m).png?raw=true) | AIMachineLearning/BotServices.puml
 AIMachineLearning | CognitiveServices </br> (Cognitive Services) | ![CognitiveServices](dist/AIMachineLearning/CognitiveServices.png?raw=true) | ![CognitiveServices](dist/AIMachineLearning/CognitiveServices(m).png?raw=true) | AIMachineLearning/CognitiveServices.puml
+AIMachineLearning | MachineLearningService </br> (Machine Learning Service) | ![MachineLearningService](dist/AIMachineLearning/MachineLearningService.png?raw=true) | ![MachineLearningService](dist/AIMachineLearning/MachineLearningService(m).png?raw=true) | AIMachineLearning/MachineLearningService.puml
+AIMachineLearning | MicrosoftGenomics </br> (Microsoft Genomics) | ![MicrosoftGenomics](dist/AIMachineLearning/MicrosoftGenomics.png?raw=true) | ![MicrosoftGenomics](dist/AIMachineLearning/MicrosoftGenomics(m).png?raw=true) | AIMachineLearning/MicrosoftGenomics.puml
 **Analytics** | | | | **Analytics/all.puml**
 Analytics | AnalysisServices </br> (Analysis Services) | ![AnalysisServices](dist/Analytics/AnalysisServices.png?raw=true) | ![AnalysisServices](dist/Analytics/AnalysisServices(m).png?raw=true) | Analytics/AnalysisServices.puml
+Analytics | AzureDatabricks </br> (Azure Databricks) | ![AzureDatabricks](dist/Analytics/AzureDatabricks.png?raw=true) | ![AzureDatabricks](dist/Analytics/AzureDatabricks(m).png?raw=true) | Analytics/AzureDatabricks.puml
 Analytics | AzureDataExplorerClusters </br> (Azure Data Explorer Clusters) | ![AzureDataExplorerClusters](dist/Analytics/AzureDataExplorerClusters.png?raw=true) | ![AzureDataExplorerClusters](dist/Analytics/AzureDataExplorerClusters(m).png?raw=true) | Analytics/AzureDataExplorerClusters.puml
 Analytics | AzureSynapseAnalytics </br> (Azure Synapse Analytics) | ![AzureSynapseAnalytics](dist/Analytics/AzureSynapseAnalytics.png?raw=true) | ![AzureSynapseAnalytics](dist/Analytics/AzureSynapseAnalytics(m).png?raw=true) | Analytics/AzureSynapseAnalytics.puml
 Analytics | DataFactory </br> (Data Factory) | ![DataFactory](dist/Analytics/DataFactory.png?raw=true) | ![DataFactory](dist/Analytics/DataFactory(m).png?raw=true) | Analytics/DataFactory.puml
@@ -46,6 +50,7 @@ Analytics | EventHubs </br> (Event Hubs) | ![EventHubs](dist/Analytics/EventHubs
 Analytics | HDInsightClusters </br> (HD Insight Clusters) | ![HDInsightClusters](dist/Analytics/HDInsightClusters.png?raw=true) | ![HDInsightClusters](dist/Analytics/HDInsightClusters(m).png?raw=true) | Analytics/HDInsightClusters.puml
 Analytics | LogAnalyticsWorkspaces </br> (Log Analytics Workspaces) | ![LogAnalyticsWorkspaces](dist/Analytics/LogAnalyticsWorkspaces.png?raw=true) | ![LogAnalyticsWorkspaces](dist/Analytics/LogAnalyticsWorkspaces(m).png?raw=true) | Analytics/LogAnalyticsWorkspaces.puml
 Analytics | StreamAnalyticsJobs </br> (Stream Analytics Jobs) | ![StreamAnalyticsJobs](dist/Analytics/StreamAnalyticsJobs.png?raw=true) | ![StreamAnalyticsJobs](dist/Analytics/StreamAnalyticsJobs(m).png?raw=true) | Analytics/StreamAnalyticsJobs.puml
+Analytics | TimeSeriesInsights </br> (Time Series Insights) | ![TimeSeriesInsights](dist/Analytics/TimeSeriesInsights.png?raw=true) | ![TimeSeriesInsights](dist/Analytics/TimeSeriesInsights(m).png?raw=true) | Analytics/TimeSeriesInsights.puml
 **AppServices** | | | | **AppServices/all.puml**
 AppServices | APIManagementServices </br> (A PIManagement Services) | ![APIManagementServices](dist/AppServices/APIManagementServices.png?raw=true) | ![APIManagementServices](dist/AppServices/APIManagementServices(m).png?raw=true) | AppServices/APIManagementServices.puml
 AppServices | AppServiceCertificates </br> (App Service Certificates) | ![AppServiceCertificates](dist/AppServices/AppServiceCertificates.png?raw=true) | ![AppServiceCertificates](dist/AppServices/AppServiceCertificates(m).png?raw=true) | AppServices/AppServiceCertificates.puml
@@ -89,6 +94,7 @@ Compute | Workspaces </br> (Workspaces) | ![Workspaces](dist/Compute/Workspaces.
 **Containers** | | | | **Containers/all.puml**
 Containers | AppServices </br> (App Services) | ![AppServices](dist/Containers/AppServices.png?raw=true) | ![AppServices](dist/Containers/AppServices(m).png?raw=true) | Containers/AppServices.puml
 Containers | BatchAccounts </br> (Batch Accounts) | ![BatchAccounts](dist/Containers/BatchAccounts.png?raw=true) | ![BatchAccounts](dist/Containers/BatchAccounts(m).png?raw=true) | Containers/BatchAccounts.puml
+Containers | ContainerInstances </br> (Container Instances) | ![ContainerInstances](dist/Containers/ContainerInstances.png?raw=true) | ![ContainerInstances](dist/Containers/ContainerInstances(m).png?raw=true) | Containers/ContainerInstances.puml
 Containers | ContainerRegistries </br> (Container Registries) | ![ContainerRegistries](dist/Containers/ContainerRegistries.png?raw=true) | ![ContainerRegistries](dist/Containers/ContainerRegistries(m).png?raw=true) | Containers/ContainerRegistries.puml
 Containers | KubernetesServices </br> (Kubernetes Services) | ![KubernetesServices](dist/Containers/KubernetesServices.png?raw=true) | ![KubernetesServices](dist/Containers/KubernetesServices(m).png?raw=true) | Containers/KubernetesServices.puml
 Containers | ServiceFabricClusters </br> (Service Fabric Clusters) | ![ServiceFabricClusters](dist/Containers/ServiceFabricClusters.png?raw=true) | ![ServiceFabricClusters](dist/Containers/ServiceFabricClusters(m).png?raw=true) | Containers/ServiceFabricClusters.puml
@@ -117,9 +123,14 @@ Databases | SQLServer </br> (S QLServer) | ![SQLServer](dist/Databases/SQLServer
 Databases | VirtualClusters </br> (Virtual Clusters) | ![VirtualClusters](dist/Databases/VirtualClusters.png?raw=true) | ![VirtualClusters](dist/Databases/VirtualClusters(m).png?raw=true) | Databases/VirtualClusters.puml
 **DevOps** | | | | **DevOps/all.puml**
 DevOps | ApplicationInsights </br> (Application Insights) | ![ApplicationInsights](dist/DevOps/ApplicationInsights.png?raw=true) | ![ApplicationInsights](dist/DevOps/ApplicationInsights(m).png?raw=true) | DevOps/ApplicationInsights.puml
+DevOps | Artifacts </br> (Artifacts) | ![Artifacts](dist/DevOps/Artifacts.png?raw=true) | ![Artifacts](dist/DevOps/Artifacts(m).png?raw=true) | DevOps/Artifacts.puml
 DevOps | AzureDevOps </br> (Azure Dev Ops) | ![AzureDevOps](dist/DevOps/AzureDevOps.png?raw=true) | ![AzureDevOps](dist/DevOps/AzureDevOps(m).png?raw=true) | DevOps/AzureDevOps.puml
+DevOps | Boards </br> (Boards) | ![Boards](dist/DevOps/Boards.png?raw=true) | ![Boards](dist/DevOps/Boards(m).png?raw=true) | DevOps/Boards.puml
 DevOps | DevTestLabs </br> (Dev Test Labs) | ![DevTestLabs](dist/DevOps/DevTestLabs.png?raw=true) | ![DevTestLabs](dist/DevOps/DevTestLabs(m).png?raw=true) | DevOps/DevTestLabs.puml
 DevOps | LabServices </br> (Lab Services) | ![LabServices](dist/DevOps/LabServices.png?raw=true) | ![LabServices](dist/DevOps/LabServices(m).png?raw=true) | DevOps/LabServices.puml
+DevOps | Pipelines </br> (Pipelines) | ![Pipelines](dist/DevOps/Pipelines.png?raw=true) | ![Pipelines](dist/DevOps/Pipelines(m).png?raw=true) | DevOps/Pipelines.puml
+DevOps | Repos </br> (Repos) | ![Repos](dist/DevOps/Repos.png?raw=true) | ![Repos](dist/DevOps/Repos(m).png?raw=true) | DevOps/Repos.puml
+DevOps | TestPlans </br> (Test Plans) | ![TestPlans](dist/DevOps/TestPlans.png?raw=true) | ![TestPlans](dist/DevOps/TestPlans(m).png?raw=true) | DevOps/TestPlans.puml
 **General** | | | | **General/all.puml**
 General | AllResources </br> (All Resources) | ![AllResources](dist/General/AllResources.png?raw=true) | ![AllResources](dist/General/AllResources(m).png?raw=true) | General/AllResources.puml
 General | Backlog </br> (Backlog) | ![Backlog](dist/General/Backlog.png?raw=true) | ![Backlog](dist/General/Backlog(m).png?raw=true) | General/Backlog.puml
@@ -211,6 +222,7 @@ General | WebTest </br> (Web Test) | ![WebTest](dist/General/WebTest.png?raw=tru
 General | Workbooks </br> (Workbooks) | ![Workbooks](dist/General/Workbooks.png?raw=true) | ![Workbooks](dist/General/Workbooks(m).png?raw=true) | General/Workbooks.puml
 General | Workflow </br> (Workflow) | ![Workflow](dist/General/Workflow.png?raw=true) | ![Workflow](dist/General/Workflow(m).png?raw=true) | General/Workflow.puml
 **Identity** | | | | **Identity/all.puml**
+Identity | ActiveDirectoryConnectHealth </br> (Active Directory Connect Health) | ![ActiveDirectoryConnectHealth](dist/Identity/ActiveDirectoryConnectHealth.png?raw=true) | ![ActiveDirectoryConnectHealth](dist/Identity/ActiveDirectoryConnectHealth(m).png?raw=true) | Identity/ActiveDirectoryConnectHealth.puml
 Identity | all </br> (all) |  |![all](dist/Identity/all(m).png?raw=true) | Identity/all.puml
 Identity | AppRegistrations </br> (App Registrations) | ![AppRegistrations](dist/Identity/AppRegistrations.png?raw=true) | ![AppRegistrations](dist/Identity/AppRegistrations(m).png?raw=true) | Identity/AppRegistrations.puml
 Identity | AzureActiveDirectory </br> (Azure Active Directory) | ![AzureActiveDirectory](dist/Identity/AzureActiveDirectory.png?raw=true) | ![AzureActiveDirectory](dist/Identity/AzureActiveDirectory(m).png?raw=true) | Identity/AzureActiveDirectory.puml
@@ -236,10 +248,13 @@ Intune | DeviceSecurityApple </br> (Device Security Apple) | ![DeviceSecurityApp
 Intune | DeviceSecurityGoogle </br> (Device Security Google) | ![DeviceSecurityGoogle](dist/Intune/DeviceSecurityGoogle.png?raw=true) | ![DeviceSecurityGoogle](dist/Intune/DeviceSecurityGoogle(m).png?raw=true) | Intune/DeviceSecurityGoogle.puml
 Intune | DeviceSecurityWindows </br> (Device Security Windows) | ![DeviceSecurityWindows](dist/Intune/DeviceSecurityWindows.png?raw=true) | ![DeviceSecurityWindows](dist/Intune/DeviceSecurityWindows(m).png?raw=true) | Intune/DeviceSecurityWindows.puml
 **IoT** | | | | **IoT/all.puml**
+IoT | DigitalTwins </br> (Digital Twins) | ![DigitalTwins](dist/IoT/DigitalTwins.png?raw=true) | ![DigitalTwins](dist/IoT/DigitalTwins(m).png?raw=true) | IoT/DigitalTwins.puml
 IoT | EventGridSubscriptions </br> (Event Grid Subscriptions) | ![EventGridSubscriptions](dist/IoT/EventGridSubscriptions.png?raw=true) | ![EventGridSubscriptions](dist/IoT/EventGridSubscriptions(m).png?raw=true) | IoT/EventGridSubscriptions.puml
 IoT | EventHubs </br> (Event Hubs) | ![EventHubs](dist/IoT/EventHubs.png?raw=true) | ![EventHubs](dist/IoT/EventHubs(m).png?raw=true) | IoT/EventHubs.puml
 IoT | FunctionApps </br> (Function Apps) | ![FunctionApps](dist/IoT/FunctionApps.png?raw=true) | ![FunctionApps](dist/IoT/FunctionApps(m).png?raw=true) | IoT/FunctionApps.puml
 IoT | IoTCentralApplications </br> (IoT Central Applications) | ![IoTCentralApplications](dist/IoT/IoTCentralApplications.png?raw=true) | ![IoTCentralApplications](dist/IoT/IoTCentralApplications(m).png?raw=true) | IoT/IoTCentralApplications.puml
+IoT | IoTEdge </br> (IoT Edge) | ![IoTEdge](dist/IoT/IoTEdge.png?raw=true) | ![IoTEdge](dist/IoT/IoTEdge(m).png?raw=true) | IoT/IoTEdge.puml
+IoT | IoTHub </br> (IoT Hub) | ![IoTHub](dist/IoT/IoTHub.png?raw=true) | ![IoTHub](dist/IoT/IoTHub(m).png?raw=true) | IoT/IoTHub.puml
 IoT | LogicApps </br> (Logic Apps) | ![LogicApps](dist/IoT/LogicApps.png?raw=true) | ![LogicApps](dist/IoT/LogicApps(m).png?raw=true) | IoT/LogicApps.puml
 IoT | NotificationHubNamespaces </br> (Notification Hub Namespaces) | ![NotificationHubNamespaces](dist/IoT/NotificationHubNamespaces.png?raw=true) | ![NotificationHubNamespaces](dist/IoT/NotificationHubNamespaces(m).png?raw=true) | IoT/NotificationHubNamespaces.puml
 IoT | NotificationHubs </br> (Notification Hubs) | ![NotificationHubs](dist/IoT/NotificationHubs.png?raw=true) | ![NotificationHubs](dist/IoT/NotificationHubs(m).png?raw=true) | IoT/NotificationHubs.puml
@@ -302,21 +317,28 @@ Networking | TrafficManagerProfiles </br> (Traffic Manager Profiles) | ![Traffic
 Networking | VirtualNetworkGateways </br> (Virtual Network Gateways) | ![VirtualNetworkGateways](dist/Networking/VirtualNetworkGateways.png?raw=true) | ![VirtualNetworkGateways](dist/Networking/VirtualNetworkGateways(m).png?raw=true) | Networking/VirtualNetworkGateways.puml
 Networking | VirtualNetworks(Classic) </br> (Virtual Networks( Classic)) | ![VirtualNetworks(Classic)](dist/Networking/VirtualNetworks(Classic).png?raw=true) | ![VirtualNetworks(Classic)](dist/Networking/VirtualNetworks(Classic)(m).png?raw=true) | Networking/VirtualNetworks(Classic).puml
 Networking | VirtualNetworks </br> (Virtual Networks) | ![VirtualNetworks](dist/Networking/VirtualNetworks.png?raw=true) | ![VirtualNetworks](dist/Networking/VirtualNetworks(m).png?raw=true) | Networking/VirtualNetworks.puml
+Networking | VirtualWAN </br> (Virtual WAN) | ![VirtualWAN](dist/Networking/VirtualWAN.png?raw=true) | ![VirtualWAN](dist/Networking/VirtualWAN(m).png?raw=true) | Networking/VirtualWAN.puml
 Networking | WebApplicationFirewallPolicies(WAF) </br> (Web Application Firewall Policies( WAF)) | ![WebApplicationFirewallPolicies(WAF)](dist/Networking/WebApplicationFirewallPolicies(WAF).png?raw=true) | ![WebApplicationFirewallPolicies(WAF)](dist/Networking/WebApplicationFirewallPolicies(WAF)(m).png?raw=true) | Networking/WebApplicationFirewallPolicies(WAF).puml
 **Other** | | | | **Other/all.puml**
 Other | ApplicationGateways </br> (Application Gateways) | ![ApplicationGateways](dist/Other/ApplicationGateways.png?raw=true) | ![ApplicationGateways](dist/Other/ApplicationGateways(m).png?raw=true) | Other/ApplicationGateways.puml
+Other | AzureMaps </br> (Azure Maps) | ![AzureMaps](dist/Other/AzureMaps.png?raw=true) | ![AzureMaps](dist/Other/AzureMaps(m).png?raw=true) | Other/AzureMaps.puml
 Other | Detonation </br> (Detonation) | ![Detonation](dist/Other/Detonation.png?raw=true) | ![Detonation](dist/Other/Detonation(m).png?raw=true) | Other/Detonation.puml
 Other | DiskEncryptionSets </br> (Disk Encryption Sets) | ![DiskEncryptionSets](dist/Other/DiskEncryptionSets.png?raw=true) | ![DiskEncryptionSets](dist/Other/DiskEncryptionSets(m).png?raw=true) | Other/DiskEncryptionSets.puml
 Other | Firewalls </br> (Firewalls) | ![Firewalls](dist/Other/Firewalls.png?raw=true) | ![Firewalls](dist/Other/Firewalls(m).png?raw=true) | Other/Firewalls.puml
 Other | InstancePools </br> (Instance Pools) | ![InstancePools](dist/Other/InstancePools.png?raw=true) | ![InstancePools](dist/Other/InstancePools(m).png?raw=true) | Other/InstancePools.puml
 Other | InternetAnalyzerProfiles </br> (Internet Analyzer Profiles) | ![InternetAnalyzerProfiles](dist/Other/InternetAnalyzerProfiles.png?raw=true) | ![InternetAnalyzerProfiles](dist/Other/InternetAnalyzerProfiles(m).png?raw=true) | Other/InternetAnalyzerProfiles.puml
 Other | IPGroups </br> (IP Groups) | ![IPGroups](dist/Other/IPGroups.png?raw=true) | ![IPGroups](dist/Other/IPGroups(m).png?raw=true) | Other/IPGroups.puml
+Other | ManagedApplications </br> (Managed Applications) | ![ManagedApplications](dist/Other/ManagedApplications.png?raw=true) | ![ManagedApplications](dist/Other/ManagedApplications(m).png?raw=true) | Other/ManagedApplications.puml
 Other | NAT </br> (NAT) | ![NAT](dist/Other/NAT.png?raw=true) | ![NAT](dist/Other/NAT(m).png?raw=true) | Other/NAT.puml
 Other | Reservations </br> (Reservations) | ![Reservations](dist/Other/Reservations.png?raw=true) | ![Reservations](dist/Other/Reservations(m).png?raw=true) | Other/Reservations.puml
+Other | SiteRecovery </br> (Site Recovery) | ![SiteRecovery](dist/Other/SiteRecovery.png?raw=true) | ![SiteRecovery](dist/Other/SiteRecovery(m).png?raw=true) | Other/SiteRecovery.puml
 **Preview** | | | | **Preview/all.puml**
 Preview | AzureCloudShell </br> (Azure Cloud Shell) | ![AzureCloudShell](dist/Preview/AzureCloudShell.png?raw=true) | ![AzureCloudShell](dist/Preview/AzureCloudShell(m).png?raw=true) | Preview/AzureCloudShell.puml
 Preview | PrivateLinkHub </br> (Private Link Hub) | ![PrivateLinkHub](dist/Preview/PrivateLinkHub.png?raw=true) | ![PrivateLinkHub](dist/Preview/PrivateLinkHub(m).png?raw=true) | Preview/PrivateLinkHub.puml
 Preview | WebEnvironment </br> (Web Environment) | ![WebEnvironment](dist/Preview/WebEnvironment.png?raw=true) | ![WebEnvironment](dist/Preview/WebEnvironment(m).png?raw=true) | Preview/WebEnvironment.puml
+**Security** | | | | **Security/all.puml**
+Security | KeyVault </br> (Key Vault) | ![KeyVault](dist/Security/KeyVault.png?raw=true) | ![KeyVault](dist/Security/KeyVault(m).png?raw=true) | Security/KeyVault.puml
+Security | Sentinel </br> (Sentinel) | ![Sentinel](dist/Security/Sentinel.png?raw=true) | ![Sentinel](dist/Security/Sentinel(m).png?raw=true) | Security/Sentinel.puml
 **Storage** | | | | **Storage/all.puml**
 Storage | AzureHCPCache </br> (Azure HCP Cache) | ![AzureHCPCache](dist/Storage/AzureHCPCache.png?raw=true) | ![AzureHCPCache](dist/Storage/AzureHCPCache(m).png?raw=true) | Storage/AzureHCPCache.puml
 Storage | AzureNetAppFiles </br> (Azure Net App Files) | ![AzureNetAppFiles](dist/Storage/AzureNetAppFiles.png?raw=true) | ![AzureNetAppFiles](dist/Storage/AzureNetAppFiles(m).png?raw=true) | Storage/AzureNetAppFiles.puml
@@ -336,3 +358,4 @@ Storage | StorSimpleDeviceManagers </br> (Stor Simple Device Managers) | ![StorS
 **Web** | | | | **Web/all.puml**
 Web | AzureMediaService </br> (Azure Media Service) | ![AzureMediaService](dist/Web/AzureMediaService.png?raw=true) | ![AzureMediaService](dist/Web/AzureMediaService(m).png?raw=true) | Web/AzureMediaService.puml
 Web | NotificationHubNamespaces </br> (Notification Hub Namespaces) | ![NotificationHubNamespaces](dist/Web/NotificationHubNamespaces.png?raw=true) | ![NotificationHubNamespaces](dist/Web/NotificationHubNamespaces(m).png?raw=true) | Web/NotificationHubNamespaces.puml
+Web | SignalRService </br> (SignalR Service) | ![SignalRService](dist/Web/SignalRService.png?raw=true) | ![SignalRService](dist/Web/SignalRService(m).png?raw=true) | Web/SignalRService.puml

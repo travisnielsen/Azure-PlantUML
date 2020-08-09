@@ -14,17 +14,13 @@ using System.IO;
 
 var sourceFolder = @"../source";
 
-var originalSourceFolder = Path.Combine(sourceFolder, "official");
-
-var manualSourceFolder = Path.Combine(sourceFolder, "manual");
-
 var targetFolder = @"../dist";
 
 var targetImageHeight = 70;
 
 var azureColor = System.Drawing.ColorTranslator.FromHtml("#0072C6");
 
-var plantUmlPath = @"C:\Users\trn\.vscode\extensions\jebbs.plantuml-2.13.12\plantuml.jar";
+var plantUmlPath = @"C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar";
 
 var inkScapePath = @"C:\Program Files\Inkscape\bin\inkscape.exe";
 
@@ -245,27 +241,8 @@ private static void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath
 
 public string GetSourceFilePath(string sourceFileName)
 {
-
-    var file = Directory.EnumerateFiles(originalSourceFolder, sourceFileName, SearchOption.AllDirectories).FirstOrDefault();
-
-    /*
-    var sourceFilePath = Path.Combine(originalSourceFolder, sourceFileName);
-    if (!File.Exists(sourceFilePath))
-    {
-        sourceFilePath = Path.Combine(manualSourceFolder, sourceFileName);
-        if (!File.Exists(sourceFilePath))
-        {
-            return null;
-        }
-    }
-    */
-
-    // string item = Path.GetFullPath(file);
-    // string item = file.Replace("\\", "/");
-    // file = "../source/official/AIMachineLearning/00029-icon-service-Cognitive-Services.svg";
-
-    return (file != null) ? file : null;
-
+    var filePath = Directory.EnumerateFiles(sourceFolder, sourceFileName, SearchOption.AllDirectories).FirstOrDefault();
+    return (filePath != null) ? filePath : null;
 }
 
 public void WriteWarningLine(string message)

@@ -1,0 +1,11 @@
+sprite $SiteRecovery [70x58/16z] {
+hTDPUjim30HWx5nm__DsKyeOCYYp-Fg_9RQ7GqY0SyYYPgP2K4PgtmIX0jKYgHInDugdSs1XWb_OCdWG8UjG8il19sm759w97Q5gI7JwHEfbx9YSLQbVIUqS
+7bseFXX4G4HYBQT4f8MKmgILu8WK7dQ-KgeYkgspMURMUpDEhYU7CJByhzdeSDSbpLZiS4u8Bvf70o51psMwH_CxX4KO7sBs8SvmaJwlQXfYqXJpc_Rr_-dB
+bCsCLysPtwUbqRf9wNaLpVzDUGfvEXMSVgTPcTrKvhfFUbDEtzwHDv--n5SHGmh39IykdXXN-VEnc6VmlWYqJS4rbkI06AEGfOpVhfJnYzy9h9WOqlURh9uE
+ViN8-k9yc-mYCtdOlDvW9VZIyc_5nSZEGQ5a3PT9SC7fEOM8FGYhYCENz9mb_-B0jQAvdbH9OiB04g5Csnzc_aIJ2oMwFshmOdhH-FyfmslYG-fUP77PYXXU
+aDTC27hrGW7DOfL8Ao4CT_Rl8GBlP1QRHDJzt6m86sJ3Zmn5U8B47o7aVW8
+}
+
+AzureEntityColoring(SiteRecovery)
+!define SiteRecovery(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, SiteRecovery, SiteRecovery)
+!define SiteRecovery(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, SiteRecovery, SiteRecovery)

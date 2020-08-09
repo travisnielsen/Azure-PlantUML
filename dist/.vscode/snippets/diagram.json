@@ -95,6 +95,38 @@
       "$0"
     ]
   },
+  "MachineLearningService": {
+    "prefix": "Machine Learning Service",
+    "description": "Add Machine Learning Service to diagram",
+    "body": [
+      "MachineLearningService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MachineLearningService_Descr": {
+    "prefix": "Machine Learning Service with Description",
+    "description": "Add Machine Learning Service with Description to diagram",
+    "body": [
+      "MachineLearningService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftGenomics": {
+    "prefix": "Microsoft Genomics",
+    "description": "Add Microsoft Genomics to diagram",
+    "body": [
+      "MicrosoftGenomics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftGenomics_Descr": {
+    "prefix": "Microsoft Genomics with Description",
+    "description": "Add Microsoft Genomics with Description to diagram",
+    "body": [
+      "MicrosoftGenomics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AnalysisServices": {
     "prefix": "Analysis Services",
     "description": "Add Analysis Services to diagram",
@@ -108,6 +140,22 @@
     "description": "Add Analysis Services with Description to diagram",
     "body": [
       "AnalysisServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabricks": {
+    "prefix": "Azure Databricks",
+    "description": "Add Azure Databricks to diagram",
+    "body": [
+      "AzureDatabricks(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabricks_Descr": {
+    "prefix": "Azure Databricks with Description",
+    "description": "Add Azure Databricks with Description to diagram",
+    "body": [
+      "AzureDatabricks(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -252,6 +300,22 @@
     "description": "Add Stream Analytics Jobs with Description to diagram",
     "body": [
       "StreamAnalyticsJobs(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "TimeSeriesInsights": {
+    "prefix": "Time Series Insights",
+    "description": "Add Time Series Insights to diagram",
+    "body": [
+      "TimeSeriesInsights(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "TimeSeriesInsights_Descr": {
+    "prefix": "Time Series Insights with Description",
+    "description": "Add Time Series Insights with Description to diagram",
+    "body": [
+      "TimeSeriesInsights(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -847,6 +911,22 @@
       "$0"
     ]
   },
+  "ContainerInstances": {
+    "prefix": "Container Instances",
+    "description": "Add Container Instances to diagram",
+    "body": [
+      "ContainerInstances(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "ContainerInstances_Descr": {
+    "prefix": "Container Instances with Description",
+    "description": "Add Container Instances with Description to diagram",
+    "body": [
+      "ContainerInstances(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "ContainerRegistries": {
     "prefix": "Container Registries",
     "description": "Add Container Registries to diagram",
@@ -1247,6 +1327,22 @@
       "$0"
     ]
   },
+  "Artifacts": {
+    "prefix": "Artifacts",
+    "description": "Add Artifacts to diagram",
+    "body": [
+      "Artifacts(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Artifacts_Descr": {
+    "prefix": "Artifacts with Description",
+    "description": "Add Artifacts with Description to diagram",
+    "body": [
+      "Artifacts(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureDevOps": {
     "prefix": "Azure Dev Ops",
     "description": "Add Azure Dev Ops to diagram",
@@ -1260,6 +1356,22 @@
     "description": "Add Azure Dev Ops with Description to diagram",
     "body": [
       "AzureDevOps(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "Boards": {
+    "prefix": "Boards",
+    "description": "Add Boards to diagram",
+    "body": [
+      "Boards(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Boards_Descr": {
+    "prefix": "Boards with Description",
+    "description": "Add Boards with Description to diagram",
+    "body": [
+      "Boards(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1292,6 +1404,54 @@
     "description": "Add Lab Services with Description to diagram",
     "body": [
       "LabServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "Pipelines": {
+    "prefix": "Pipelines",
+    "description": "Add Pipelines to diagram",
+    "body": [
+      "Pipelines(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Pipelines_Descr": {
+    "prefix": "Pipelines with Description",
+    "description": "Add Pipelines with Description to diagram",
+    "body": [
+      "Pipelines(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "Repos": {
+    "prefix": "Repos",
+    "description": "Add Repos to diagram",
+    "body": [
+      "Repos(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Repos_Descr": {
+    "prefix": "Repos with Description",
+    "description": "Add Repos with Description to diagram",
+    "body": [
+      "Repos(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "TestPlans": {
+    "prefix": "Test Plans",
+    "description": "Add Test Plans to diagram",
+    "body": [
+      "TestPlans(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "TestPlans_Descr": {
+    "prefix": "Test Plans with Description",
+    "description": "Add Test Plans with Description to diagram",
+    "body": [
+      "TestPlans(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2719,6 +2879,22 @@
       "$0"
     ]
   },
+  "ActiveDirectoryB2C": {
+    "prefix": "Active Directory B2 C",
+    "description": "Add Active Directory B2 C to diagram",
+    "body": [
+      "ActiveDirectoryB2C(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "ActiveDirectoryB2C_Descr": {
+    "prefix": "Active Directory B2 C with Description",
+    "description": "Add Active Directory B2 C with Description to diagram",
+    "body": [
+      "ActiveDirectoryB2C(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "ActiveDirectoryConnectHealth": {
     "prefix": "Active Directory Connect Health",
     "description": "Add Active Directory Connect Health to diagram",
@@ -3071,6 +3247,22 @@
       "$0"
     ]
   },
+  "DigitalTwins": {
+    "prefix": "Digital Twins",
+    "description": "Add Digital Twins to diagram",
+    "body": [
+      "DigitalTwins(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "DigitalTwins_Descr": {
+    "prefix": "Digital Twins with Description",
+    "description": "Add Digital Twins with Description to diagram",
+    "body": [
+      "DigitalTwins(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "EventGridSubscriptionsIoT": {
     "prefix": "Event Grid Subscriptions Io T",
     "description": "Add Event Grid Subscriptions Io T to diagram",
@@ -3132,6 +3324,38 @@
     "description": "Add Io T Central Applications with Description to diagram",
     "body": [
       "IoTCentralApplications(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "IoTEdge": {
+    "prefix": "Io T Edge",
+    "description": "Add Io T Edge to diagram",
+    "body": [
+      "IoTEdge(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "IoTEdge_Descr": {
+    "prefix": "Io T Edge with Description",
+    "description": "Add Io T Edge with Description to diagram",
+    "body": [
+      "IoTEdge(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "IoTHub": {
+    "prefix": "Io T Hub",
+    "description": "Add Io T Hub to diagram",
+    "body": [
+      "IoTHub(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "IoTHub_Descr": {
+    "prefix": "Io T Hub with Description",
+    "description": "Add Io T Hub with Description to diagram",
+    "body": [
+      "IoTHub(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -4063,6 +4287,22 @@
       "$0"
     ]
   },
+  "VirtualWAN": {
+    "prefix": "Virtual W A N",
+    "description": "Add Virtual W A N to diagram",
+    "body": [
+      "VirtualWAN(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "VirtualWAN_Descr": {
+    "prefix": "Virtual W A N with Description",
+    "description": "Add Virtual W A N with Description to diagram",
+    "body": [
+      "VirtualWAN(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "WebApplicationFirewallPolicies(WAF)": {
     "prefix": "Web Application Firewall Policies(W A F)",
     "description": "Add Web Application Firewall Policies(W A F) to diagram",
@@ -4092,6 +4332,22 @@
     "description": "Add Application Gateways with Description to diagram",
     "body": [
       "ApplicationGateways(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureMaps": {
+    "prefix": "Azure Maps",
+    "description": "Add Azure Maps to diagram",
+    "body": [
+      "AzureMaps(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMaps_Descr": {
+    "prefix": "Azure Maps with Description",
+    "description": "Add Azure Maps with Description to diagram",
+    "body": [
+      "AzureMaps(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -4191,6 +4447,22 @@
       "$0"
     ]
   },
+  "ManagedApplications": {
+    "prefix": "Managed Applications",
+    "description": "Add Managed Applications to diagram",
+    "body": [
+      "ManagedApplications(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "ManagedApplications_Descr": {
+    "prefix": "Managed Applications with Description",
+    "description": "Add Managed Applications with Description to diagram",
+    "body": [
+      "ManagedApplications(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "NATOther": {
     "prefix": "N A T Other",
     "description": "Add N A T Other to diagram",
@@ -4220,6 +4492,22 @@
     "description": "Add Reservations with Description to diagram",
     "body": [
       "Reservations(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "SiteRecovery": {
+    "prefix": "Site Recovery",
+    "description": "Add Site Recovery to diagram",
+    "body": [
+      "SiteRecovery(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "SiteRecovery_Descr": {
+    "prefix": "Site Recovery with Description",
+    "description": "Add Site Recovery with Description to diagram",
+    "body": [
+      "SiteRecovery(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -4268,6 +4556,38 @@
     "description": "Add Web Environment with Description to diagram",
     "body": [
       "WebEnvironment(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "KeyVault": {
+    "prefix": "Key Vault",
+    "description": "Add Key Vault to diagram",
+    "body": [
+      "KeyVault(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "KeyVault_Descr": {
+    "prefix": "Key Vault with Description",
+    "description": "Add Key Vault with Description to diagram",
+    "body": [
+      "KeyVault(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "Sentinel": {
+    "prefix": "Sentinel",
+    "description": "Add Sentinel to diagram",
+    "body": [
+      "Sentinel(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Sentinel_Descr": {
+    "prefix": "Sentinel with Description",
+    "description": "Add Sentinel with Description to diagram",
+    "body": [
+      "Sentinel(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -4540,6 +4860,22 @@
     "description": "Add Notification Hub Namespaces Web with Description to diagram",
     "body": [
       "NotificationHubNamespacesWeb(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "SignalRService": {
+    "prefix": "Signal R Service",
+    "description": "Add Signal R Service to diagram",
+    "body": [
+      "SignalRService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "SignalRService_Descr": {
+    "prefix": "Signal R Service with Description",
+    "description": "Add Signal R Service with Description to diagram",
+    "body": [
+      "SignalRService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   }
