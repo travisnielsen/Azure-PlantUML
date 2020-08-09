@@ -1,0 +1,8 @@
+sprite $Preview [70x70/16z] {
+xSw5aG0m24HHRDd-ApvtYt7E7q_W3V9J2yndxo6EbIfE0RILLiQrqaehhRJIIbOeP8720YLPe2GB5B90OO6IB52I1GfPeB10IHOeP872QINV2ybf1GFaI078
+OmNWkHAYUQouN1Ld2kv6xKI1tAUvhSIppqt5v5c-e-3LbEQo4cyEB2ekR-PBYiaxMKuhK7atpKabvCDYId4PP1EAoZ3DWGAP2XyeaIwJ-Orod9gKTma
+}
+
+AzureEntityColoring(Preview)
+!define Preview(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Preview, Preview)
+!define Preview(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Preview, Preview)

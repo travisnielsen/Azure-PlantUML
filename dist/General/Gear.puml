@@ -1,0 +1,11 @@
+sprite $Gear [70x70/16z] {
+rPPNOWGX34Dn8_S_SVf4W6FChbFrjMNc8Skqzdza_LLMWb1_5rKeSb6qM52z9EeVub91bxHOqEtvcepVk0-Q_p7UZZroTAJOo9Y3yWM0Gzed2GqCOEAs2XYZ
+b5iZPCLPb3P-2N_d499hspUz7MBnFCsr3KOhLg2A5KWgLg2w5M_6L3Inif-zAanPtpYbo46Db6zjcbCqegZpQvk5557yGEODM18C-_pLLy7R9f7OiZighHEH
+9d_ApiSqwkM35ugX1nv4iXg_7bvp4PXPGE8QmV4Inp_Byy64YcSidr4sar_nLq8njDt9RgF8zrBESuahqdCAnUbAr6dolyQd7BbXZVqQmjoLerY4miNOmnsA
+9vEwFzO4-MwoJU-2E1BYoIBfDSuM37wqTFlcgQCkI3TG87yP59k-wzbvv3TmOX6cqvkhcwz6GS4O9RFYvmEl_r9Y1J9bUgrAZuzxAz-2l9LSLh42SS4APDzr
+Q-P-ecaiIMvrJDgzZ35j08amykaqKyBqYo30I70RNwQnj4Wo_qdXkc6J5ci9lJz0tEwL0DBR_G952nGh50HnfI2VhvOeWeB-Yvu
+}
+
+AzureEntityColoring(Gear)
+!define Gear(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Gear, Gear)
+!define Gear(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Gear, Gear)

@@ -1,0 +1,9 @@
+sprite $AzureCloudShell [70x70/16z] {
+xTU5kIKX341XF4R_xUu-pqZumdKz1VoZM7ZKthsBnwT8WUDhuRSA9tH3vQsybNnAgfGJke02U7YmKx0V7j-_8d86HMBYSoWX-emGVaOiWoVYv3ACy1kIhNHn
+625OrcobImwHnWZ29blvPCAG8TXbAvyF5SH66FOrM-4OahZFeyMDuY6CLcMZAE8J6bXVsaOOnyMDSXI2QQqe8b7Vl2AZMjue7yX6IP_VnWkIEJE8rZkXNrR5
+Jd2cv2XCCw6Zq5pbB0gSHI7dlToH8ZGLgdB2pLH74Pw8ehVp0FQh_lu5sGk2g_Xtq-RsKXLv7AJfKrOgjLcL71wxT-_-0m
+}
+
+AzureEntityColoring(AzureCloudShell)
+!define AzureCloudShell(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCloudShell, AzureCloudShell)
+!define AzureCloudShell(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCloudShell, AzureCloudShell)

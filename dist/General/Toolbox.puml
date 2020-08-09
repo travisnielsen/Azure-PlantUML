@@ -1,0 +1,9 @@
+sprite $Toolbox [70x70/16z] {
+xTM5WSGW443Hm2ZizT_kkkEPdFCBU0c-_CvcGCKGUX7YMjY7UAxdkXHW9YXrL7olWakftwnCnRs6pEHA7HLmBrqCByRefB1OyqT5pC6WCfMfiBcJuitzJGNo
+8QL1eQEYXJwITfhlboZXTofOLdIN5FKrkNHHmghqzK4YOZKXLuN68PL4kSGoXAJAC2HbfH_IXdA1rApqJBRqARI9mc4BHJPHT5WHfgJnDOenw1iaiLx8AV4T
+qjX8iye54heMMuM2Ska2IHnXKkK2QHnYBigwWYQAnT605yKO71Mq8hgSSjxMyhdD3W
+}
+
+AzureEntityColoring(Toolbox)
+!define Toolbox(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Toolbox, Toolbox)
+!define Toolbox(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Toolbox, Toolbox)

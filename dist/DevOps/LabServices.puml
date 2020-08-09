@@ -1,0 +1,11 @@
+sprite $LabServices [70x70/16z] {
+vTTL0kCm30JGaMo1xt_XBPCQIu7bzrUQPXmK_ZF4NVH4f14sQcglEct9i43Mvh3QDstBXaI2Eh55Ygfk4r8DyQcE2l84eq0zOSWrJpMap5E617KlO4omU8tC
+ZX9Fv9NOV0LAZxJj2oE-JZiYn4rYJlCjXCedJds7gszbX3ls7IZPbABAgjW73pJTGQP1p6bP8TDeuPooiSWqi14qdFXOvlxPPqIAap6bRyOtVaZA802-EwK1
+i4DIv90Ktft2Y0iJ3ncvM4u1JYH9OLmjfIWkaXJ2bIoaD5pqNIcE6zkJqd53Er8S3xmzXL28qII5yOfyyN31CyK-wp0-o8XSLHjkcghwU6M4W6AEdk11teyx
+RulpWt_s8JpfivCBOuQ8R_gzpnshgZ0p4Sh8p2G-sJDMKJEZ-9vYZVvjaE5q48ZVr-_PlALFV1zL4lladV8-SRrovcw4xpHyja1cWmUvknQ76vtFShqsh54o
+_10IclqN5sQaFawqJ-Wu4Kpvg25Cy2XgHsoBOuvB27-c7m
+}
+
+AzureEntityColoring(LabServices)
+!define LabServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LabServices, LabServices)
+!define LabServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LabServices, LabServices)

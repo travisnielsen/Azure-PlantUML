@@ -1,0 +1,11 @@
+sprite $AVS [70x70/16z] {
+xTDL0YCW34NH5oVT_uAdhWGPj_DPkJZ-TF-ngfqe4xwIU3nn9UpJ-62x7OakmGwBWcCPUPISLYCnj9Zn6FATICqm9srAC4FHfW8prXOe9jgAm11RMoAea4Rh
+Y6YVh6fOwp364KcyfpVErwdydfQFLt72J9sVy6h47k_I0D1aUwayJOqRUbjKAEDLL8SfyT3vdH4Ul7K1Y2VMEm6RlJu7D9vrLnwCY_gfU3oZ_ayl6Sq-UQy8
+4Fdfacch5UvNiX70MJ30ubaveWEMXG0uddWz8YEoGe370zSZ1bfM3C0Zea3zMyuQFvw0Cm3FYcMj4G2oose0pLBaGBlD1aUMNqtkbSYHbYCAsAMIGpwh-4f5
+lai5twFIuD-XOg0yr1wLmmW1_isLXgFyrWhZIBwnuZYpmrc6lpDLEr9LVnVjS964vqpOdck4SMDR5HMnepn710-I6nK0SgqqmWi_XAyvLzpzM76y8z-jEE6J
+B6VC_8ZGeviLV5k5cUrtgGZpO5zYbNiSeOjZYwEFU0V-GVzz0G
+}
+
+AzureEntityColoring(AVS)
+!define AVS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AVS, AVS)
+!define AVS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AVS, AVS)

@@ -1,0 +1,9 @@
+sprite $Builds [70x70/16z] {
+xTP5eeKm04DHcZhxto-UhtXutZkhdGbQlKukJ4cAZrFcD56KeXGbJJrGCHYBL1p63YbfANj4mGBYgqD1HSZaVuKZ01a9OT0G1WrXq1065I5J3n4H628IGqGA
+l6EVf9AnKnY6uD3CB2vdFHk6djcPnQMAKXJq8ymexnki5d_Tn7ebojaRAu7z7XvJWcMX7pgEt2ieQQuVIZ_yLj9CTrFYFPKyrm-b7tuhUIQtf4HH8SERTHYb
+C9KM5IagjTnrIb2HVCqRywfQ
+}
+
+AzureEntityColoring(Builds)
+!define Builds(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Builds, Builds)
+!define Builds(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Builds, Builds)

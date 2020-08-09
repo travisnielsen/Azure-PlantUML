@@ -1,0 +1,8 @@
+sprite $Versions [70x70/16z] {
+xTP30WHH54FHR-r_lssZy53CdUUCOvH3ljJHfI-bKGeYIkGeKA1aIa54yICLAAKEhzmsyKkfbBo84bIKiW2bt5kA0gNaM_vJIPJkoftVdb8L52ZjrfAKjW0b
+YIZ6kciyvTu652XGe8YVy4X0aZMVMJSwypzq1
+}
+
+AzureEntityColoring(Versions)
+!define Versions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Versions, Versions)
+!define Versions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Versions, Versions)

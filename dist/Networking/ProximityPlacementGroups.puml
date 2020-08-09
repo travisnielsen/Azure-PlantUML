@@ -1,0 +1,10 @@
+sprite $ProximityPlacementGroups [70x70/16z] {
+xPU7Rkum24Ql5rxa_L_tzfyVQOXbqjtcQ0VhU01I-FVkXEIcrwQaVtVqmgp44r7Kv7GXJ5heYdzz6Rep9ubqO_K4dfx4AOkotYKIM8w2Hy2d-OV1llVd2II9
+bXm1IELRcM-LipYOZGJ91UqoXkV9TuYIKO3doO0EjruMZ8voMfpVudOZUnRA2XUDrmAqOyaQ_kiifROdTMMf3PInfIwjBazOM3hNXaWTMhZ6MB2uF2rbeHWx
+8cDBYJ7BBM59CRP9I-DCZBNYHjof8D37hrixQAlNRJBoW-gbCUX5M4fdqCQMnfIw-hfBInc1_WcPvZPNTJoqbAMtrRdH0KlhSnrmeOAoob6fu7qo_NSif-Mq
+d1OVjuHh92WH_wd_TQU5t45B4WuwE9G433RAj6US-YuI4CmZbeuxDZRIvMxc0LIRVDTQyq6IsrunMQTfBpuRNoRj92IOqkrmSCrlIf5NDx1K3DQ-7_y1
+}
+
+AzureEntityColoring(ProximityPlacementGroups)
+!define ProximityPlacementGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ProximityPlacementGroups, ProximityPlacementGroups)
+!define ProximityPlacementGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ProximityPlacementGroups, ProximityPlacementGroups)

@@ -1,0 +1,9 @@
+sprite $InputOutput [70x70/16z] {
+xTT5aaGX48JXf2XxS_y3JrGxRTdk_ng-O8FXFVebLJixgR18uweMJboNWoi_HS_DzYYESvEOPVTNVefVgBH1QRrgM2GTl3uVMM5l6WfMSyFnD3WZxiOKpeWp
+HeCpuepHh9GhRaHXZ3XZD3aZpXXBpaWiMZ4nblD6Hdqige79mwqOYuCPLLAv4awLr9L2LZCTZIbLPqgSeZIYH9ihJgxxeqek47WUR8w08PKp1DB7SXT1ap5R
+AOBzsO3iJnW2umY48R2_wYW2OGYS8n26m3a2OKWf4q4W385p138H1COHI27toAEoIoVsuU2zzlroV-MdoBdrbNBlFybFyUiKnJppIi_EAyLRzEiV
+}
+
+AzureEntityColoring(InputOutput)
+!define InputOutput(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, InputOutput, InputOutput)
+!define InputOutput(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, InputOutput, InputOutput)

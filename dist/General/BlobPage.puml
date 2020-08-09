@@ -1,0 +1,8 @@
+sprite $BlobPage [70x70/16z] {
+xTG54iKm24NHe9tkVy7VvTNTkUC1pdZIiA98R59AJyJpgJsPV78oYw87La899PkSF1IV7EzMCSmnWpeK8KnnZI2sLeKf_IE5PI8OiDe01POfGOoJRaMjGK6c
+Mr5hK93fLjGQ56Iw5RK61PbkHQr6GQP34LYcLEEhTIk9-9EMbT-aGy58GC68R0ObdL3n5PHGv9fAABMfEzM7IlRDhJQ7IMdm2PG9dLFnoGfzFk59IHfK5Dq1
+}
+
+AzureEntityColoring(BlobPage)
+!define BlobPage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, BlobPage, BlobPage)
+!define BlobPage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, BlobPage, BlobPage)

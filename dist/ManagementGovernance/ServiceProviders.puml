@@ -1,0 +1,11 @@
+sprite $ServiceProviders [70x70/16z] {
+rTL7MWH128PXye_tFx2XhT6QZc3sNTNgUneCq34MOQRFO0iimfK-I1oJCFe8nqe8TR5ZoxgH03wV2UpJxaxs2PKf3aLpdi_Ef3ZJ-fJFRePnoXi3VNea-vAA
+unn_ff8txKfkb2kMvwX4ynIeXFEKKmtoZ5ADTTVI7ycfodkVqj-CqKP_fg0ERVokT3EWBa7xnxEb7kjCk5076vw9H3uC2UC0GgdCi31c5WyWOdcsJhu4NWNV
+6Mruyx-kyYmm1BV-NJfFj76I73FXTuw9D28mVYEu8urB57UxTPbqJgjCkuqFNtcVTcj4vgzqUIs4VD3Z-ppjraXyiBsAqm8xT5HGhHXs12-iN47kaQKIpwzI
+HNENypF9QYLo5_YPLokS1vIPKQre7WXcpL69mSXY48gRQQ0juHWLuflfDJyf3vcKxvda8LWk_7eYpHFbYdz99Rwaad-dmd-eGbzJYOTBJfSu2nNMGKXqOD8R
+8kAuhkZxHBuxqJFMSroe5Foj2WOZno24uJzMvABo1
+}
+
+AzureEntityColoring(ServiceProviders)
+!define ServiceProviders(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ServiceProviders, ServiceProviders)
+!define ServiceProviders(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ServiceProviders, ServiceProviders)

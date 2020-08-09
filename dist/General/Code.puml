@@ -1,0 +1,10 @@
+sprite $Code [70x70/16z] {
+xTP7ceD034HXnMxX-nzuq2GXr-VOIrCRHtvuhA3NTkwS-jeuaN5Pt9RCPNdsySgfdCfSddwgCiJ6kc94lAu8aIuhWudyBSMvZlEV89LN5MVYqOECI5vI4Zae
+Fq5AmDnNHYBUWu01vIuoDOE00GMGogaWO42vYLHGPr29lXyaQXbq-91Cz862I6HG07DNSK161aNDW05b0X9MGGS6bTx3DWE2ZXi22XQPDsPcK4FCbUTz9QQx
+MRz-wOZvk7rtYp7L-YWzQEYknDKCbPYxeeSWcWT4j92cRDURgYBnyzw9f7uPiYi11vJI6VbZCgWGtXL0KAbpCkVV8uCAuOQ0WWmJHmyQj2iD0GMO7qM8h1H0
+G04cZmW-16rUo3q5AIBUOAygIcJhYZ7D9vNBdMsndS-OIqeiAx8h4jlQZ5xQkNDV
+}
+
+AzureEntityColoring(Code)
+!define Code(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Code, Code)
+!define Code(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Code, Code)

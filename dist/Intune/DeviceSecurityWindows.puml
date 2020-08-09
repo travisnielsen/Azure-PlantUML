@@ -1,0 +1,10 @@
+sprite $DeviceSecurityWindows [70x70/16z] {
+xTHNifum38PXzG_sl-1KpuZ9ho2CIJdblUV1dLuJym0GuSfqCmqSybkE32CYXcFpYFq0iXyWpmyaaNJikiCwZ8A1I_iviwW7K2A1aPiACzK9HaaKHkQbulbz
+OuouLg8nrXGye03h2h2WjCRMAZsoRRtI3wHHhXcNbSPebDxebNuolJ9XT4fZz0eQuwA25kcLnbXGqbXKjdKbZNcbD_OTe2gRCNwhQ8-aiM-8Kf6h0ncAKzbL
+OoXQAruQg8iGBYBI2WcUYoYDpASLIsD1uKGM57BW0OMUKVI5WSz5tmlW0OL_KVPR2icHsVUR2XcGncs571X6AZQb9BCV56CMTnS-JO_AsAYZeipixdoUf9AZ
+ASPodgQIpDAw9BEsHxdXgyguKkiASG134J5tj_DAPIpEOQTbQgSp1M9T8Ox86VdiZ3AVh5Rq3okVYea-e8o7ZBlq4KLE5M4sTzSkUnDx99FALm
+}
+
+AzureEntityColoring(DeviceSecurityWindows)
+!define DeviceSecurityWindows(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DeviceSecurityWindows, DeviceSecurityWindows)
+!define DeviceSecurityWindows(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DeviceSecurityWindows, DeviceSecurityWindows)

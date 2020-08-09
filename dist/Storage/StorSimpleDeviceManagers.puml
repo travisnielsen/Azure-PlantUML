@@ -1,0 +1,10 @@
+sprite $StorSimpleDeviceManagers [70x70/16z] {
+xTU5WTWm38NXPx6y_xvbKdsf4oNb-mRuWoRyPqZCFp2LqKoe5oQDXldgQaVzHKOuRvWVOPn5NlIUQlWFIIFIVIZpdO4jyIthFaz5ZLjft8p76OHZWyNY5CKH
+jZZDZneULmoyO5XSmrYHnqM21SLbserKhlMXHXJDnxBeOtp2SOUMNxxDy9x4JLfkfOs1aRV5WEGYjFBSK5Wk1DN8dU6vuCiLYLpOGC6vu_c8oAxdRqPp4SA5
+vHOtltI5PogUttEgDBV0UPy1aRSHGFEkm3isg-3AvWRZlPY5e1gRY7_-b7SgEL0olISYV3PYDjNPIESnrohc5p5GaCyZAfNDpnGBihnKIHt7fwfOk5KUuQQ4
+_ztW2YtcbJnIKNI8LupdlBAi11sHbJzICNIG5ZBm9tiB
+}
+
+AzureEntityColoring(StorSimpleDeviceManagers)
+!define StorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StorSimpleDeviceManagers, StorSimpleDeviceManagers)
+!define StorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StorSimpleDeviceManagers, StorSimpleDeviceManagers)

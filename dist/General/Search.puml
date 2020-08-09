@@ -1,0 +1,11 @@
+sprite $Search [70x70/16z] {
+xTS5bYH120JGnAVlV-2Lf9XMg5ZNU3xoNq3v-hF2OkuHuMxANqbOtCVaYmtn-1ol9AJqnOO_PZkmGMMySfmnHAw6C6LOoW7hQ25QH475s3bYXo7qd7G0HXCn
+kkPcOMJ588Y-838AC9o8TCQLaVaG9r96pz39PdL4aedmUHuRZ8pbJ6ELKsJHdicdAdAAr4m2L1apb86gPBGzJB8L25cq5UrEMoi46SbU_I87IWKRgLiBOyZY
+PZ6KQqa5N0mtPqiYG9epHhv2qLPPiEA_KC4dGX5g5DuAWmetnuYs8g0YMw7c2Z1GiUuAiF1XCUZTBjUhNp2GjdSfXvJXOMBmVcMuOtA0cw7nyUY17IQhAbCP
+XUO9ENbtaH7XHBmVE1MN4Kc5XxAdZ1p8DBQ-7OpHwx86l9FfvH87uz8KoQNCI38PeViUsqY4PYIPSaoORhuhm2QPjyqqYTETt3BH6IuOSWdIwBucZ51ahPLE
+IKM4yOAHEYHn7rTQNuWafEObo41CI6NuTnnPlnBvZyY0uFak24y8ham8dWd18m227cbVtnnHNhy-7m4
+}
+
+AzureEntityColoring(Search)
+!define Search(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Search, Search)
+!define Search(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Search, Search)

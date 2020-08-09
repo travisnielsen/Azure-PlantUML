@@ -1,0 +1,10 @@
+sprite $ResourceGraphExplorer [70x70/16z] {
+xT27iUHG24JHniFad-_txccGL6YzEG7SQi2B_qX4LGZVWYrUkU0oZKzEkCPZmVX0wX5XWdCM6tItqHad9BQyoPzb8ky8dcaxiCTvxsKCvSBfY6U30EWsRGUo
+mysbCQu8WFm5bMemWApLl480l5Pk1xpk1G1mBHA7cZ62Px5EmI6jhSGBgjkdDCCXlwsAyOhoC-9sbiar8lXWhtCgx0KEURVa5OiAYRrI7E9yRnWwJQP5Qkx6
+-3J8zFvd_cVqtytypx1wHBZnDsGqyeDUp7WkGgvaFBTidedCRyzOTXGpaIt2X6RFCP6DyHZEnlWpLdjYKF7QauDArAv19MiNVPVAJx_8lijtkVOO1ceFupkS
+51YfMwSO8z9M34FMH09ZraNcfCxEcSy9mcKQpuCgbF0FU0G
+}
+
+AzureEntityColoring(ResourceGraphExplorer)
+!define ResourceGraphExplorer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ResourceGraphExplorer, ResourceGraphExplorer)
+!define ResourceGraphExplorer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ResourceGraphExplorer, ResourceGraphExplorer)

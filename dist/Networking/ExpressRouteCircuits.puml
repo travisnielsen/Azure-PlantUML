@@ -1,0 +1,11 @@
+sprite $ExpressRouteCircuits [70x70/16z] {
+vPO7ZbmX44I1ZlZ-ztLYDE8NaXgLi_SfJVgFfceNqJuQNSo_ehqr7lKNeRp4tf88_maINYDloKBvKPPaGOq2aanX-a59CiaOIZ8O2qX82qYu7IbAqWZBG4cE
+Hk0WYSOmdf8vA8iy9TOedf9qIgBFK2A4aFHuaqd_Drgyw2Fees5xT1EoVoo-RyweQ5Uasxl1HUldPFSOB2xRQDUSGJXnzlfH2j7sEJ_HDcQ9UT-1lUAdPBJt
+RTS9o6N0s4QjhrikjdhTCcBN0KEXnPTboyMWHCj5sqKDLO7SZt0PSk2wRGYFYhyk4dz4BeC3arkk3y_UyPYiY-pzyTDXzHKRs_Q5liUm_MRhLyVOTgCMbAmF
+ItIJhE5H4kq2kDihNjGpNKgEkttl8CdyL18WIHEKv2mjACaqbDIMUKWI97SMb2H8xYmecNP8QiiXcNf8wdGFoHo7nBJ2KUBDGUAjP81aZZQUakojndR9MbXs
+oPHsW--IM6VWDibeT_W-oQBR-YIjNIEn9B4FFrGLvgZeeYgz_NLy0G
+}
+
+AzureEntityColoring(ExpressRouteCircuits)
+!define ExpressRouteCircuits(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ExpressRouteCircuits, ExpressRouteCircuits)
+!define ExpressRouteCircuits(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ExpressRouteCircuits, ExpressRouteCircuits)

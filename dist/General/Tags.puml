@@ -1,0 +1,11 @@
+sprite $Tags [70x70/16z] {
+rTPL0kGu38HXnL0ooFU_xfRJEzJSqk3_5Fp28FzMkGAgsbhlW_KaZiguBil7rN5R3Y9pcaqo8SJMsIGJHax6ZSorHk9KCeEC1s5hcR3DJ38-X4gLCt8SzI5p
+hVA3ua3OMYgxuwBua7s93c7avXZTX-n3MfhBlEnASo5DLPio0BLMLG-2UXNYoAv44UszuIc3buXEstMKpv0V8d9feBWH4C4XgPir52-YH6GtR0B5Xw2R7R8h
+PWhajn2zLQQSfLCfBeIA9TdXLB8BWPerOSUq0IeUX0spNbATr00a7m8bSzR1aWjXsYUDsR0xd0XJROfBnmlalOB8jP822EHBXn_H-kGNHJsA52-YHHunJTyl
+onNZGQhyMF4WaEjA0BbcsWSHkS_44J9XX1twjo1IumWhSMG71-9dYCGP8d46yZhq5n69CqGSZ0zX-XRYPuZ46I9nXaYS8H9dYCGPY2yTtqKapX29CqJY394u
+GoJEGEBbBB-j_m
+}
+
+AzureEntityColoring(Tags)
+!define Tags(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Tags, Tags)
+!define Tags(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Tags, Tags)

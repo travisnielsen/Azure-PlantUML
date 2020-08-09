@@ -1,0 +1,9 @@
+sprite $MachinesAzureArc [70x70/16z] {
+xTG7GiGm34JHT6iat_-yH5uw39dGOVstbxnKUtZIKkJMWJKNdiwivKm_gtG5JeB9YaNbkIaAHr2s4ZkZAVuwOilUkZFsjh9PHZObbbR9VSgE5B8_5sNzcEA2
+8kpHsXIh5P82iZ79bAXXacBa90NQBn0LyzmfIcbA1fQPekXTfGBM2SKhBQ0gGG7iBn0KlYN84R15OgqFZaQdYZw_VBsYpvYgSZHxuq319NAclMovdOxMaP8C
+pw4gWBC0NU5TerB-ge8lLBhIbQxuYVwgqfMk-5zGDZ-HCMM4wyt3GpS
+}
+
+AzureEntityColoring(MachinesAzureArc)
+!define MachinesAzureArc(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MachinesAzureArc, MachinesAzureArc)
+!define MachinesAzureArc(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MachinesAzureArc, MachinesAzureArc)

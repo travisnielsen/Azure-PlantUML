@@ -1,0 +1,10 @@
+sprite $FrontDoors [70x70/16z] {
+xT95bW0n24NH3y7I-zzlkr5U9CDwOywDej8JY-X7qWZ5clc_J2gG-2gbwZvoWZkfxsI4gv7vVeoB9QJAc1z7nSV96SvZFqqAvwcSgVc5zC9MXZV3ihvBjJit
+Gzk_taJMZkqPwjkPlAVNZjGyTZBvpF80OoEBE554qenSHx8YwaSAULnGicDCrtUIbNoi_DmIDnJHxTlXsCw-Kycb8UUJy-2xjgEa9-UeAPcnKIK8e1XM76ZZ
+IZJe12NWVQTzfQzgCKEnVblPceqPIlSfYarHP8f2VQyx2cAA8XCK1oOe0iYuWlVyPQjzPJMgU8zwKScJxPQoccn8J4qH_4xsigBuYwAe25BQ2qemKicvgFI6
+hLZzJpfHGXatOibXeqTfcA0GnXL6EKw76LGQOLnXZCN9g2iDjPxU
+}
+
+AzureEntityColoring(FrontDoors)
+!define FrontDoors(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FrontDoors, FrontDoors)
+!define FrontDoors(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FrontDoors, FrontDoors)

@@ -1,0 +1,10 @@
+sprite $DeviceSecurityApple [70x70/16z] {
+xT67hkim281XivFtV-4h4edJGQaTUlVvEwALJpQCvv15FM4SLsExIUcIGNQcgdQak6o0d43a3byuY3wqU1nWIn0rJmdUlmz8ehaHAHC2JAn42oIYL8dtQoFI
+5ueMHaznewzOMt6ZgTJ6DgqKnbOequOterY5rCg2CQ5KnfnI6xEA5SYSic1KIcNCAgNHLxQsuaPRSQElR6t5ZKAHLD45OzzVAJ9fEE8AfmhF7-HGC5Lmsl3C
+OAJbXkMuAZpdi6JdO5WA1sMNmLLbg1jjXJwXf8UXTOK-eWnvObIMObVW8uhVgQiytsdVBodddiAuh81Q81ULODm81G7O7tKSoX6Q7KOe043-g0lbvZHxSfOr
+nHcxKOJNvn9CQxh1R4t54sVQoY1d3eKHnHzrkJ9GpHgRlhrLN_5RIVT67iXQkJBu9olV2X7t5GOu5WxluagXK-6UmW3ePy5t_PkR_W4
+}
+
+AzureEntityColoring(DeviceSecurityApple)
+!define DeviceSecurityApple(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DeviceSecurityApple, DeviceSecurityApple)
+!define DeviceSecurityApple(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DeviceSecurityApple, DeviceSecurityApple)

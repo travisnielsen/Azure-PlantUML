@@ -1,0 +1,9 @@
+sprite $LaunchPortal [70x70/16z] {
+xT45Zi0m34JHZ8ltF_5QgiYrVjHPfYzkanSQFxFOxnrNcwEe4rVxS58dME7K3LOuTO8LJWq1nM5OyHbMkFWG9VCHxQ3uI5TYuGH8KxHDMW5fIXWA88O2YAq8
+34Cf22lmHepiYgPeG8oCePkolWB918g3P0B5GJA1uY2PYk8WzJSe3f99h32YqMA54LPSX1KVOOMHJCDM6675HrXXv6I45LNY16Ikg128p1KL0f6vec8mCbSg
+mSXSsIy244K6IcK0WHcW90E8eoG3YAKa0uYb9DCHNqcc8xwIJ4CSXVjN_fL_PK5bYyU8DbIozLdR1ehLNr7qIYL6BLwJnllt0W
+}
+
+AzureEntityColoring(LaunchPortal)
+!define LaunchPortal(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LaunchPortal, LaunchPortal)
+!define LaunchPortal(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LaunchPortal, LaunchPortal)

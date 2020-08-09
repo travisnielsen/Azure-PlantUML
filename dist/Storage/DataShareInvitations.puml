@@ -1,0 +1,9 @@
+sprite $DataShareInvitations [70x70/16z] {
+xT27TGKX34JHJQ0PfEs_NETilaZEvXLmZpJBpsascwtRM7V8VWmcjqgGE684ShrJHXWXkTqfDuK-8u0l5OcTtpmhlOpmdIAnzIimepIE4yYCqlXLP4PfPOIE
+KZbE01sbSfn0Eaeb4-aejUC87QLod00wIkLNaNIKIaROf4Zqll4LVvn0rYZ-Lv6-KiK8EnM9cKbSnHyda0FAmpaYGmhKS1mq8_gLP3SbjPiKdGhiLKIFaknD
+YcO5bebeKv9bKpGei8iHjKeoBrGfi489PILPEHGKM5K9dg9M6ougi8OIyegUJLbEmTcSugsYPqzufV3iJF6W729szaTokItQKDoN7zDiDhi6
+}
+
+AzureEntityColoring(DataShareInvitations)
+!define DataShareInvitations(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataShareInvitations, DataShareInvitations)
+!define DataShareInvitations(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataShareInvitations, DataShareInvitations)

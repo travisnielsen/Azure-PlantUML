@@ -1,0 +1,9 @@
+sprite $Power [70x70/16z] {
+hTVNOSLG28DXWV3-A-SbpObS4Fm3VAVVWiTuo1ATuj05EjN6L58ZHAiLX18fj8f7nDzQR4mbDgQIw9KQMPWAqOmISRQsllBE663z3zr2885kAqXAP3wLH3ig
+PBwrH3zk8B61u2oG3FJBtu2Bu6Iu2Cy64qQnWO1dX72A3GH_aBZg-PHvrvkB-8Zm1SAN2XkdB7j4GA489jyye1c2UgCy8V5A2RJB3GGAcKy5Hh61O0M93GGy
+bR3AgZc2-fsBS0E9tqZ0Z1j8QiJVMjXH8VxM4duQiVwC2CJwCv8Ob1i816Al9p0fDX2KGBojBGnRGIWGQsk9QIKGPog9SMKY7m
+}
+
+AzureEntityColoring(Power)
+!define Power(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Power, Power)
+!define Power(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Power, Power)

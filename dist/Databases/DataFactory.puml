@@ -1,0 +1,10 @@
+sprite $DataFactory [70x70/16z] {
+xTHLeciX38NXGiWc4EO_tIjPJLt8SU5_GhzwTr-qTDBhX6mv5IOoKJcDoAoOKMu5PrgXSZi2CuUaSgySKV1SUAlUnlvS9Xd6-rAbdISLxmlb6KMDISJdJcN2
+kiufsdBQbwbOnmNHMKMruzvbfQbEAqYOZbGcbgueeg3kALhAKYvQ2jKBe59S8MqNoE2mGZhQ1H9KWBZYI501ueeZOGK854V22X0eZeGL850S2Ij0e3WILe10
+SIIi0745I5W1uWgGk0B45I1HnH5NW4GLHrm14bJu71bTHan1uxA0CeSiPIbInV95GNrOsiHgZnNPxTlE_p7JiAfloqEb-Z5MA_byM9jFwpTNbjAveAwM52J3
+yctMt_PhN4hvfzJNAjs-biJdoKKRFwmOyXRz1G
+}
+
+AzureEntityColoring(DataFactory)
+!define DataFactory(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataFactory, DataFactory)
+!define DataFactory(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataFactory, DataFactory)

@@ -1,0 +1,10 @@
+sprite $AzureFirewallManager [70x70/16z] {
+xTG75k8m34LHoP9-cht_xSvng1QGQ3IzF3gOcsxwxVjVsLgkXP-KZkIQdfIMRXcLpLNRDesjhuDUbNMijXLZIsjkpCzL_YlLrLhrn_vra5EIVLgNTvjMx_b1
+Jdd-7cDRgszsnxJtJSeaT4sdj2BaIYWpkHBAKlfuCVHCEADCl1iTw05GTwHlCyQwZDN-qpBFjp-mmLH4zeV1E7pMWMwn0YgzwpEW75Ha1xYe0QRofCZbgy9y
+VZKgaQ5dtHYKxbn_ErSOfghobBeC4KLbJ7sVbF_As-ez2Icr7HTJxBieLFGmZYbd1HJx9nNwJegfAwEOxsNT8ehYHB68KiuKA0KwKHI54fla53EAn8UAGYYK
+mYb-LJ8heuczqXDyLA0Kpk0KTwua67r6cBuY1fpYTagiuXHtaECCdB8ZQKPpYDytqhEEP6B3JL53eMmAx8h2cF99PyJS6PlQAhYjoIJHhVdV5m
+}
+
+AzureEntityColoring(AzureFirewallManager)
+!define AzureFirewallManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFirewallManager, AzureFirewallManager)
+!define AzureFirewallManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFirewallManager, AzureFirewallManager)

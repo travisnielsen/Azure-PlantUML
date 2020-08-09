@@ -1,0 +1,9 @@
+sprite $Image [70x70/16z] {
+xT5NWkGW38HXe4fYz_u7dg071zhb03tP_m4-a9IUqTtT7JXMUKVee-KtnOShtrqn0hGnnNAAiWqeJ5FiL0AHp7abhUfJhAmLT2ZCgIbVLv0UEwz8HDzRAqd4
+OmMJWgIo2qgMIXbMekSeTbx1u5zgP1B9zQXPgKKfh9jvr2erYnC9n29lbOej11g9l5MgipJH9J8nZIBJI32d5LT8CASK9m2JY1aRHI80MqGh6faOimx5CSL0
+XF9lByCYUhKUnR2ArgCOsZeKuZ5AHIE2EQzKOZjgHIEQqOf6D1FA_uq48XYXE0wYLZIY6QqOJaIX24JMtAW3YRXKi488aMOyHKM7tKgK_dftTwy
+}
+
+AzureEntityColoring(Image)
+!define Image(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Image, Image)
+!define Image(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Image, Image)

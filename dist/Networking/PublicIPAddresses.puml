@@ -1,0 +1,9 @@
+sprite $PublicIPAddresses [70x70/16z] {
+xPG5ZiH030IDWVz_-1JqjRI1qKB89NJQgWnJ6KcYvkzWt4cyVPEcixHlen-ns7zBKvVnsi9KXh-oD5I8dTho_hfCr5KPk4TlS4vBzJRw4OlSo9AMj9YgUPGE
+9QJB5ky-4UjSCfJSfxPiYROEZOOEWPHjtQ8qmjwFdoPiTaQwQ66Qq2cFmJY3TD7YD2Ce5KnrfqMBBG7Zc6L9QeiMM4uUIeRbr1ZPigL3S1CKjXPJj23AH2nT
+Mun6R2452-Bkw-NnTpejQT55Irhgj-d7yhQ5u-5wPq959CaV
+}
+
+AzureEntityColoring(PublicIPAddresses)
+!define PublicIPAddresses(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, PublicIPAddresses, PublicIPAddresses)
+!define PublicIPAddresses(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, PublicIPAddresses, PublicIPAddresses)

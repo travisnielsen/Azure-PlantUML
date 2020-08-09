@@ -1,0 +1,8 @@
+sprite $Dashboard [70x70/16z] {
+xTK35WD1403HQUV-5yxQjhgU1pzPXzFpFDXUhCWExQFGhHJTeK8HgYVP64ya7INKutICmqHujEAAAwx8uOehkl6DAJglZohTJvHoPsnAaPwhsbX6YnNOHS6d
+AFn2nT9QIdSCBQsfMDw-YjvMqNniGk6sObglPwn_MQNiq5xARuVkf62GxM5uR9uN0G
+}
+
+AzureEntityColoring(Dashboard)
+!define Dashboard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Dashboard, Dashboard)
+!define Dashboard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Dashboard, Dashboard)

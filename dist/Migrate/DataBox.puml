@@ -1,0 +1,10 @@
+sprite $DataBox [70x70/16z] {
+xTQ5eUim38NXOt6w_xwNgMfjENeCtm1_m8YVOX3n4q8VgtymQPM6UcACiyJlCC8Pv1FIUv5CUv7C6f5sXhsWg0ql4KhgjSOOTyRRV4UnzbXLhIxnFC7oIQqr
+J4EITGTtiTnIZobQl4Wsp_0gabbCI17PUniZ929bfWx9aiQSCzwHh5aisC0hgSIAlsPOAXPBBnafQIpv-oWNF9OCOAbPh16aL6SSAYK6x5YYhKYLqPr8cOcT
+I9sf8piPhI9RcIgob-4YifSPCeSRCQbWTwJZoIpY82dWXIy76cXKiW7GNkKoPtYoLObvv1WeCtL5yUgRAevtsgy4FhKhZg-uLr4aZOeFt6BL4vNGiRWUfeZw
+YzHdmYdZyeAG_4ML_vLuTbm-7Toew6BfzJEE7asH9isHVYP7-Xd3jz4KQT8KQLB3J_48
+}
+
+AzureEntityColoring(DataBox)
+!define DataBox(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataBox, DataBox)
+!define DataBox(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataBox, DataBox)

@@ -1,0 +1,8 @@
+sprite $DevConsole [70x70/16z] {
+xTO53WCn30NH_7MSmlqFtBN8PPfoFUB0aonqkwsgCcSfaB66hO9Pu_hVAwMKii3Ph0pSz3Ab5FV1bIuvLbojgLDbM0i6ASaW9Hca98EKP92I35AIeKemKgVA
+CCrrglWaoQWIY1mgWKm-W988K181IY90IGGeYJ1b7t7Rpoyh5iZUxLwwGaa4ACCI0Sf1VJy_hU3ik5BAuxP3h6XMv7YWcwgg3G
+}
+
+AzureEntityColoring(DevConsole)
+!define DevConsole(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DevConsole, DevConsole)
+!define DevConsole(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DevConsole, DevConsole)

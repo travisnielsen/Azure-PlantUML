@@ -1,0 +1,10 @@
+sprite $ImportExportJobs [70x70/16z] {
+xT9NWjim34NH9rJQ-zzl2YEu6oI5z9dpgN9PyNiGCJDjbOAQ1-LZ9Ov4qFKEcJyJh15_oPQce-wbJ4Jg6VM4OGvxIZ5Zym6QFfxocjphazd4XnGfKfyoSpQL
+9P7vD2vD94XolFEiE9DWWYVaO-FpzcDePbE4bixAsoi2RDvoDnb-5nbdV4EmDv6f348IYSnuJPH48ZEU36UHSORGIHOPPoGgIMISCNISHSOPVxsxMtS9TDhU
+IqwwwHvf8vxTEfkjs5wHv2Mr4SMkLA6eIAM2Yq95S47j549KJZd73JbOQOGaCriH8Cr4PJ8IgArM6kC5RKiLs_2Q-6obAI51efrGn_7JBM724jehMF5P-QoK
+qBaxN57xpiy_MCTOPUSd9y8oVOemGc4sZ4Ei5WbMYmGhHo8JaNg6KMGHgMOO_v2l
+}
+
+AzureEntityColoring(ImportExportJobs)
+!define ImportExportJobs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ImportExportJobs, ImportExportJobs)
+!define ImportExportJobs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ImportExportJobs, ImportExportJobs)

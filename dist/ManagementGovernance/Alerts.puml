@@ -1,0 +1,9 @@
+sprite $Alerts [70x70/16z] {
+xTA50G9134JHsJZz5uoxmnnoyWhuAmd6Oo9A4Qnea1nBGPCULHnR6dVeWufYfvDAOohsvKhUiQz8tl6TYcDBXr89RDaVLVptbSHM_54b-rIfUneswfxlLje_
+L0Hhqab5kKggB6aIbJlwN74pfok2fKPM4clELUAFAeMr82kE9UFt9RDFkslTLMOi1U1i9B6YTf_NRAzCB-0vKeSAtjVoK67ueSBGEbJeLnLOSQYGhohm91sZ
+Dba
+}
+
+AzureEntityColoring(Alerts)
+!define Alerts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Alerts, Alerts)
+!define Alerts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Alerts, Alerts)

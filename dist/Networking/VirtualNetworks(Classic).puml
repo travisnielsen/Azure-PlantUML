@@ -1,0 +1,10 @@
+sprite $VirtualNetworks [70x70/16z] {
+xT47RYOX341Xqs7lV-15CR5YDEMff_1IaU7xfyXlxtGwvHOVfhKoP8nnpxGnEaCyioE4oKEJoweE6qIwN5Q6CGG9SbqrXY600GXaEC8PZr268vpn26Sumfcq
+8Pm12640mfXh94RvKeZ1hU8bapSajrcILQnpLSmfEdHCtn3RPpkZhgfeaxnaTYIsbJlMyZxqZ4FqVZIz_RQgUfrz5Orn5RbKmeiI-pgkltCMBRLLSDTIt8iO
+OI4vTtqmLH5Zt379pfIXLKCceu-ZAlB9nDPdkizk8eaMnxzPC-I3qMUQyagqN4iIAvQQWrYbrcI85hQruFmXm004C00134000n0mmOYVOGHC0GBc0E4x-1Q-
+npOaTjC00KoKgo1YpCDG4S8y31KXpDCm2Il8J-rqElq7
+}
+
+AzureEntityColoring(VirtualNetworks(Classic))
+!define VirtualNetworks(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualNetworks(Classic), VirtualNetworks(Classic))
+!define VirtualNetworks(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworks(Classic), VirtualNetworks(Classic))

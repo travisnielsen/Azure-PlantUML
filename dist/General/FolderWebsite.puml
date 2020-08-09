@@ -1,0 +1,11 @@
+sprite $FolderWebsite [70x70/16z] {
+xTHLWiKW38NX5Cw9xN_1Kthfk91n-vwk_XL8vTlxju5FGPDL-XoyjJArIeNzBkg9XKgJk_h2wTGgojKAjhjufyBUdYVw4lQNuOsHwQK8tg5206-k48lU9GBY
+o_nJyuXm8rwDPEGKXbUXfrBpXg5ECpD8ZydD55KsBuD7GNc16XwH289XnC2TeeACZC4nKSqZqsiLdnLYK8yXCnNBZDGO30FTFMOci2oLZ9tEgLVVLKz6qzb4
+PEiO1RragYSJ6PiS6cod06zE1eiokqoqcuof5Iw9cNBQxCnWb7ii3u9co3MRq6L0fh-Xuas6hL19ERM75Lk-Bv19RNB8q3KCQpApoG4skHydqmg37Pdisx7h
+E2E3qIAKM6JfXCu1C7VZEG6LgMOQQUSmSXkNLfyZ1CaOZC0cWzLdcgJ6mHLoGELK9gLdNBWSEgWxGuL6vkmq6OhFtIdoJaPzCAAUEJjkymtgBEynl0OzRt7Y
+jTGZT-6Ax-NVFygtz-yA
+}
+
+AzureEntityColoring(FolderWebsite)
+!define FolderWebsite(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FolderWebsite, FolderWebsite)
+!define FolderWebsite(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FolderWebsite, FolderWebsite)

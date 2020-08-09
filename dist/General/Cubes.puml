@@ -1,0 +1,10 @@
+sprite $Cubes [70x70/16z] {
+xTP9ZWCn28NX1lFC_K-SEIy3DZNGoggGUlVhK-5UaByVZVm7egrfrP1s6oaRLQUzZ-v-a5Prf0r6IWP72yi4fsYiNqiiLsoT0cH8zxKAC3TyWuBXMd3Ve8mT
+Sz-k066PNGei67iKEd2lA00VfAJ0kjSLmFShXt8eVUqronHRHOXS_cocGAx5gWDmgNIeT6MH6pmwBIhjxTwjkeZAjQX0lehnXECbLBZCLx5y4VayLwEDY-Np
+pkTnjwp83JuF92jMdNSf5HnD2_xNaIVGfSAk3619uNvHa3dTxyhGuKNKfO8ACFc9G8LEAAYC75v4pOgWmCAdKaaAAg5YGIKMO425mo8eeKWK6DUD2XqMKU5u
+gh38bPueXt8ebYjTGe5GN4OonGO5Od4TdIcGKO6lWjD6IjTnWU-28_Qjz3OhaFmYKYfB1U8ouQDxA88JbeaVtRFY_b_dkZFdgbXQ612AC6fIA4fp1W
+}
+
+AzureEntityColoring(Cubes)
+!define Cubes(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Cubes, Cubes)
+!define Cubes(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Cubes, Cubes)

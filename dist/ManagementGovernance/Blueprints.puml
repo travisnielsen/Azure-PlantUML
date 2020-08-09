@@ -1,0 +1,10 @@
+sprite $Blueprints [70x70/16z] {
+tTU50ID934JH4fNQ-ITyfoMZ3ArP_6Pw7WRyUOcPOfYlK-MOb4LKYVrOm9InqqK-7fzgORCpKQbyKAlmay9bhbG-LwfuLt5L2tRvMqe0bR5Btr0A4HNqZB-X
+AE0a3GWslLO2C5O2OvEyepWhXR99Vv52GCxQjcA0U7XX0uMAhyL8ePMXmPbIZ91JHG3uL740qAcYg6AWtAtJmpaj8oMAK00-KGo0HKaVAFbeDiVN-pr5SPV4
+nmeUzBaIxWv0xFyKW9hvrdGf9LW9eBjJz_nR0x2fnCMK0E0lb9MPwrunG2-VzyhvftcdoELC0V1CuO_MwV7EY9K3tYl9BWDuaK1RPR7fRd_eGAiakmAuLRrJ
+sEQtF_9UYUpYtKV1V50fdjDAaKCKn5GnL3n44SwLAkPA9HxCDoCPh3BNgcnu8hCYvqevd2iL3r7MNAdo46NDbKh_EGL7A3n44UpcPyIn7-T8fUMi4Fnf_GS
+}
+
+AzureEntityColoring(Blueprints)
+!define Blueprints(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Blueprints, Blueprints)
+!define Blueprints(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Blueprints, Blueprints)

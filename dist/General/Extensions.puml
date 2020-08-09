@@ -1,0 +1,8 @@
+sprite $Extensions [70x70/16z] {
+xSo7bG9130DGUItF7VJVBpa7FU-GmR-0Zqz3nP7Jfj9_Tj7yBWk_St7902OMXkG0x28UBg4vhk9T5llCPHYrk478Bi0T5dxEKaiqWSd5cX8lNcgf1V_hPUXV
+3dt7OajYKR35MEBZbbfggULFoIveQedi0hiEo2tQLoznSOdxB8uHZ1UM3hcb5aO_nuwpb-CDpG4
+}
+
+AzureEntityColoring(Extensions)
+!define Extensions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Extensions, Extensions)
+!define Extensions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Extensions, Extensions)

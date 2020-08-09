@@ -1,0 +1,10 @@
+sprite $MediaFile [70x70/16z] {
+xTHbOWGX341X79BxtxVUKgQGldLzFrU-4I3k2lEbcYMav6edXIZrFqKBKr9OzgveGKgqlXK535000nJ000KmG04CK0035C001J100GnG00CKm005C40XJ5T2
+ya3HOYjbSbUrDWNCgDGI_tmhX1cLDoTivcaZJ6rjK6hDldyRQfkL36KszsERve7o-_M4CbE2fVIo-yc7JLInjo9NaZjSoTxPIZILSSjmfNMbhy_1IZ81e1Wl
+X2lPU25SyOQ1bR6d8XBxuLqqhh-8h9LSrmMiLAECbM8e2Ii-BOkEAA0pAs7_bHQqqX4eXw-qi9N6Yel6IaF53YZfg4g8Gs57PR7IPGT5DQrMUg6ewbefnhrm
+nSLDRbU5TtxbgUXRiblJUzcvYPBsGPhR5bBUjUYEsoi
+}
+
+AzureEntityColoring(MediaFile)
+!define MediaFile(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, MediaFile, MediaFile)
+!define MediaFile(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, MediaFile, MediaFile)

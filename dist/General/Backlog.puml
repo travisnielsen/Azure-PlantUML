@@ -1,0 +1,10 @@
+sprite $Backlog [70x70/16z] {
+xTHLWcCn34HHWMKflV_zTgY23nLvU6wOJlnLzDFxdtBTuEwk8n1t6O6uZK1SHo1MGlmLOT6DXAzVDDS5XAtlo2u_Z8XsG-AI0GMoWx48C1E4-yw8UjmOZckT
+iWgJnE5IOpmv8sZ_MKWFrwO8wJv4wC6y84ZCjWXhWh-S8Dd0V5rpggHL10oGAWEa6jDlcNdd0OY3AIBkhOn0gIDz2CAttTqCtzJ6KoIvksGHBa0mVCwftMr4
+BGBC1CdlhaoGrEws03D1Khjhc5t78wTtL-d1l218RDimmS4Na6Jz2ns051WW9GP8aG5IJ8tfTqoirH5rTnk1kEi8n6q4uZ84oUukyoAoVtV5enDI39LaTrVY
+51WWeH_jBfXsG_AxQt799qXkTx6ttZ1t-jdkWdb5m2HsDnQGP55340VM6qY10L9c6bLZ3wNVilyT0G
+}
+
+AzureEntityColoring(Backlog)
+!define Backlog(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Backlog, Backlog)
+!define Backlog(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Backlog, Backlog)

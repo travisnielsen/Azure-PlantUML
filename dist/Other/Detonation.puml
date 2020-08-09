@@ -1,0 +1,11 @@
+sprite $Detonation [70x70/16z] {
+xTO7igL028LXQE0qVMV_-vsdObrV09aSlyg6trn8VvWXgcQcAeFfwuZXolJBGwnupyQtDhwy8yWPKmiRdko0Yz6Al4sy2mdT6kyQxqFQFnEphyumUeGgXYQc
+dABBgklfq-fw-hXuo7rQdKeVLtTbtgjEHYFIpj1749LsPgGND7lI5rY-k6BbRR6ofSzC-fpz1HFhz8zC6qnmzwF2IMKU5I8UzYu4OIAgAxXMDYpmfwbCXxaN
+DwEg29tOee715DXxbSbqqhDoMTIik54OVjBdeh9YUsNjOkY8ht0kubYKtbt5PXtSL2oIpqKQYyvA-kwk7cILWOr_GSNohx4LyNoSMF-Ii6FAF-h7FI-62MEt
+xYlbVDJcoJXszL3pcyYw6TNQkYOSA8L36PdvgGJ1ONtAd17h_7bu5kdyUSX2c8-F8eumoiXo83sTXMRace5Vp-VXQ4OEk9Y-DZw1TYHCL8pl8W66b50tGYH9
+GxaVsOWbZMuay3K4qq6X7mayP3EOGZUI-9CZ_oFZUqG8toD2_ZqYvDyZGlOz8iHUHFfulaIClXtJR-0p
+}
+
+AzureEntityColoring(Detonation)
+!define Detonation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Detonation, Detonation)
+!define Detonation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Detonation, Detonation)

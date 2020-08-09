@@ -1,0 +1,10 @@
+sprite $Information [70x70/16z] {
+xPXNSWCn34F5hjp_m2aSkNi5RUZql5zZtX2aU_iX44l2JEyqi9h72JVPRU8qNEEwHoGUMnYN7OclUDW3OR2NnW8kyyjwh66WpIA-sKe2W3KfgMiuegwXs8tV
+MdmhQchBbzfAydHbihPP1ezVhWOszuLE1eg3nk0-sE9Wb6HQEH4uocaOnKyQHKzGoc71PhpF28y-OunBlKICGhq6Zq8rD2tJSLNUc8xhS2tI5bhd2wrFe9RW
+a5OjkLuhM-GX5jquzB_bKJVIkkLXprqkM-1hcXSiaOaeMYmJ-hJDqJB9I2QuPkaZqaiM7n4hMMH4g6B9GeaNB7QqCBQ0KHA75Z1AGj22HaaKMS211Z5FwUIv
+WZlryGcB-k0xeMSJM0r2sXrifqJRNQmiIRHOPo2LnPwWM784jJcwj188EN0ujHNOPmvkgv3rkufkr7R1ThteZVyx82pcFdw2BXZgl
+}
+
+AzureEntityColoring(Information)
+!define Information(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Information, Information)
+!define Information(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Information, Information)

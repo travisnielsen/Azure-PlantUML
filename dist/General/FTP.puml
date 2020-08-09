@@ -1,0 +1,9 @@
+sprite $FTP [70x70/16z] {
+xPK54eH030IJbI3__-yfFYSCRbsAJDT6A6J7N5puB1zCPb804WfVMF9Hn5aicKflrBvP4Y48Ux2aOos5Xc2QIM_QOgFmwrakI_1FOdqZ5dSOIrHvel2-Pop5
+KrVVqU8x92oO2V92cOemuw2WtnRCr7sII5WmKnxE20jau71W8GhII5WWWuD72xyiQA6MXR1Wnc51OE4BGWjHaFsoyCk25cBx2Gjci4ze8NfBM20JeKy_B93v
+MH1Q-8BGGYmBQy62F6M9uKcqcl3YTF_fP1JJMi8OYKc9kk78EbnSt04
+}
+
+AzureEntityColoring(FTP)
+!define FTP(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FTP, FTP)
+!define FTP(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FTP, FTP)

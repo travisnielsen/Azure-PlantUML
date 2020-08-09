@@ -1,0 +1,10 @@
+sprite $LogicApps [70x70/16z] {
+xTO5jg0m38NXfBb9iFslTye8RT3JZh_7TmpzSQ6_v_KI854BG9W2Li-4MdXcYIhcNPMioi3FAWojW2aoNzakAxGpHIFji8MTOS-KTdZQeRta6SAOd5H6IT_X
+h4B7IZgf66t6qyfR6NvrvQqCYRzBKtSbwAiSd-c-YjXgdEV9LgczKWpBCbBncofAtubdt54nTxSuqb51EGXOVDKb7shpiin3pINkZ2iJaQz0ct5vCEzVuFAz
+ObHConEc3UgAMwpCbs95opT8FDEwCj8bgokfNXEUSLKPw1BgYdeMagcZOjMkz5Vyl2AQcMd6Pmb0pGo0t3r7NWWTY1V_OGNzbQ4ugM0eEYflPToSLSRYhWBR
+C1rmUPVgPQNTiIAT5GqLK3Fs3A5fr4mzapXgO6e1yrNueMy_mSU7Ldehe42qlM9W-bjUhoy
+}
+
+AzureEntityColoring(LogicApps)
+!define LogicApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogicApps, LogicApps)
+!define LogicApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogicApps, LogicApps)

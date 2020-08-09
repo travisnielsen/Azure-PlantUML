@@ -1,0 +1,11 @@
+sprite $Users [70x70/16z] {
+hTQ7kICn20HWug3-6xx0HTRMYZNlBu0FZGD3jqJD7UucJ1zYS_pZGfymfD4SSRmoUaRnblF3ryp7ABQSkWGtZ9eSTsJydZHU9UbubTHUPPmCql19WYCVnv86
+N_uKwOCfST6V4XlzAN56Hnf7e2E98wUpE38wypXXEjDnB2aEb6Ywp5f1FOXg5K8z7B6sdBfqRO5eFYRe2HrlaYJMAwD7MDsnBi9Dg4yCFx2Wp31sm9Lws96K
+cTNpUnOmOHOaVLGwd2-qTAh68acuycvlaD8nk91k_T1BRogiUTWKbPOfABnzMxrcsnh3U24rsygwZSDAjbVQlSyrsojklAVcYpUysQ2yPdkbpUuZDTkhvYap
+JeBEbUJO02Th7JYB7SafQ5susFBCDdRGR1kPRMn9hoOeC_UwJDm0ixNQ6SSTOSGDwJKMbrwnyhZblS8P8qoKreXGaZLYb7IDW9AjaQ3aQuOIrWnFfwIlp8NM
+Y1BDlp1Ugk3eE_ST
+}
+
+AzureEntityColoring(Users)
+!define Users(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Users, Users)
+!define Users(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Users, Users)

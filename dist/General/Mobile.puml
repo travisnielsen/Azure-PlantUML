@@ -1,0 +1,9 @@
+sprite $Mobile [70x70/16z] {
+xTBLWOKm54LHEDT3-c_tkMjaVBB_i4LikWfMc4mlKYjjhb24Zjqg-1BbUL-lO7xNnoWwbA7KdBg_gGo5Fa0XDQLE1MhR51qAs8u9MXMsoxX98RNhbAeLYDqd
+A5BCtVTlYjk3TA-uUw6IqXsHSgsYAQMuCYBd5cMJdmpFkLavJMl9NKgAtOBaFcMJv_mJbQ7m8sMHOeMmY-nEYSEZ2WNWk5AI00qA86TbCQ1H0MolB4xeK42-
+KOA1BWKG4w13UPP_fpAKY2XG8g9U6Oh_ISNjNL6W55Il-AP-PTxSrbx5jxVvPoX10AnEqIXjkceD
+}
+
+AzureEntityColoring(Mobile)
+!define Mobile(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Mobile, Mobile)
+!define Mobile(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Mobile, Mobile)

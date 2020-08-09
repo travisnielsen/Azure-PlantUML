@@ -1,4 +1,4 @@
-#r "nuget: YamlDotNet, 5.0.1"
+#r "nuget: YamlDotNet, 8.1.0"
 
 using System.Linq;
 using YamlDotNet.Serialization;
@@ -7,7 +7,7 @@ using YamlDotNet.Serialization.NamingConventions;
 public IEnumerable<ConfigLookupEntry> ReadConfig(string configFilePath)
 {
     Config config;
-    using (var input = File.OpenText("Config.yaml"))
+    using (var input = File.OpenText(configFilePath))
     {
         var deserializer = new DeserializerBuilder()
             .Build();
@@ -23,6 +23,37 @@ public IEnumerable<ConfigLookupEntry> ReadConfig(string configFilePath)
     }));
 
     return lookupTable;
+}
+
+public void WriteConfig(IEnumerable<ConfigLookupEntry> configLookup, string fileName)
+{
+    var categories = configLookup.Select(o => o.Category).Distinct().ToList();
+
+    // build the config object
+    Config config = new Config();
+    config.Categories = new List<AzureCategory>();
+
+    foreach (string category in categories)
+    {
+        AzureCategory azureCategory = new AzureCategory { Name = category };
+        azureCategory.Services = new List<AzureService>();
+
+        IEnumerable<ConfigLookupEntry> serviceItems = configLookup.Where(o => o.Category == category);
+
+        foreach (ConfigLookupEntry item in serviceItems)
+        {
+            azureCategory.Services.Add(new AzureService { Source = item.ServiceSource, Target = item.ServiceTarget });
+        }
+
+        config.Categories.Add(azureCategory);
+    }
+
+    using (StreamWriter streamWriter = new StreamWriter(fileName, false, Encoding.UTF8))
+    {
+        var serializer = new SerializerBuilder().WithNamingConvention(PascalCaseNamingConvention.Instance).Build();
+        serializer.Serialize(streamWriter, config);
+    }
+
 }
 
 public class ConfigLookupEntry

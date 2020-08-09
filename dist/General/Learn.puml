@@ -1,0 +1,10 @@
+sprite $Learn [70x70/16z] {
+xT45ckH0243X1rM1Yjp_kcsiRmjVa_5vSVjZ_5rVjrph4AuNo9fgsnPkfEksDbBvjWbNapo2R9jojMLRErN5vzbxfdPNIQUxAEtBAD_Aj_AjZFUecAAnraMa
+_N5jNh46XA9S2X38AmO_bGcaIsm8MUMIWOAEKm8s3F0n10L6z5ZnxbCe3loqHhUHLg9GVYuKfd6gfZJepoZ6_ehM50FvyNKBoW0y_bH5KL1JQ2N5kIJ-d28I
+jtS5r4Sa8XdbMZwkrCahqKTMvlUafFj2ohTYUoWdPAMg-0dfLMK4KbIMRMtSQAILTL5k9PDvhYv4jwa_QoHw9QNleVWUYk-Wc1SKYqv8NMdcPMKIcAfANDjh
+IYDIAoZwntfMEG8
+}
+
+AzureEntityColoring(Learn)
+!define Learn(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Learn, Learn)
+!define Learn(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Learn, Learn)

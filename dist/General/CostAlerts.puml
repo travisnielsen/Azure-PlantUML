@@ -1,0 +1,9 @@
+sprite $CostAlerts [70x70/16z] {
+xTE5aKC120RX7oVzDtn3t0NUURQ0RtJnVth7mr293xDIV1p_CiNC7oIF5GBaBoag112BsWCbRkP5x6AFMzrLd76SzPH2nefY2OLGCG4iJ4t5KN5X4k520qMt
+IjLNP165TAO4OzT4CUnYxoiXE7BQoZ53qbR22FkugLHwSEIkadUB0-DveyTA4a24IcQAUZ6WZkAnLvBR2fF5Jg6-0f1O4222IdhAMRQ4mhc0Gj5IZ72KH3QK
+oeLB0h5utkcv0pIhYP9_Jwd-dQBBAQjf0a2dIA1YkP-jZbAv2C_5kKSI_IZcIcLpfU8SAnN5NAbihbIIfOoZCFphtdq
+}
+
+AzureEntityColoring(CostAlerts)
+!define CostAlerts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CostAlerts, CostAlerts)
+!define CostAlerts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CostAlerts, CostAlerts)

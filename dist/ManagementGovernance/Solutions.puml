@@ -1,0 +1,11 @@
+sprite $Solutions [70x70/16z] {
+xTE7ikCW343HAo49il__lxlx66PYGp3sw-rCIU9oQHE-7j5avcwML9wRC8yDD-4ozHYuSebuFEJ2UHPJnbaU1_n5g-bNjOwyFEEnv2_Os0jRd6B1pID2ENHc
+IpGYNhGUAbsiAOwb-sCls1MzdsDYAixF9PZHMA6I-4-OiBmGBPB_IqnutWetxoeAgDL8TYOYRxW0kh-qdMymCKuUwQQo-SrWVCEWyd4gZR2k9AhkDSdBYZwg
+-6vsVh7YmrpQ4vSgGfT9G5oi942Jopq3fBp5ikAqdm9uovAlLGAGzgrcefto-6_GFT3Ir1b4gG90gDcoPTGrTcYLxAQ0boPehEmeG4mgFhmID6KhSr39LDAD
+MkLkGVDAwiUTN2iohKp63Iej6yvHnHwDQ-CHmNfV-lF8bhnifUDA2McH8y51vVQaHEJRiSooibRaPPK-GfJEsKeMNbu9U76b97RoCoh5uAMLI0pCEw1b9eSf
+dyvwHNZ76AntLqedrfLR1-JM-KoL_AKgvRVoKFdJ0Ual_SHAVfMAtjOLOqtt0DynvLty0m
+}
+
+AzureEntityColoring(Solutions)
+!define Solutions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Solutions, Solutions)
+!define Solutions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Solutions, Solutions)

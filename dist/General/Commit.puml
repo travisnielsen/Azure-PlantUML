@@ -1,0 +1,9 @@
+sprite $Commit [70x70/16z] {
+xSnbWWCn28PXqa08lVzzLqRuwZAmsZm_aPV-ajAqPaHKEI62J222J2WouKW4E181ZaI08n7WI0Gu4W5-EXBE58NdCuWaPFIcIe-HbNQdRHrMUb91XGb-KsLK
+pFs_YgHNHcNlHkMGkXtb6OOIHhJJ1Dpqde519qrSkpG1488v8nLqKa7kLsfAXP-hT3Ygp9CAq-LHfKDwfTsizCaVg1WSLQR9KULpS5GnIAyeWPnMs2PyjsBQ
+t3fntIPTdQNRfyZ9I4R4g4eOKuvt
+}
+
+AzureEntityColoring(Commit)
+!define Commit(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Commit, Commit)
+!define Commit(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Commit, Commit)

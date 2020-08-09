@@ -1,0 +1,12 @@
+sprite $SQLDatabase [70x70/16z] {
+xTK55kCm34NHVB7b_Uztqkh4vTOUfbU6t72y_HdXhlNfNxTEq2bcEeVHD47Cyj3kpK23aDSTqWUaYC_EEuHaecBUA2BVnc1PcTqggchdLEKwu1L3ruoQUxJR
+mgqiEVxwH6ceYFK6kASE0_PCoOC1gRz2N0cej3zLUX969EPnjpv2m2Zw2wLt9zn65UxJtbygUutnCVBUtoa52RqHk8WFIfKkJFVJYxLUJIcZp6nxUQwFLfNg
+pr3-A_yL5o8Ior92XSMob6IUEnkJKBNJXo1KMWe0cr48LufZn2kA0z3i6R8hWJrh6Gn05nG5aEDl029F4O0shnW0xrMhxN7A0UYyqh1dGqHaXRsSLhfWZtoi
+NLMhDAzq7Rj4hXG64DFA64meRnHQKQeW05PRUdsxZ980wGq05t82QM4VrGi3V7w6vLxjkNabe56pbjhjO7Ej3LMA-AdsGJcAs_E8MY-biZd5-busHYMP2qfl
+oaHiROom9W0qIx6ZjdojisA-zOgf0EIRbHG0dD-gfExvznu3_Yl_5LzMy4IXLSMsP_6Q4jlpg2qejhrCSr89sjubyLb9m_OfYESRfHbjau4jMjuf6QwqhKV4
+B7lCJDX-U5y
+}
+
+AzureEntityColoring(SQLDatabase)
+!define SQLDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, SQLDatabase, SQLDatabase)
+!define SQLDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, SQLDatabase, SQLDatabase)

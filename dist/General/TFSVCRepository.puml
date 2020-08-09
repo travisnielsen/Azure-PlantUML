@@ -1,0 +1,11 @@
+sprite $TFSVCRepository [70x70/16z] {
+pTPNOYiX38LXTMplVxyfvE26fg1RlrVYFup0XVvRBEQT2LM93_MG-8HfbNb2QOtdR2qIWziNZy4A4LV6aDINC_RS05PabCuHHEJzqABZbUTndc1XPIl24wpm
+-Qqe9-pqW1dFaugEZkcqbMapSlQOEITd3zlnGBcpWudTYlVLanNRhSGVgx2-V9B5yLnyv-C8dUWMf-l3o3ZkVmgNATy9yCbRfzaj0koKezkvTEtsfiKB-kRj
+ct72-jBblHAl-cIaVSicewsxdgbGR6GaMdSxLP7MlGzHvqW-5yR1jHycV2VU43z4S7_5wAWrS4h4CwKXsX3X7j5s8vZ1_1VUSa8fYJc2sSmkjojJYXqdCkNd
+nXTa4gAIhU5Om7i4cINtip4XuciX0_sbbvzcFOFAbAbNwXbKfaozKi-WKixCbNe6bJJ3-eLhbP6vXdV6bGeob_21rol8NFq9BrUGYMTMgv342wvLD5vehMAn
+z4YN5XuXlrHX7tYteeSHuF9q_TdE5zdBslv1oEONsS5MzlwX7dxLGRoQBjx-Je3ZO8HY-8cxKg6QtrEnwNvMy3IM4cqFIcLMZEINmeL-3UFNpT_t2G
+}
+
+AzureEntityColoring(TFSVCRepository)
+!define TFSVCRepository(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, TFSVCRepository, TFSVCRepository)
+!define TFSVCRepository(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, TFSVCRepository, TFSVCRepository)

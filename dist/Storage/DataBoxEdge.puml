@@ -1,0 +1,10 @@
+sprite $DataBoxEdge [70x70/16z] {
+xPC5ZkH034NDhht_WPTgElhXs8B19sf8dfc-A3_ym6eH-PTmPUgXaKXenv50qyEHHtYfBiaJWllL8Dp8fA_Xl2Je4P7N63t04cZNbBTu9PL-Cg8vxh5BHOnd
+vDMgZSVmwU6C0d8YoL51JtP-bF33J4QPsCy9Ckadv7DyMPMbhkl9SFkFHqbbUCDkW6T7mzC1H6FcjiSB6aP9NOEJKdkXpAsY62N6H68BMMdmIw2cipmXATQK
+Rwa8hT1YCcJ_KLfX__5VJ-6b9G3RP3orwCh2ipAnIHOjiXJ2CFnuQi7U2dIeOM6SJCEIOEddOeTzuM9VU3qZaQMqWYL8TljIjp2Tx6x5OaGdTrImE6mxavhC
+nWf98PU0k1FuzjHYs8HbtbQo9CC5BwXMB244i9tXfvXE1MB7ADMGbcMFQCkoXtVGX-M77_u
+}
+
+AzureEntityColoring(DataBoxEdge)
+!define DataBoxEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataBoxEdge, DataBoxEdge)
+!define DataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataBoxEdge, DataBoxEdge)

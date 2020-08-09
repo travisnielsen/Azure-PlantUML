@@ -1,0 +1,12 @@
+sprite $Policy [70x70/16z] {
+rPVNOkGW34KHQhl__y5ROh1iNm-3cDJpadw2hgZbvy0cBpkg-JzUyv1uWzSbue7nSZ4db1QA2SUoXpHAgV5vBcRs7RxKnWk1IDVQOMpJWM0Ed8f7y9zYtuKo
+WM3adQQXIgD0bCQ9yVwbrSVT7IGVhVEDUXy8ZulkbZumkmj4PXh0CPGOZAPcEUb_2qCZL0m26K7bTYmgajwDl5DsYwha756I72spwvv5c7hC8KbPIDxWxGlk
+mYSMgip7QIuDQCF0mcflQ6zcbSwqXTHssayvRI4xKTSiTe5MAXAxe0lfaW7rscasDnbQn05fSqHu6qbRUpImc0DsAS0tT63n6yubUuTo5Ye7gdVumos_W8MA
+52qBwLQqS5lbjPRPJcD9VbYFRPjwEkjmCAVbIBEhaN-Vs6QkD7Z6WXf9xYy1MNSubRGb835tYnIo5cGn5oG6ipifR-bx9Zy-rRZCGLH20YUi2fKCk1eRd93S
+t3mwKgS4IdUt819jJ9H5YZUoy4oM9N0xF0zpPr0Ms_rDDU2dPP4Teo2uDS-KHHg1mWr-rYE9LrB5hkEhQGA81rvDm4nP-6hAUgIENas9U0Q19E8P198e2m9P
+ygm4Wl5W87bOrmB1RVRJ-0i
+}
+
+AzureEntityColoring(Policy)
+!define Policy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Policy, Policy)
+!define Policy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Policy, Policy)

@@ -1,0 +1,9 @@
+sprite $Workspaces [70x70/16z] {
+xT27TiCW38LXWMRo_W_SScf5pXxNtNnd95u_8FeD9XO8jn4nHusCmtYhIljN5QOYlj2LgiHrwmh7ugWImz-ho5-gp8gyND5MD1Qs4bM1NQ_CokwwMDjTTQVY
+MdnKVOkAYyOM5H6BBIgYZbUoWrO63QoI3AiaTQoIDB1Aii0goR1AKhzR2IjHbMCQLRdlMaN0Iau6hcWiqzq_piz7EsvZ5HiDkA9xg9ByKA40vl9nf4Rl1DJe
+ELq69f94mmiLpZzPVA6Ist_fEAaT_aWY1DTc4CXaKWsu4mGxKMePmJJcJh_5z0O
+}
+
+AzureEntityColoring(Workspaces)
+!define Workspaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Workspaces, Workspaces)
+!define Workspaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Workspaces, Workspaces)

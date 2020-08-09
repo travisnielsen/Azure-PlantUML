@@ -1,0 +1,10 @@
+sprite $Relays [70x70/16z] {
+xTTNmgqW30JWII0PtF-2_whEwIhSVlrUJdMK3dZkP1y6BpIECW39KQcK4G3uq9aI_5BjkCel0QNWkD6KCyLBBRwHehS58XRV32Ak1u1zUHQYc6ur5XNTBCJG
+oqFydqX12FgLM1GCY0L6CEDJig1Vp7CWIKCl9tCPTe5UIJhqheEUG4_LOwuDrL1lrHQiig-22vat7pkwxEtDWtca4rlajufBbj_2i4Sk0fSY5uPjbIk7E5SL
+soW12Sgn54AIOjZKX91iOjZ4jWf8DC6sEgqSujCgi0EdMU9IJBE6FOmAkPHpY66VmjRISSkpDTPNlImTntcklN1y5vH_HSgPaloMnvrdjTT-s7dQEShnoRzO
+B_nSftS
+}
+
+AzureEntityColoring(Relays)
+!define Relays(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Relays, Relays)
+!define Relays(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Relays, Relays)

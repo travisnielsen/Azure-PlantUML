@@ -1,0 +1,8 @@
+sprite $Controls [70x70/16z] {
+xTR50SKW44NHXql__Nw5YRidStVOYQn0JlhuowAKI9DEe9GElycWqIZ4L7dDnTYqPSoHJT6IRQDz-LLegq8jGKkkJGcjYfwjiC8AAwomud9wI56qLTMHIcrA
+-zQvYgYsjOAvNmIXgS6_IpiLEXKpfEYYNHLM37LwXHKxhB32YgLsKbYnBcNdAwBI7HIiew2yVxvYTCgSG675KOSh8CHsAiFtNTYiI81gtsyQz1i
+}
+
+AzureEntityColoring(Controls)
+!define Controls(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Controls, Controls)
+!define Controls(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Controls, Controls)

@@ -1,0 +1,11 @@
+sprite $DevTestLabs [70x70/16z] {
+vTTNalGW30HWIHYfCTp_kXicbSSOaCCVzpj0bvhm8FfXMAQeNs8CJ0S5jQM9ZsHO9UxD4RKjuSWWjKX-qPgKl2RhYDuGT4tamHWGSb0C68q530KQCk3qC3p1
+GQX38dnYxvLWO5n933km-wNjFvY8VS8L8R1OvmGS4TdzSVmNhZZAc9u49_1W52VFgTWAAZgy8DEADPwExahHnf-orBGrIwhSXa5g0zPzKatfI-hIDsaBBab9
+F6ZaImb4P9Uan4jIv7IAZAxwzcJiffr2t-8W9PMRt4fHkXcapEMkbHBePZgL0demLufjfqpqm2TIG2zoF8N94QEgkPSYjCHeZR9CiNKTePMOQb1Lb8VlkP2M
+ZAd2SQkFvVA4zxj6QEuFMFUPoqjUT48Kwc6MXqaVpt_PAOe8CxcnVSbb2MOcj8jM8ILNYu1d6KXbPTwvbeYPuJRAgDEuJoL_n-pQa6wNFEWqxbCs9V_YPm1o
+sPG16Blw05ZqgMFKkToaqZIx5ZR6iayj9m33JbhtgJiPzKtfszoHlaNgGlBfTfBa5AwO1TGdBan_fqy
+}
+
+AzureEntityColoring(DevTestLabs)
+!define DevTestLabs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DevTestLabs, DevTestLabs)
+!define DevTestLabs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DevTestLabs, DevTestLabs)

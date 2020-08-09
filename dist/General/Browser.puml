@@ -1,0 +1,8 @@
+sprite $Browser [70x70/16z] {
+xTR55S0W44LHNAR_VYFhw1mS_YlWHb312o5jqv8duYYnU3AKdCclnC3hNf62bxjJec1cUrJo_nSAZfNFCr-wLNno-lpLoQbg2XGeKA10WG85YhvNeEIx7IOh
+yb2aJVuWLWZj
+}
+
+AzureEntityColoring(Browser)
+!define Browser(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Browser, Browser)
+!define Browser(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Browser, Browser)

@@ -1,0 +1,10 @@
+sprite $AzureSQLVM [70x70/16z] {
+xT85ijmm44NHQPQp_mN7y9ngios5ls-Xw5GFV8vw8vQMU4Gu6hD1yMYD_c7bLLubLhao4R5YQS9ffIooKNYh6A69P4AJCoptbP9pcWkivhJqCGuMRHKX8eiI
+plr-K9-OspYHtrHmhSpfD0As-PaI1U5fmLHnMr7CFdz7bdIxhGGDiSzY95rlAVb74dpJbKe90REOnUuho9dwR7pfQHQxgo0PXubffB57lr6QNyOt64RJ_wNi
+AQNBaVNhSHRjEgS-3NnLtX-dMReVxIX4B3GK_Ke8ZUgae0i5sRZKlBwlu9a4rlZT6RU4vuuK5Ew-s2k2KGw2SXaJaJOh1KojWWg1QL7GFwDyQ-tdATshx2hU
+YdIV8Okcd3wdIPVoJqK_KIcfFwr4wWyhwgbgnJn7bOelaZf4R5aLGhQAQn3Tz9WXqPs47X4dSGLIpyX5L35ApJ3exJi
+}
+
+AzureEntityColoring(AzureSQLVM)
+!define AzureSQLVM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSQLVM, AzureSQLVM)
+!define AzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSQLVM, AzureSQLVM)

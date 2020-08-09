@@ -1,0 +1,8 @@
+sprite $StorageAzureFiles [70x70/16z] {
+xS-53O1004FHdil-0nFStQ5lW9yMwn09lOj2IiMTV5hnSIy985nUOOKLv_TAAyRk9NvHSMsxAhMjbH2HAueRjtYHAokcP_qZWRwLbJIokv96DbK4-jPNC88L
+LbXXXHNxf8fhMLXn3KCL9UUfaSeE7wrejvD5Ifjz15OXIW
+}
+
+AzureEntityColoring(StorageAzureFiles)
+!define StorageAzureFiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StorageAzureFiles, StorageAzureFiles)
+!define StorageAzureFiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StorageAzureFiles, StorageAzureFiles)

@@ -1,0 +1,10 @@
+sprite $AzureHCPCache [70x70/16z] {
+xTE5OSGm341HCTp--vQvSQJ4BlSDy8s2duDOL4rL64ydpEEPovcGUBobHplaiKNW28a1GsYp67ASYTIPVgIVqIWOr2XA0YMF6aA1eq7hhNHCRgM-6HIB9Yid
+P-98Q7485TDt_c8qZj8LaJ0i8brAnU0q-NC78y_Jnuhc32-sqkHORQM_cyYHC5NPf-ftTqCvPDBXcRHt89KEopIm799k9J5ML3Ih2k4GFLQyhC0EVgXa51Lk
+LNn9nPPKP4a5PsvN7YlW2_vB0izFG1f0p5S8WASh0JTyLEbE0CCDpCkc-mhkkAjS7EvGpbGIuHxdH8NW4UNfYi0pzBCLXfSajojCGxmrQ18RbHB3MoWU4vLD
+yfqgvGJqAxXZel9VAVtE2XKLaWw40d4DuNUw1W
+}
+
+AzureEntityColoring(AzureHCPCache)
+!define AzureHCPCache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHCPCache, AzureHCPCache)
+!define AzureHCPCache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHCPCache, AzureHCPCache)

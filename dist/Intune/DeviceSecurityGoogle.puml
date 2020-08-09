@@ -1,0 +1,10 @@
+sprite $DeviceSecurityGoogle [70x70/16z] {
+xTHLUiCm54HXNHWx-zzmE9c0cX6Ks_FixxUuF6UHE9JXPJJ7RMaZXk6nw4S2-_BSu73ypc3HQn3fNHupzq3TO1bk9hP462ohIbBGoA6wSWQaiHm3hAvq65BH
+XbOqeXLjQ0N2Q5UW4QreGolQq8emvfHbGg4neIXZNHUfQADTUM5eHGz4AzfeLuGX56Le9UHaxW9ANT66LXnwCbenDP3xaAKQ80ssmEjArfKt7wbAUyMhNrjV
+rIcjsQq47errG37WtXXIIk3E65GAG6HSST0uXUYBPuR6e5808kEAavbGIimhvwMPLiXGSJEB27kTKo4pgv2vLxnJ8RCPM1SMmC7OZ2fabisKmkCthHGxC2V5
+p7iLbi3uJZC7SbufTb0EpD2wi60JYd-myg-uUymhvoDbAlyS9VQvwcViaKLVEm
+}
+
+AzureEntityColoring(DeviceSecurityGoogle)
+!define DeviceSecurityGoogle(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DeviceSecurityGoogle, DeviceSecurityGoogle)
+!define DeviceSecurityGoogle(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DeviceSecurityGoogle, DeviceSecurityGoogle)

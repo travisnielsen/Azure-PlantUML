@@ -1,0 +1,10 @@
+sprite $Firewalls [70x70/16z] {
+xTBL6jmW48RX7nZ3xlzowzs9hC2IUj_JoVC5mo_qNqo9Y58AU5SWKSS9RuYYHuH9WTMvX1b97s2COtr8mbB4CmiH9tDdid8sGS_cRqhqDRmITG2jBCMD7EtI
+oKGI7IGhgt2uAuXDYS0PsQI4CxPPX1EnQPB2oagS4k2IlSqxmHPeyFsiYBwKvGpRgW30bWcGR5q2spg5v0iaonVWIohcbHNNL2HVWV8LOhu2zWTJsvXogF0k
+qWUrlAK8-qghRlVjTj8E5G9uNockLxdHxQGUAW60-NYyKZO40E9Y9GTyHciLmbViuzxSFjaUJ0JViLV6U4NXKjukjNNJcz9h-S8dvXN1Lj1THUMczBAhR0yf
+4mwYJbSOE0jK9YfAU426Am6FoUqENB_nIQzuGWxlfJgV35J6tku_MAckLtE72PxWFgZYcTo6LC9Fyzz7
+}
+
+AzureEntityColoring(Firewalls)
+!define Firewalls(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Firewalls, Firewalls)
+!define Firewalls(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Firewalls, Firewalls)

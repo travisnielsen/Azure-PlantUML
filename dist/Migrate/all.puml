@@ -1,0 +1,34 @@
+sprite $DataBox [70x70/16z] {
+xTQ5eUim38NXOt6w_xwNgMfjENeCtm1_m8YVOX3n4q8VgtymQPM6UcACiyJlCC8Pv1FIUv5CUv7C6f5sXhsWg0ql4KhgjSOOTyRRV4UnzbXLhIxnFC7oIQqr
+J4EITGTtiTnIZobQl4Wsp_0gabbCI17PUniZ929bfWx9aiQSCzwHh5aisC0hgSIAlsPOAXPBBnafQIpv-oWNF9OCOAbPh16aL6SSAYK6x5YYhKYLqPr8cOcT
+I9sf8piPhI9RcIgob-4YifSPCeSRCQbWTwJZoIpY82dWXIy76cXKiW7GNkKoPtYoLObvv1WeCtL5yUgRAevtsgy4FhKhZg-uLr4aZOeFt6BL4vNGiRWUfeZw
+YzHdmYdZyeAG_4ML_vLuTbm-7Toew6BfzJEE7asH9isHVYP7-Xd3jz4KQT8KQLB3J_48
+}
+
+AzureEntityColoring(DataBox)
+!define DataBox(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataBox, DataBox)
+!define DataBox(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataBox, DataBox)
+
+sprite $DataBoxEdge [70x70/16z] {
+xPC5ZkH034NDhht_WPTgElhXs8B19sf8dfc-A3_ym6eH-PTmPUgXaKXenv50qyEHHtYfBiaJWllL8Dp8fA_Xl2Je4P7N63t04cZNbBTu9PL-Cg8vxh5BHOnd
+vDMgZSVmwU6C0d8YoL51JtP-bF33J4QPsCy9Ckadv7DyMPMbhkl9SFkFHqbbUCDkW6T7mzC1H6FcjiSB6aP9NOEJKdkXpAsY62N6H68BMMdmIw2cipmXATQK
+Rwa8hT1YCcJ_KLfX__5VJ-6b9G3RP3orwCh2ipAnIHOjiXJ2CFnuQi7U2dIeOM6SJCEIOEddOeTzuM9VU3qZaQMqWYL8TljIjp2Tx6x5OaGdTrImE6mxavhC
+nWf98PU0k1FuzjHYs8HbtbQo9CC5BwXMB244i9tXfvXE1MB7ADMGbcMFQCkoXtVGX-M77_u
+}
+
+AzureEntityColoring(DataBoxEdge)
+!define DataBoxEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataBoxEdge, DataBoxEdge)
+!define DataBoxEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataBoxEdge, DataBoxEdge)
+
+sprite $RecoveryServicesVaults [70x70/16z] {
+xTC7ZkGW48NXLxdO-zztKsUWneQnydnA7NyzsGRVyuEOXHdVmHPtheGzul7E2El8ewTOnJ5XEv6HOmL5mR30eo8uJQE6qwBdvCitIhDdWETDu0ono5a5bZTy
+vehaZE6LKHoGo3d5A-D7aHov2XC1hqoiNbGNVB9Rc1QME6DW-PzN7SgErdlhQspvYG_sEYQeZX3HxCfPFNKOpBSBElkDO13jNU26u-szjK-9GRl9pBVpB_bM
+zTPJTEZsOtzI1kHzcxT1eCFFnfD9liPJj8cnaZvg1z2Xy9bSguZFvKg5lR9G8Q-ThwZNifLYc59hloewJAbb5Kcyi9f_AQgAu8xKZnKH7v-IzGiJk3FVhzXY
+n6FC9DTtffPlePR6U11VefZoHKOOgI_3oDSPUXmR11sD3OwEnHLZF7OOFiMUIxR49TSb21_aaYsKEm8Tpms63kS6mGLZ0WFQcJBYNEIOaMmh0dEyaWb2nTjP
+XY-GdThZX0EaPlu5Ky6I7ty
+}
+
+AzureEntityColoring(RecoveryServicesVaults)
+!define RecoveryServicesVaults(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, RecoveryServicesVaults, RecoveryServicesVaults)
+!define RecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, RecoveryServicesVaults, RecoveryServicesVaults)
+

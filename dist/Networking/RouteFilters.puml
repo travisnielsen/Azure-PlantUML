@@ -1,0 +1,10 @@
+sprite $RouteFilters [70x70/16z] {
+xT85Oi0m241H4hJS_xwJjdHCKf_d7-1507vAlLuFQNUbYP0UgCdeaV2dASXpvGD5Q8wt59_ZzufiVdWeWBiKt520Rb7ieXB8TSNyiXA8uHKb480wd5RAX2Wy
+LV6aGe7CAILbhC9SuQOY8o8GcLCe1v905iLvIs6C92aCa1Nd3GMMQYY19CNbk6AS6tnYZYeV9hSehhSe_dFkec3jac9JueFc0ZciL4Z9XAmgQNSNnRrcPKAI
+mXHfGvsKpCY894LXYLQKO49HQ2dOLEQLnqLHEA5GIGmMA71AWHS6ymSTLA3w6A5VKOBnAqembnN0NGfjAC1DnQX6kg7KeQ7iZ3AIbU58ew9XbjDA8psYO4kf
+jXzX-EdrUhr7
+}
+
+AzureEntityColoring(RouteFilters)
+!define RouteFilters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, RouteFilters, RouteFilters)
+!define RouteFilters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, RouteFilters, RouteFilters)

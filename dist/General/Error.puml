@@ -1,0 +1,10 @@
+sprite $Error [70x70/16z] {
+lTE7kUmW34JXGM4Gxh_V5pTh0yZU-nSmtx41_8Wcedz8Gvbwlw19gSBx0sfb8wDWXVGN3FEilqJCylu62oNb6UqVE3vh_IF5H-oV5SwuSjwC2PzY9AOeNch6
+7dE85uInu4K7Oua0cSOYHUQnoWeZ6GKFB4gewOgKzEjEYntOqa-fw2sbbBHgIdwPiHi16Vi9VEpNmN40YN407qU864SuPeNZ2BvUpv78MDKPun76AhBd5LzE
+8VFbRSifESO0hgRac0QqiSqR_ATljnn_w3Qlyxznkun_V2KbnoZ-upOfo1JZmE8CBs8xwRYonHJolkH4OYdb53CK3pIcKqunmu5CFAPIJXGlYPgPFcMyuoXn
+tXCK21_upfGJgQNiZp5chVH1-p-9XwpurrOQLYapB6jC3Ekiya4P7oWg9DtS4c6_CfHPFw5WXwRcT1Dymsy
+}
+
+AzureEntityColoring(Error)
+!define Error(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Error, Error)
+!define Error(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Error, Error)

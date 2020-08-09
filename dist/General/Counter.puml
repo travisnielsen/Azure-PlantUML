@@ -1,0 +1,10 @@
+sprite $Counter [70x70/16z] {
+xTQ7hkiW30PWy02Rzt_Wouh0lK4Y9nfdy7VGcl1b3_Si9oV8x-8B4jBR52Qz3lqWvIXYebzJoDb8hWMmIQN6DbO1PnDAvut2Luvo51yqQV16OKcvzgaGUBzG
+8BN0fCHM4fmLGk_SIYcjv8yEfJIg-IjE2cHZgPIATzYgNT7i0XGQXrAGfP9715URU2dShDBmf7Y0bUBxtvYINaeiFG2Ocp0K95ugE6tNIv4izhqJpJvQAjGL
+dXGTYkmh_dz5YgBR2juiYpnR5hjTz4O9UuelqzGhxjZJeHqeLBhsb7AWYAiOTQKFxzYUKYe1nPm1MWVM7RsfE4qjE1Jk9SLjnSSsm0sbCuAmgnG72J-lKiHS
+VbY54EaFNxsFWZSAFrQ4J6glHXEfDJ7HF_UyUnHzhK1MGDuPIkvHJax-0G
+}
+
+AzureEntityColoring(Counter)
+!define Counter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Counter, Counter)
+!define Counter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Counter, Counter)

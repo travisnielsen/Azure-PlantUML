@@ -1,0 +1,11 @@
+sprite $Marketplace [70x70/16z] {
+xTLbWWCX38RXw4Vt_XVUfDwE15YNzqzrdb60VaHYQ70zlekKPupsSkg0IpRiQ08BHoOGgAWVab5XiM66OzF653dop9mYTW0Z2WAXJ01OC2ac2HjGOZkXp00b
+FnyCyT31wELG2C3n_0vqp4UkZDtjFD_45Jxp8qgSWjqhBI_CMT6VhVmhSfy19fcwvni7vF9P9UD8eYS5RIWrCsyDtrXfKqhhKVuLdbIuGm7mLiM4CZRCAxZx
+tMOLf_i4VOfi8vbiARBtDwQdT48nMkI32anugKYFebT3QJsiAhggW6aZwr4gXBHVKTfCqAk0QIVnfM8hPwsydtKfmZLJArpcxwB8a-8h3xZK36f5QyLgnMj5
+QmKogc1jh9bKMQb4MYdeKL0mscgbPl2ajAq5rdSSRvLo2sOQBGprLYhB4BcxdL2x6OLIz64Alxl2FrrH3UdDYaI1t99nPOcGO4gXbLX4rTo17YMHAaxIajnK
+k3AMf2O9t1IXibeiaCbU0G
+}
+
+AzureEntityColoring(Marketplace)
+!define Marketplace(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Marketplace, Marketplace)
+!define Marketplace(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Marketplace, Marketplace)

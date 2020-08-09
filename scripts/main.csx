@@ -1,6 +1,4 @@
-#! "netcoreapp2.0"
-
-#r "nuget: System.Drawing.Common, 4.5.0"
+#! "netcoreapp3.1"
 
 #load "lib/Config.csx"
 #load "lib/HSLColor.csx"
@@ -26,9 +24,9 @@ var targetImageHeight = 70;
 
 var azureColor = System.Drawing.ColorTranslator.FromHtml("#0072C6");
 
-var plantUmlPath = @"C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar";
+var plantUmlPath = @"C:\Users\trn\.vscode\extensions\jebbs.plantuml-2.13.12\plantuml.jar";
 
-var inkScapePath = @"C:\Program Files\Inkscape\inkscape.exe";
+var inkScapePath = @"C:\Program Files\Inkscape\bin\inkscape.exe";
 
 static string rsvgConvertPath = @"C:\ProgramData\chocolatey\bin\rsvg-convert.exe";
 
@@ -37,7 +35,7 @@ Main();
 
 public void Main()
 {
-    var lookupTable = ReadConfig("Config.yaml");
+    var lookupTable = ReadConfig("Config-new.yaml");
 
     // Cleanup
     if (Directory.Exists(targetFolder))
@@ -53,18 +51,12 @@ public void Main()
 
     foreach (var service in lookupTable)
     {
-        var coloredSourceFileName = $"{service.ServiceSource}_COLOR.svg";
-        var monochromSourceFileName = $"{service.ServiceSource}.svg";
+        var sourceFileName = $"{service.ServiceSource}.svg";
+        var sourceFilePath = GetSourceFilePath(sourceFileName);
 
-        var coloredSourceFilePath = GetSourceFilePath(coloredSourceFileName);
-        var monochromSourceFilePath = GetSourceFilePath(monochromSourceFileName);
-
-        var coloredExists = coloredSourceFilePath != null;
-        var monochromExists = monochromSourceFilePath != null;
-
-        if (!coloredExists && !monochromExists)
+        if (sourceFilePath == null)
         {
-            WriteErrorLine($"Error: Missing {coloredSourceFileName} and {monochromSourceFileName}");
+            WriteErrorLine($"Error: Missing {sourceFileName}");
             continue;
         }
 
@@ -73,38 +65,18 @@ public void Main()
 
         Console.WriteLine($"Processing {service.ServiceSource}");
 
-        if (coloredExists)
-        {
-            // Only if needed - takes too long
-            //FitCanvasToDrawing(coloredSourceFilePath);
+        // Only if needed - takes too long
+        //FitCanvasToDrawing(coloredSourceFilePath);
 
-            // Resize and copy SVG
-            RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
-            // Resize and export PNG
-            RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight, exportAsPng: true);
-        }
-        else
-        {
-            WriteWarningLine($"Warning: Missing COLOR {coloredSourceFileName}");
-        }
+        // Resize and copy SVG
+        RsvgConvert(sourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
+        // Resize and export PNG
+        RsvgConvert(sourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight, exportAsPng: true);
 
-        var monochromSvgFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).svg");
-        if (monochromExists)
-        {
-            // Only if needed - takes too long
-            //FitCanvasToDrawing(monochromSourceFilePath);
-
-            // Resize and copy SVG
-            RsvgConvert(monochromSourceFilePath, monochromSvgFilePath, targetImageHeight);    
-        }
-        else
-        {
-            WriteWarningLine($"Warning: Missing MONOCHROM {monochromSourceFileName}, generating...");
-
-            // Resize and copy colored SVG, making monochrom afterwards
-            RsvgConvert(coloredSourceFilePath, monochromSvgFilePath, targetImageHeight);
-            CreateMonochromNew(monochromSvgFilePath, monochromSvgFilePath);
-        }
+        var monochromSvgFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg");
+        // Resize and copy colored SVG, making monochrom afterwards
+        RsvgConvert(sourceFilePath, monochromSvgFilePath, targetImageHeight);
+        CreateMonochromNew(monochromSvgFilePath, monochromSvgFilePath);
 
         var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
         // First generation with background needed for PUML sprite generation
@@ -273,6 +245,10 @@ private static void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath
 
 public string GetSourceFilePath(string sourceFileName)
 {
+
+    var file = Directory.EnumerateFiles(originalSourceFolder, sourceFileName, SearchOption.AllDirectories).FirstOrDefault();
+
+    /*
     var sourceFilePath = Path.Combine(originalSourceFolder, sourceFileName);
     if (!File.Exists(sourceFilePath))
     {
@@ -282,8 +258,14 @@ public string GetSourceFilePath(string sourceFileName)
             return null;
         }
     }
+    */
 
-    return sourceFilePath;
+    // string item = Path.GetFullPath(file);
+    // string item = file.Replace("\\", "/");
+    // file = "../source/official/AIMachineLearning/00029-icon-service-Cognitive-Services.svg";
+
+    return (file != null) ? file : null;
+
 }
 
 public void WriteWarningLine(string message)

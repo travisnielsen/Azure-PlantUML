@@ -1,0 +1,10 @@
+sprite $SearchGrid [70x70/16z] {
+xTK7SW8n38NXfsxl_G-SSRgKPc_ey4-bVICBsCN59f4Z84eAMAICaABOeuGXnViKlqpbeJoKXq9Q8a1B3B3c11SRMOa0AmcWLaAAMuc1LbB0MYx-gpoKXnBk
+PkOU_r1StpFVgRZcw8jYVofYuvD2181OHxokF1lbekLV5Q_A5uJoS8FfgQ7qNDIFeCI3MRdkKfcaq9EDLSuzNIkZuBLw9laK0oobD3h_D6FxVRiDxvMj9DvN
+5E278zciGZygjAR8ah9_biFlvV3VqTpl9QOLpaTA2-lRHqFPSdtgV-JRl29bCnyZjWK5-jFrPLjHU33q1R6-eb1ppRiXqRJQdvJuZFJkEfBdUOY7yRgKh4GP
+XHFIUsWDL09Gdob8RoJ9OCnKaVUxsKWO-v3Nog2BIEbA4Hm4aKCWa8BiB0goCn5SHay
+}
+
+AzureEntityColoring(SearchGrid)
+!define SearchGrid(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, SearchGrid, SearchGrid)
+!define SearchGrid(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, SearchGrid, SearchGrid)

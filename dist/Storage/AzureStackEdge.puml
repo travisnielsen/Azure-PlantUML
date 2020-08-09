@@ -1,0 +1,10 @@
+sprite $AzureStackEdge [70x70/16z] {
+xTK7OiCm28LX40-GU__xThTaM1WhtVLtWDze9VH77GvD1808qoo6UL2X2Sty4cWdLbyZj8VuW58TVCYOYjJ3T0QUieazcTmRzasjkYavsjAy0DLHSfHXWJuo
+ymqoJW11RUgO6YxP_YLXXNeVucGnbwoFI1AfPoI9r3Ccbsj2nlk8WwiHQ4yWEUBDDGNdV9HyJQ4bex1KXeaCLftMjQSygn3dImeMd-Hpz2IMb6iK7ryXiQIC
+9PNOUbqsi4PbFCrM1MyLMOTInHMfMgLNApbyI4NmY0TQjK9u93TN54zkg_ZR_Mpyg5seLa04u6rLChcxJ2IHcQoS_pOqZ2ftcQKbVoJbYiNBdQ_qUBcvT3rC
+nKo-AO4dAvtfp4nb0Ls1xgiiIgiQL4kthhk1wVSx71u
+}
+
+AzureEntityColoring(AzureStackEdge)
+!define AzureStackEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStackEdge, AzureStackEdge)
+!define AzureStackEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStackEdge, AzureStackEdge)

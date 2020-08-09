@@ -1,0 +1,10 @@
+sprite $Scale [70x70/16z] {
+xTU5RYO124NX0SRU_udthB0X4_wReMudSgjVXUho0lsqrmuYByzRQ6EDNTbWWrsNMXGZYuNee3yQ-qTX_oWiIiEaC5UIIMAkLEPeb7aXb0dp8egzX69xhsp4
+a7KrYBgHRstH849PfT8ZSoMHNd5IYaHIoL9PBtcFRAjGukQ9kMeyLkms0bELbJf58ycqDx810ZDIUeJYL8f6IlxVeqOHYAeg6fah6j7A775gb16YRsJLE0MY
+5Ak6GAHYXP08RTGgLWY1w1jPCHIY5K_YYfZPNONYR17Vo9TBHfsIJ29Pf5BUANdfIAHJyeyBhIIJo5ofJ29QsUc1Gf58e_2ABcwaIYNxgeg-4UdFxa0Hb_w8
+Yj5KgT-D-kyNSKjzQLeZTBoOLWQv-EazKw9g1uqKUUcOADOhP7uxa8lYnCopvBvcGNMTDTPOhy-eQ-K5R_qdREnUNt1ZFL_mmodryo4-BzvyudA_Ohy
+}
+
+AzureEntityColoring(Scale)
+!define Scale(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Scale, Scale)
+!define Scale(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Scale, Scale)

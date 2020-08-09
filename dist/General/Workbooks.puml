@@ -1,0 +1,10 @@
+sprite $Workbooks [70x70/16z] {
+xTT5egLG34NHN2DsvZ_TvwwaGdtVFMpXHb-toH79hJz24CtR7T81SAkpQmemtTHyEp9ISUZzA0Z5ibkb6A2KLLX4UColFLQYBQEK7wyqDJDtaunI7FiyetGS
+ayzLydjqhBA8c9dyNNN_GocrLX7XKrDzM7kbC7Qvyh5EZtkXL1noIIWTnp9AEol7dYfoxaOXnJvBATJ76AegEMMR75jE6OietDkZXinGGZq-kcQQKmpxFACq
+7DE4qbFA_TsOKMWw89OxHrHA4LK95BbUuee6-yfAbKtkdbBER_kCqd7iCvNy7jr_7RhbpxG-xa-nf38Sszn2tIXrYyIPfzTkHcd_hlYZjrfK6RXGoc1cy_3H
+7VU_yMh1oWJ0Ir9X05OfgJXWXVAAqbqZh0Wzg8qfKc-qS6i
+}
+
+AzureEntityColoring(Workbooks)
+!define Workbooks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Workbooks, Workbooks)
+!define Workbooks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Workbooks, Workbooks)

@@ -1,0 +1,10 @@
+sprite $Branch [70x70/16z] {
+fTG5Si0m30NHo9pU_xw5i3ghrlEpGy4Nj9V_ijRAyhRKlwll4M0411W10KP0W14GO0J4CG82Z8008o3028Z008ACWcJRAi3C8ytsKWTc2c656KPOOOOH5ohC
+CC8ACuommWmZh333o9p232EiCCC8AymmmWeoW0peKWPM4OcL7Z6Ci6BrtjI10OIK-uYMAZ20W6AvduePCWa1fspCfLXn32EiM2gRKmqOG5ZPe5nAsk_CCO20
+0kN-PBgW-BlX-A_BvlElfimfO_IIGgGlTKxPrbej9G5Yoz-CKwx_nUfl96HYnIDZGvY95KQOYHL4c8cLqH5X9bO8kPYLkfGLSmWmmRoBICmKmneXCJCoZy0G
+cMSot0dKY8aHWG54O0eWauo042CWn0W8CG923202Kwg6U6O5H64OqPa8YHa18OOGWVbmROZ20A8mW2WC80e3YC80eZ0po1S
+}
+
+AzureEntityColoring(Branch)
+!define Branch(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Branch, Branch)
+!define Branch(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Branch, Branch)

@@ -1,0 +1,11 @@
+sprite $LoadTest [70x70/16z] {
+xT87ijiW58NXSpliVyDve8khv83bz7nJt0_yCyRlZSnVCC4KyzSO4yY_GtxMolcYH7RwAabzbn5MaEzI_4Ch_rV-hvXUsDihXXlwxehW1dzaXVxAbVyhF5R4
+bDvUqLnH-vAxpM9GV1706-ehaM_DisZuTeKYtvkcqNXsA3hFDsVbiTgV2sCZuzqPnwVQKfD6HnXOpPH0iT34ZpSNwtWqsJizP6cboHvxn1C3iPdj4Loe9m5u
+iYb6p-vTnarblYUH9pG-ll22x1qbuoeDbyvnZ6BtAsmHnjXewHI7l3HvNI8cElnI8Hp8OmHWKKlAz73XrqtviK4i9SsTgQRi4NkcZ0knRE8NFMhFien0nEtp
+qWMUSVPC6UrFOjkt6OTDOzwdMDaSzBWlpVXkZyyhdRpRa-BfBooryoMbDewBxOtmDRLJfErryKLHcqBtFR4eBnDegEIhPVMcAMegiQJKWG6jfnMWrFFu8oi2
+h-S1L4yp0AGdCJxa6m
+}
+
+AzureEntityColoring(LoadTest)
+!define LoadTest(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LoadTest, LoadTest)
+!define LoadTest(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LoadTest, LoadTest)

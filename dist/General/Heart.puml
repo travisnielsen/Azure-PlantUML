@@ -1,0 +1,10 @@
+sprite $Heart [70x70/16z] {
+xTDNRiGm30JGKHUP-vytdTje6h0cFVj-2Omj5dobkznwxpLXMsczjvAm9mrHCxEhzejg3JEcNf7hdA7NjdEQEWCmHHs1DtI3N7x2It68Zx4GB_ddn34rhbvA
+6ce0DDHnOMeixLRThmJ6VjMrDZ1r3s2KK2maAs6Unynm4w9IH1bsiqff7vBIFoHbkCqbHfqUA1-JOfV4fTGFIR53KYebsGKm8OftdMqkFwGA8zI3J5rFwJXJ
+QaAc4R_2_umcNCfhAGs6s3o1OTwKNKhXtcFwokvxijGKhZNgch9obGMHl7BANcN6SrQv4DEEt62iSI6cSY6cS3qnPMN4NZgqR34zkFPUV9gISD3m8HF7LJ_X
+5TdrTOqmBJdh5ZB0ABPg9B4juVI1RtNt1
+}
+
+AzureEntityColoring(Heart)
+!define Heart(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Heart, Heart)
+!define Heart(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Heart, Heart)

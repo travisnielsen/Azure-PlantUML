@@ -1,0 +1,10 @@
+sprite $Education [70x70/16z] {
+xTI7Zkem48NXAPuQtlzvhz6DjtjYrgkUJvNswpX0u0_TRcnXjDlmU7BURknroE8ZRzkDkbCtzZgaCUDjhp6uu6fZhuFgAyeEYYzJt6WKdQ9HKfeqTZhDvwAh
+EhpGoEFH7NdLQUPpn-DqcCyPibSURqJKvXdnIew8jqwc7R6Ivt4SwTh-4xKVeIrGQM_4lcD0iHL5HmYUMDS6_TXf20Ezsj7p6OQFNZwOZ1bVO7kf8mmJInT8
+pmp1Z8OlpQapcfbN7OyyvnILBgf6TcU6gqeNFfjnakfClJBuZpE666EgoWy7Ynm-ZAahNm_cNnhZoj12PNGYlpCQHwehDSFUQ6spul0t5NvMSBlIxLU84FOh
+s0kuMGcOk2jJBLSv528NCHGuroYKQ6cDm0NKl18Crz2ouWoBsYmKGl0AQb_kjcx2y3j8nCn4X01mk_q3
+}
+
+AzureEntityColoring(Education)
+!define Education(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Education, Education)
+!define Education(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Education, Education)

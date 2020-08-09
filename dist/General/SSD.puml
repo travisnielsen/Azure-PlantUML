@@ -1,0 +1,12 @@
+sprite $SSD [70x70/16z] {
+xPVNbjim34JHAVd__pT5X1Do1uhQoJxvlhdW2XpD5j4X7_WQL63jCYuqmz7ke3JXxHvC0znkOZIWxIPHHkidYPPK5gQpU65nsA_YwBfnqe99ZfLf7QVJoBx5
+g83j3yC8O-zuwIWbTQk3HqiViM4zj609cZCDfCM7gD8Y12X8akWZCLmlBOpdQM-CgR8CXN6mG2XvM9mflJDMI-hzCwd0KYHLO61PEhvpdX121Ev8RM77cfJj
+c4jd60fAO0YqPIZw5w443u2bmz_di1NUahfq3XBZidR_AXr__TqOSb2xM3SMAc3yAKfyxL3I-ijMIHoxcrXQtlgblmn2RBzscXR9r_dI2P0graHoBDVaV6bu
+dYWNASTapyAUiTRaMCm7rEhtd1QIESusXoqOIdsQ-TOkyurd26Kw3H0v1wz671UfQmUR3MYrI5qxJEaOh1tSiPDWG_ZLSRe034g-iCkMjG_6ThoxkqWERe7Q
+ArdQDTRt7Ft2Nm_P2XElfsnrUMnX8beVMuI87Ygo8_4O9QBscFzbyMWp-4xOaKNX8SVXuKd83Yq25eBdC_qc2_kC4ldCiSNe38QM-1BT8QmGDuZZaFe9DDep
+vC5pFMR0QZTHeNq-_0G
+}
+
+AzureEntityColoring(SSD)
+!define SSD(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, SSD, SSD)
+!define SSD(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, SSD, SSD)

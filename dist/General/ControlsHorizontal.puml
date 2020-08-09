@@ -1,0 +1,8 @@
+sprite $ControlsHorizontal [70x70/16z] {
+xTOt5iCW44LHcApzBzYvCihwECwjEQyXJVbpgLwykb9z66FNYdaZMjVLFW0g3MGbAm6f6AHIrCVeHCLZZ7I_HmKdvUFUuOiWsO6l5L6r6oqoh3H-vUC1K6aQ
+q4fM0b9Xo7afbNWxkbRaGHbpZr82Fi_hqQXhXLioXWe7O2AB-9EfEITuWLGApOqMJsoSrixFyu-zyUaC
+}
+
+AzureEntityColoring(ControlsHorizontal)
+!define ControlsHorizontal(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ControlsHorizontal, ControlsHorizontal)
+!define ControlsHorizontal(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ControlsHorizontal, ControlsHorizontal)

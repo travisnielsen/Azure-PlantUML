@@ -1,0 +1,11 @@
+sprite $Cache [70x70/16z] {
+xTLNcgKW48RX-YkGtFz-HnxCYWD79tP_r_YQAVghmo7g3FMw2MQMEHxha6P0z2APfHPZ5UhGBLAC-uhp02a9SdS8QqClAhXHLiQSzs4inZ3clJETuZl5JOna
+85uLlArloUYow51Y5sAbu1Wb5ohA4337wi9PCCQS7tnD6GR59cPLAwamDiamr9MSCNwMfk5EAQKxYBKikr7MeXC-MCnYPKcRifPVxbW8CQLXhLD9QxzH-LPI
+j6TATChOrwj4omApv5J6k90TIh9CoFLaQ5MI05pVqHiL1N0tNzeKsIfMwbTisPP3N0h1sJgZ6XIl69FJPkeLEUKsnHiZn_bwIiu49VDeL5mvw1ohS-rApaoP
+ZuJhLPpbL2Idblj8AMdE3ahwnnLvGn6yeO1VK9ZakI84VQmetb2OI1uhGaJwL54GWNFoG66QUw08pS4-LXGBefyhe3cnZnMXENxufbL1XEVVBX7af8J-RvVr
+f72d0eAU5T8kHGbofH373aL8zAIKB3KhW5QKCGsjYjQKalfuhOIjedPK71qJSpwcjJWAAkvs7Z7L0XYW9Qqh1ceEObUAALDVODqhAamV1e0PO_H-Fm
+}
+
+AzureEntityColoring(Cache)
+!define Cache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Cache, Cache)
+!define Cache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Cache, Cache)

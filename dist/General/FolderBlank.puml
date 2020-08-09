@@ -1,0 +1,8 @@
+sprite $FolderBlank [70x70/16z] {
+xSw54GHH20HHs07op_YaPFtx-SqBeAlbyn7IL6fvP40gHPPhIyMnjHoYeJB95Z8xJPK5QYkcMnuhRfFcIPGuocmaidX810-9u24HF2G2jpHKCtmd8hjxGAL5
+Q-NnY8Y8Y62F81-FhW
+}
+
+AzureEntityColoring(FolderBlank)
+!define FolderBlank(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FolderBlank, FolderBlank)
+!define FolderBlank(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FolderBlank, FolderBlank)

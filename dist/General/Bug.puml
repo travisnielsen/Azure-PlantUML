@@ -1,0 +1,12 @@
+sprite $Bug [70x70/16z] {
+tTQ74gis58JXFP9Es_T_u62F9iW5X4Xk_QQv_gxiWD-VPyE7abcme9AiU2Ca3Gk46y6h8Dcmef5Cl72IXZL6CZ1Gae6vqvUk95EmBCUlGRWfMBO_SKokgsI6
+-SOyISCjnL-KMmtpDofOfQR-ojJgQcHZxnMrXXNsjR9PoUYJVwbenLLLzxSoq0SJN2EslvNFDsEuHcr_9vyTKrnGFCBTunlVH6J3H0rcJ93P9WqoPf8RawD6
+yY6coCDEIpwanepNtl62LygdR2Wn1HJdKvJFHbG0DQO4GqVGbRrnkGA8yS7GrVuProg0A4aVAy1IfRE_kY9atgiqqePPadiLj8QlMamLp6Z65Fsye-IL2XaL
+1yIuoJdoi5ECJv5Jzky0ZCP3jBQS4kYtJXdcwr85q3vg2dIoDwvMzd5KT7M_jb01QdmkmrAby_-bOhzffTokw521HhrNWRjWj5xfxbRAxSY89fC6cLFaoKw9
+yc4UETaNCJv5SCBig5FsUvGJ1M9VzyM7qnhXkUWhFtG-zmKmdch0yRwOe9ESlvMzusD5i5EUA00c-z8v3ob6TbP1y81ZeI876KCtsvVEPn_dSryiwi5Pz2WA
+tec7u9mc1zbmKxKU2YtuJsI3d-CV
+}
+
+AzureEntityColoring(Bug)
+!define Bug(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Bug, Bug)
+!define Bug(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Bug, Bug)

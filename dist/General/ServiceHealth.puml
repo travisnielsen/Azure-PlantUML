@@ -1,0 +1,12 @@
+sprite $ServiceHealth [70x70/16z] {
+xPI9aciX24HbD___mM-xeU9jDQ5CxM_Eh0vK0urE-ymFh6RkRiBR-D-m2kqbB5wuqXntYC-GnntNUzm2q3QXCUD3EV55d3SYc5QBOnB247yd8x73gH17OsVy
+Rppss7OUt8G7WZDZgPd6yGw7LZQ8HHIQyJW0Bn_7by2Q3w6_AXPV8aLRXFoJCQN9AOulPgBlv_RQYlX3iPfA-x24qg8LteaJy5UbBp0V3la_PZmZiX9fBNeI
+cHaPNC1zXaPnpKpDO4r5ip8C48Ceqf78odaQcudP1XkBmWWqdaYocVm5ysrgvSA7WUnoGw3F8GEDaJHiqCpDE6URK1L7yeMPSb-DmxLOzfV8C50cexKlUPfR
+kQI6WJBxJU-6odBzi1meqw5rw1s7Z6xF9Wcs1PsdDiXVn_p5OomIQ2s-XxXTkDTbuvkR3FS2tmCz6MnQB3OcQmFUvA0uN3vmJT1QVD-4fGEk1m3p80Gh13jn
+Fvjc_F74Sw37XcWB198wmP_NSSGWJU-z8TnQHUPQzav4sWw7H1W86YtAn6uW5442Hr-BM6jrcM0_4i4H2YA7Cjeg-B48tfizqgh8LgDpgyE5jrE0Uk4L5uYp
+3IDsvYiYwEiPtC6IGnmiEKHnclEfWjhNkBR_aTy
+}
+
+AzureEntityColoring(ServiceHealth)
+!define ServiceHealth(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ServiceHealth, ServiceHealth)
+!define ServiceHealth(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ServiceHealth, ServiceHealth)

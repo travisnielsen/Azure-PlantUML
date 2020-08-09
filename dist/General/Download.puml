@@ -1,0 +1,10 @@
+sprite $Download [70x70/16z] {
+xTPNTeGm38LXDqa6xt-zwRbdchWUGNh-PvsFZfr-J5NVaZrAq_T-bbAQbq1fNlKDgOkRGTcOULKqfg3yejXXIWdUNJjLUd8KUyyPaAzM_XNvUgN9Qsf8vQqy
+hvXVeWgIxcIPA9m1mXKm7E5A4e8m1Gn7k9A48rm10oIYW0725SRa55UI08ag65k0H9KaG28AQW9aNYcb92SCPAPKCsjRI3Op_NjAmp_MovvYYXZhyvHg4-dC
+MrVoLdWj7ING1oXBLD4pHMkejfmfqOvMsZwaaur6Fyjx0tFQhe_JIYBzEAK6bUKGPJrJMb0PPqaCAUUAnHGvLzRmRTb_OtHSjERx4Hi8JBsFgBgEM_LMvl-b
+OwErvxbBOPMPjuJM9nJXfO_f4G
+}
+
+AzureEntityColoring(Download)
+!define Download(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Download, Download)
+!define Download(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Download, Download)

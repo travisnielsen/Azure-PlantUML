@@ -1,0 +1,10 @@
+sprite $ProductionReadyDatabase [70x70/16z] {
+xTX7Si0W38LX927g_S-Rue4yXhWff2V_al8PRUr-HZIrUd_CJF2MYF1p5gW38lvLpzmTg1F-E6dGXG7Yt3b3sD_eZC5B5XZQyklAF95gwAaVeqD5HaP3J7ag
+nMvnExgZfBud6lDXANI3mgvIcLeIqW4ILQYbTL-fIblzHIbDymYXL8-KMZpDyNCqfxKUALlAT1N7Me-LLWbo8aWZJXIKL9YdqKHnvbf1fPISKyxbkOgC2leJ
+2hslygzaYUjA9kV2gfAtUtb9QGYL9QKXkIueG1OK80iAa0K5o882v5B9XmeGan8pb14nAVxbneHO58yx8r9iol3f4J4g6So069MH0M9Nm00nAs0Y4BC2nW4n
+Ac20s1KmGCmAIXiIovfI4v05fKPEvUqAAdzCSTzS2LQbx2baLRpRYsrASFjHkgyKxmxp-QOIoPqbwLef2kCOYkL4IShkPYGQSvcKd89dPw__G14H9lVXFG8
+}
+
+AzureEntityColoring(ProductionReadyDatabase)
+!define ProductionReadyDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ProductionReadyDatabase, ProductionReadyDatabase)
+!define ProductionReadyDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ProductionReadyDatabase, ProductionReadyDatabase)

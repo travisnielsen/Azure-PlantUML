@@ -1,0 +1,11 @@
+sprite $VirtualClusters [70x70/16z] {
+tTI7iYiX281XpI95uFqVz_RhMRAQuCpft_IKVmkCvHkgi7Jy_hgjrJBG0xTIWDPQkj8-NuMZUKNC8-LpHVoUJYhYXE8HlrJO6PfvqAyLOm1G3_fBfIi0a0Ss
+gH00z6L5SfMk3V3n4w5v8DSAgPj7_VnssVnEdqwQ9VgaMvUli5hKGuNL8vD9XLseUs3dYWkIFvsH2W1SHZagOW307cXkw_PtLpj0y-Mzi2CqVNelPDOzKXgL
+sLBQTDBI8uwJvXx9bpunynMSW-DecA-q1z8L_AOLiJizH78LCIBrG4CaLN42Q1uXRbVQzP0XsgseN0uH9LvQLD1CuzdAGQ9odIa_azWNv5UeXCXUvNJWSGwC
+2loli8kO_o6SH7LqQhtzhjZOEkMyMndghmY-R9tmXXegpHW0_HUJ7HGhx5tyDvKjnwY46SaU2fM1PS-euDbkvVOgbMDQeLUfuAiy4V8hlDtTHy951RblkAqg
+A3qDox92FKlAke8aoKXTLlBlXafPLFAtmqTPL0BYNx1DmJ4U9bGMQabunGezyCwLWhI49QykbI_c9m
+}
+
+AzureEntityColoring(VirtualClusters)
+!define VirtualClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualClusters, VirtualClusters)
+!define VirtualClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualClusters, VirtualClusters)

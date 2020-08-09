@@ -1,0 +1,11 @@
+sprite $ServerFarm [70x70/16z] {
+xTM7bgCm38LXYgwRxFT_tSLmK9fCHDdf_-xqcU_S99JkQqMmHDl825lZcIaIdL7-b92qej-Z-D8gsHLNIlP0r9XeLb8fZgPKngpambI3fdYxacZkbC8bKyrf
+YhCgePGu8M05OLYL-kSvfgnEiIk8HO_TlZF0QVsTqzRdvVhNI3zULCVZwcFt-lFe-dFQVdsnN-k2fhZhhhlekhu_VGz0JqHZlwt0nSHAIUv7IsDBCKNIe2fs
+mw7fa7lJQi1FWURwlOeOI_LhvMaceo4vxMace_7g30P543XVqvnEGbiHGmcFQx0vHGnzZa6fIqAxXp7Od19knLguvU_7m3Y5SuqROs2P8aeEJun12TiARcDW
+coAAFWQcARhYP4n3aIcAeeo1RKf8F1SU6jSnQB_CyMq3JMqgpgBqcme89gKRQHH5BLgKsiSgwRxZ2kSrFgnmYhmYawWfljMTadcPCtF7bSmfyV9khvBMU7b2
+v1D9bF4IfHkeqOF2B8z8Kzg98d-_V3YiS68vN7YV4fBqSDJTrRzNUi9Qk0_Is5tPFm
+}
+
+AzureEntityColoring(ServerFarm)
+!define ServerFarm(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ServerFarm, ServerFarm)
+!define ServerFarm(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ServerFarm, ServerFarm)

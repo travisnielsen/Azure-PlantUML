@@ -1,0 +1,11 @@
+sprite $AnalysisServices [70x70/16z] {
+xTG54gj858NX5gwT_IzuYXjEl0aop_ENHlYerlB7zksRw2ZPeUYuFrInSRzIwRNKVbPfPQwTKuGRw9JIogLsH756fJixeamS4H1lb3hgKU400dFnf3GTLbDX
+cgzK3roAMcvr7TQeq57BmSG2MIziMbVYFY0Oij3sKUalIZBC4tAfisB3FYYbId1a9vHS6sJkngJEN-zGicx8uk6aw4tX4Z83J5alh4v-WxY17fI7Ag3bRNfT
+D7upLWhWxnLnzuJiglZIg-B0M4c7irLzh2XGrnLC_6AiJ41V7n6YvnzzHMc031HEhxk9c8-K3B2tYYx6cwRoKhnTfAeqrfMwPC3hJIOqrfMkp9VTowOqIAmh
+ykOCa8dPc6IludhBCHjIIXKT98NfBI0U3IxzvzIk0R1B5qDBEQ04bSZ1M3sWy2QZOKSKNXOr5yRjeA8ybMaSLRZsDOsTYldIJM575EwDTahXGtfEiKRacC9C
+QEnMOjWEnVywnMBOTcHyaqahlsNVllq7
+}
+
+AzureEntityColoring(AnalysisServices)
+!define AnalysisServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AnalysisServices, AnalysisServices)
+!define AnalysisServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AnalysisServices, AnalysisServices)

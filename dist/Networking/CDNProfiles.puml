@@ -1,0 +1,9 @@
+sprite $CDNProfiles [70x70/16z] {
+xTM5aO0m48NXjxwv_liz5vomC7QJhu0VugWPXc4WCOztRa8eOei9OnIGnO8HhkBOmBX6OfDK8_M_uTX5wEQnoz5Buu2WKnmg_4hnPyGYZrd7R-Ifm369x45O
+8lxZsOUnGFOdifCIvjX-UVOBtQbuNYFpXVsMLpdM99_8H3wGeQmGp6cM0A09pn9bdygQi7cbbQGNAtFoI0N44rwjp72rCfUFLAnL1EQeLUZorSXMGFWaxGx3
+5sqtv6o5gmW_n2VQ5KdOeUL5dhFsqYCOnrWzyaYu4lwbOHZU
+}
+
+AzureEntityColoring(CDNProfiles)
+!define CDNProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDNProfiles, CDNProfiles)
+!define CDNProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDNProfiles, CDNProfiles)

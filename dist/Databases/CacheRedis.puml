@@ -1,0 +1,11 @@
+sprite $CacheRedis [70x70/16z] {
+xTTPigOW38PXCZ4a-zzlnqYrPq1-jES-FhT-zLvP2kccnmCEzoQmGKT4wFfkEC7n91uJl-VJM7NJIHyGZz2-wOtnn3lpnP41jpeHbuE8y0R1zGdrpSaaWqFE
+vRtC18veCf6OeFZ42WHYaTo99qAshQ8D8VRl9mWRjgYO5O8Hp6PxnQoTJCHihuGcdZuWIRNGAwvbVZ_XOc6l75IrDLNhZifaCgY4UINyHPMdekYJThkYDSSx
+tY5BQHShBHCuHEemUYZrGaL6NpQchKnrjKBUEFycrRLAYS_4sFPehL9zYiU7RISY_SicQnKh_TCs_BAHBLPCkNz1c2N4npuQnLOhJWiZV4IvcIrNEgqbIyHO
+99SeNAcCt-OlLga_NC5qPEvMb5AWUh-Yahu3BkrwHQjW-WY8HIHBVL6Hd4MOC4t9lABffQVoL9uApoijBG6TLZYjWNfUKKhBiEYmKZbTWrAQ7XLj9LEw2VfT
+4v9xFBu1
+}
+
+AzureEntityColoring(CacheRedis)
+!define CacheRedis(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CacheRedis, CacheRedis)
+!define CacheRedis(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CacheRedis, CacheRedis)

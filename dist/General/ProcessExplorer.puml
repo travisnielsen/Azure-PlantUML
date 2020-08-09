@@ -1,0 +1,10 @@
+sprite $ProcessExplorer [70x70/16z] {
+xTU5kjim341XoR9r0k__lADKXT2qkEFxNmQVwck3yXRgGpUCyKypN3S6amuQ7Ud2H-NPHwMrTrIWz5SAjFvA0qft1S1beMqhAgVFQ877CCxMSKL1eyTZ62DR
+YQLL5YmiHl6rmqe1_F5j35E1bdzs7S1YAae3J1H0qnLxUYe05mLS6r0bNN6-ARUWBHD5ELan5asMvIgYH3XT0J1VbiVZr-XcAnMeOiHd4ubXD5rHW7XQ6w1F
+xREAFcktXw-h9pI-EwmuuMcXiZ1P62LVUInil3uN9ldAUjltz77NNkbgF-WxUXk0zbO4QD9TgM3z5GNjhCJHjx-YsbtvkF9GwJ7SAeDtOFp3y9RAoLrM_iR5
+v5YTNqdQ-oljexBBLnMLAuPLfSWLqwhIv88ohmno0VDQwHYbPvWopLl83r6VTuqrNQXCyx71BVkadfk-s_4vG-NSdE9opdBarMS
+}
+
+AzureEntityColoring(ProcessExplorer)
+!define ProcessExplorer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ProcessExplorer, ProcessExplorer)
+!define ProcessExplorer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ProcessExplorer, ProcessExplorer)

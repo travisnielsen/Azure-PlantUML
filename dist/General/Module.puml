@@ -1,0 +1,8 @@
+sprite $Module [70x70/16z] {
+xTI5ZSL034LH9skQz5_mwdqEC_k81g_Or2haDeFGYysIBrBvwwz41PilmL5MFwAIlWhVkXALg4YzelMZc5A3Azh3GEM7rYl2FGoeP8MAWt8F1ofnu7qhKOcA
+Mmy7AIbLqYmNhxYEPlMAvAFnvIfos4e1Koe57AaYrwua7osLApD4fGs_AZQhaj4BosICo0Nz0m
+}
+
+AzureEntityColoring(Module)
+!define Module(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Module, Module)
+!define Module(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Module, Module)

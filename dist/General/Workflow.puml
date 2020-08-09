@@ -1,0 +1,9 @@
+sprite $Workflow [70x70/16z] {
+xTK5aiCm38LXaULjxt_WdNAIfp33DrZGFs2Y6duFPEf7xo6ZNYok-6gLR0K-j48bjqagVwUkN9MhSflYJETrxnVaCz-xqxy1IEo1m7uhLuL3zgGSWeRQ49ME
+s30dgGXGUr1KN-4U-wM-GZqgsgLoLVX1duGVMYgV2Nlu35YgafOAJZ0beCqLJa0cgUYcAWwifU9W_ahXPf07xb-9DrB_IW8wISLsNd4mUoM3PIePA3b-rrm9
+9eH8AuHQAcmLGe6s2ZfL9OFrAYdSIB5_
+}
+
+AzureEntityColoring(Workflow)
+!define Workflow(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Workflow, Workflow)
+!define Workflow(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Workflow, Workflow)

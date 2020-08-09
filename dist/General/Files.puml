@@ -1,0 +1,10 @@
+sprite $Files [70x70/16z] {
+xTA5WGGn243H2C7wxtVTCs783UVx2tWHI2cHEgDafEuC9AkgE5fLX1p9xrD4r-9pnL14lQ6jYATLfNdwnmhIEATY8omJ2hR5a5Wdb98MWq15GXJb44KvH54E
+KPH35EKGHJb4KGvHb4CKvH15EKHH3b6KBQKkAvLwPgWm3vH4t8NpIbvWgg6C0gIdRCLPPOQFA6-be5dnAKXcw5De9Py2P0O-9ULYb3zfHdneitBjgeZuNoHo
+KfAC522p-gJaUeewXUpmIRdKEWKtANHH2ff86IXuxgGuwvLhia6142L1kqHNfS9BTQZqmKLfr8L-fHdxagSL3BbBXlOIv4d5oAce-XNL7wD0bDB-aKBWZ0nb
+AbXMiawLKze3
+}
+
+AzureEntityColoring(Files)
+!define Files(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Files, Files)
+!define Files(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Files, Files)

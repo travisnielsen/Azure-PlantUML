@@ -1,0 +1,10 @@
+sprite $WebsiteStaging [70x70/16z] {
+xTA5WIGW38NX5u70zT_lhJ4-M3Bh-nNm8mc6I5BEPfQJCfmaspabJyDkA3PHjdiOEzWwrF6QK8PjGB26R8Yn9DjGTdoAzsji2dDIfWHZhCdALCO0gPKraQUS
+C3eebtNQYrZPa70NboscZ3kiR4k4AxbuQ6SwcopudiOeTfN6-h_Yctcf0OmtKYCCRxI6j0zEDKJRvzOGUqYb15_Kd6OKhz13Ah0li309JOrWD1eST5F-kGcE
+g7eZXZFYZ5H2F5CPbxZ68WtPzfyGxk2jJX5qK2fhJoc9CKGyG_X5H3s4SOQgb-94gvVXXAjNnXarduoVZjPW9DigHPVOEdHniD8aMoNOzKTqGZ17EiMOOaV5
+THT2tnC
+}
+
+AzureEntityColoring(WebsiteStaging)
+!define WebsiteStaging(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, WebsiteStaging, WebsiteStaging)
+!define WebsiteStaging(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, WebsiteStaging, WebsiteStaging)

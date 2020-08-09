@@ -1,0 +1,10 @@
+sprite $LogStreaming [70x70/16z] {
+xTG74kCW30LGDRxG_I-yumIDupABs5xyfqKaF7he3utsM4gtEoIMenT48WB2vGWY_8nmZm0jfKU_DALSZryKZ-ZylKfpTxHwz5x1OlY7AF9BbKTvb4Tv5D_J
+DAj30FYUcM8dD6qYHbbfMobNXIcPWe9NgLSbsqkAqXWJXcnhsqUZBIWfo0f4d6rlLdAfSyLotdnGI780p9Kn84u7PNiRMKN9MVFOIM1qqJ4PAIhP0U_VshWh
+UTW51MFIevlbLriNTvafk5Lab4jAhkWu5spukiBxlkXXNwQxYyD9vwbaE2UOhHF5ndZj_2gG8rGKVrNsFjMFkwjZ0FQIOgF4Hu_SgfpVN77UIZcyQLYsinSL
+VEt_1LN5MvR7QAvdggJZTsaAdogL_6ZbKHxbKIH-WA8HuT-hR4Z8IUcBQObybn8HdUdxbIj2kgmuqpMYrXQYGZy-Nm
+}
+
+AzureEntityColoring(LogStreaming)
+!define LogStreaming(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogStreaming, LogStreaming)
+!define LogStreaming(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogStreaming, LogStreaming)

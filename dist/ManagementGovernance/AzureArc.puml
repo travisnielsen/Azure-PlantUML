@@ -1,0 +1,11 @@
+sprite $AzureArc [70x70/16z] {
+xTM5bjqW481X68LXt_zvcpEHbW0BNPVx7xsIBuQ4p-tH8u2msl2VaLKvhXbRVOVKexaHOQyz8-gPuFn2pa8LYFwJnBdHEf7r5azkngjlYxGJpOpQ0T5k0Wq2
+emBhCAwDY4C5BOsGb6i54760a9dr4RD68SAkGMHRMLgZT9NMGV_Ml5GxkPI-uavZkEBTZB72JDNDd4hjM2aJXONE2saLo-BNCLF4vveRZUAbKcOAwnvLMTLC
+OJaGuQdYHgiGQqffHzOL4u8Ol0ZenA78gdAMZzBPPl2hbStWLokRiQXuFSKFNLLE9YE99XTK27sONOgyOhoyiQ9VHz7NAewyMd7azOeZogzIHBtLiTjLHFzl
+PMWLP7tPof2427sPPab7E_BwzOLvejXKsOofybJoU6LmunoxpofFbzCgmjVOdIbRbi_n0kXNBym8gwFE5I_RR5URAtvRrbT4bnLtKgkuiQvubcuAguuKI2Cb
+GwWRAn02vPvY59gYT1KCdZHAaT0DEqeCHv1g9SKmYcvATTkO_og6uPaYNueRTNmeXSCaa4F1q1PbKuh6C0zT6VmJKeQm5ZE45_ReqHy
+}
+
+AzureEntityColoring(AzureArc)
+!define AzureArc(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureArc, AzureArc)
+!define AzureArc(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureArc, AzureArc)

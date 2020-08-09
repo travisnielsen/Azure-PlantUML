@@ -1,0 +1,11 @@
+sprite $DisksSnapshots [70x70/16z] {
+xTXNigim381XMLRdxd-zDssE1sC5CRpcUqk0dru1iDFGeMGt2Jx_q1s40jIT3Y3NA_ESvLsHeK51aq4VNXM66_XNUVfL6dPYPdbYfexjQWL9T46ujse5MRyG
+QdD5093sVvFQ6K4O6X72XDGgf46kYLNrFA9MHv0GE_8tEq9OGfl5jltxsBQv9B14DdabXh2zOYLscSrB5RO3ZzXU8joiNgcBf19Mvv5MmhmgiWh5WvKZ3aiO
+KUp4ayAQnflRQU818U7n9oaC12cBoJJz5CcGHuKrIDGxrk5Sbwy9HgZfOXuhhjoW15dVpFuEi0UpmqqWXwBd-7kdYTOGv53Bk12van4ziWyzwDL5CVTX3Wai
+TPtudfKhzvU5TCLUT06MM2-nfE9wWQSLjteagv0_Q8cvky9IyvTIuu5XJVpZDF5Wa54VB2ky6KAAlKWRV87g1KOmGxpOCJfEpwfJkP5woXWFvmrdRnF8QZxJ
+wJKWgKom4p6pCDFqIf9KodwLNqLeW18Qv5sv_qM90UZ-5oM2_m
+}
+
+AzureEntityColoring(DisksSnapshots)
+!define DisksSnapshots(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DisksSnapshots, DisksSnapshots)
+!define DisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DisksSnapshots, DisksSnapshots)

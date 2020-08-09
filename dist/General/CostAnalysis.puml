@@ -1,0 +1,11 @@
+sprite $CostAnalysis [70x70/16z] {
+xTPLmW8n30JWUE7-1yQ2fyCIVfTvOkshjr2D-27qjcWg_17AlsAfgF2ha9ZVHlkIUjGq8V6OnnkC1ippYiKxA1hle4YyX-BleMYyXnAJc3SLllwOxVmfQqhS
+RP0JNPHTP7ybtRaYLqg6FRWxGboKp5Se-YvA0AMv4XqepQdh_gB2ODetu--YIDGelKjbuh9jCulm4qoCIS8uT_NJfInsy9Wwgd5plUJuU9284-OBZ27Yr13n
+0yXB8pKrhjjzS1B5qPC3EqAoDYqdFwWCWO1s9L8OenhSouAUSqC9E4EjeGZek-9Z1R_AamBm97QYHfEGel2DUGagBSNcoXZELP47IioKNOnBNRhAQf_GL0uN
+xNv99I6Jaz8RerHAnYu04T1dG05DCb10CP89E7MzeGn3irAc2c9atXwdbb8P7N1x2SpePC6lq9OnTSh-BN50rcl0aFW0p0WJ9cAndP58ClEmNKlxZyj9bqXb
+gXMfS5xvhU6iwwSOlrAogRV_8I23bOJKTj6y0nYer3GOprUOsWnM-WnM-enCZZJCK2EOaNTXcDw1oNri2m
+}
+
+AzureEntityColoring(CostAnalysis)
+!define CostAnalysis(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CostAnalysis, CostAnalysis)
+!define CostAnalysis(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CostAnalysis, CostAnalysis)
