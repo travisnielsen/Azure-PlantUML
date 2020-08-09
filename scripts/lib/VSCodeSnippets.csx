@@ -17,14 +17,37 @@ public void GenerateVSCodeSnippets(string distFolder)
             continue;
         }
 
-        snippets.Add($"{entityName}", new Snippet{
-            prefix = $"{SplitCamelCase(entityName)}",
-            description = $"Add {SplitCamelCase(entityName)} to diagram",
-            body = new List<string>{
-                $"{entityName}(${{1:alias}}, \"${{2:label}}\", \"${{3:technology}}\")",
-                "$0"
-            }
-        });
+        try
+        {
+            snippets.Add($"{entityName}", new Snippet {
+                prefix = $"{SplitCamelCase(entityName)}",
+                description = $"Add {SplitCamelCase(entityName)} to diagram",
+                body = new List<string>{
+                    $"{entityName}(${{1:alias}}, \"${{2:label}}\", \"${{3:technology}}\")",
+                    "$0"
+                }
+            });
+
+        }
+        catch (ArgumentException ex)    // Handle duplicate entities from the Architecture Center diagrams
+        {
+            WriteLine(ex.Message);
+            
+            string category = System.IO.Directory.GetParent(filePath).Name.Replace(" ", "").Replace("+", "");
+            entityName += category;
+
+            WriteLine("Switching item to: " + entityName);
+
+            snippets.Add($"{entityName}", new Snippet {
+                prefix = $"{SplitCamelCase(entityName)}",
+                description = $"Add {SplitCamelCase(entityName)} to diagram",
+                body = new List<string>{
+                    $"{entityName}(${{1:alias}}, \"${{2:label}}\", \"${{3:technology}}\")",
+                    "$0"
+                }
+            });
+
+        }
 
         snippets.Add($"{entityName}_Descr", new Snippet{
             prefix = $"{SplitCamelCase(entityName)} with Description",
