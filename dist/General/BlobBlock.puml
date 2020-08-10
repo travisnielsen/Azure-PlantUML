@@ -1,8 +1,0 @@
-sprite $BlobBlock [70x70/16z] {
-xTIr5SHG34JHJyB--rtcbPbjtNZE2oTquro6OMAuG1r8hXaTh1o-uXMlq63vKi71qguhP4D4oBRoNn6rCM8E5U2leXNa41MlU8NLHeXG4Kdh_XTY6rwmZVuh
-Me4HMIjqgiWibRo7YbUaIuK6LkYcka9KMQ6xZufKBrbjybSPO7KLfA7YfH81XycX4-VE
-}
-
-AzureEntityColoring(BlobBlock)
-!define BlobBlock(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, BlobBlock, BlobBlock)
-!define BlobBlock(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, BlobBlock, BlobBlock)

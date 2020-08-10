@@ -6,7 +6,6 @@
 #load "lib/HSLColor.csx"
 #load "lib/MarkdownGeneration.csx"
 #load "lib/VSCodeSnippets.csx"
-#load "lib/CreateConfig.csx"
 
 using System.Diagnostics;
 using System.Drawing;
@@ -35,7 +34,7 @@ Main();
 
 public void Main()
 {
-    var configDone = CreateConfig(sourceFolder, targetFolder, configFileName);
+    // var configDone = CreateConfig(sourceFolder, targetFolder, configFileName);
     var lookupTable = ReadConfig(configFileName);
 
     // Cleanup

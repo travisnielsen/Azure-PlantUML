@@ -1,0 +1,10 @@
+sprite $StaticWebApps [70x70/16z] {
+xTG5SiCm04JHNQ5p_mjtml13WhB_G1jwmh5-GMiUJWhBPhpy55chmN6_HScXRBQLuDI6B9BaxNz1akeMaQJOf6GTVwnjySYfJrcWzA-eO4NlLNsynL4k-_aP
+I6DhvN5hEVQNJqeA_QMJ4WUK-BuYJr0iULoH5BvJiMuMPBbPiQJhgKXWg13njM8oL8ZSd10PAaImjs2e48521WeHNZaoKEuZjsT3vhuYISQLksBqKl4jOacS
+Qhj2rSqh4gUYXjs5qh2xzo_kcoTD1bCXGeKC529KoBnnSQ6GEKq5ICjJob3S_iJqxI-1G6buR7-VuhUKkWrAGt4B32lffEH-9fPwgkJUIftN72jEcOf272xe
+vxVs0G
+}
+
+AzureEntityColoring(StaticWebApps)
+!define StaticWebApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, StaticWebApps, StaticWebApps)
+!define StaticWebApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, StaticWebApps, StaticWebApps)

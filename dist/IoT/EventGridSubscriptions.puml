@@ -1,9 +1,0 @@
-sprite $EventGridSubscriptions [70x70/16z] {
-xTTNigGm38LXnQFzxtXaIjMveMpDpNpFw2Sd-bWdjK4Ns8Of8Rf69jgiAZt-cok-uFdeCir3RBHREIjYfjojE0PzMr4VZ7OPqbD6BgE7E2cAqngDX0jPZ7Gh
-5V4455wC62KKxqH8giADI187O8r8uKfq8gMsogKPCMoijoM75uxQXKToUuQqlp4Mnt3niHKM7Sl97aSnUayouxI3KPWw6RqyhbePDdTZeeNCyyDx9UCOj9Tn
-O3wZbRbc2sY6n1koaEbMI77hKc5Qnr507TRSbAAHi1DX7OGEYF3UADOtrf--NuJcuLChPqLb7dxAlzfP4I8In02VXqXG-b2dVm
-}
-
-AzureEntityColoring(EventGridSubscriptions)
-!define EventGridSubscriptions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventGridSubscriptions, EventGridSubscriptions)
-!define EventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventGridSubscriptions, EventGridSubscriptions)

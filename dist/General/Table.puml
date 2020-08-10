@@ -1,9 +1,0 @@
-sprite $Table [70x70/16z] {
-xPO5ZeLG302H6jp_m9idoROVT-l4XtHmUCKo7AV6RPGXGkr6cf1fDmEVhtZ5AxoP-foALyf2axTgA2Wm2ZkLeZjI_IglyF9ATwIC2igEGgFeda-TR4PLgDPm
-LA2XeDYgJkNdSGyAJHYx-u8FLE202dT7gAlmVrGoh5cYOgNPpEuLOKrIf97esAXE1MjDp91H52D6uKI5kWgxOJYlGbCLFAUozEgs2GQD12MeYQenYdsDELMH
-pPNmMwrayokz2CVv0m
-}
-
-AzureEntityColoring(Table)
-!define Table(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Table, Table)
-!define Table(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Table, Table)

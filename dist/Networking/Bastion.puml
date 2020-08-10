@@ -1,0 +1,12 @@
+sprite $Bastion [70x70/16z] {
+fTU5aYH120HGIcbWvF-_zbnoDfBREeQGzHTP0jlzVAlk4VSVd_Wkbtf4XEj-FhTKQtdyA9EwqgxuNQkiJ8y_fLL58zvMXY7YewHiVq6c59HcWMLT2ify3R95
+Y79qlXYae0mFB1KfA1eVjXMKsld6rGIKulakaVzNkf5jJPN6aKNEDrEwUlWuEL-cu3aIPlBpvKhpNtdx1mG9cXML5K4Pf-VB5RnJtWIAdEz9bWX3niYsveeO
+PoOxtrnfo63xa6qb2cCk-FuL4ThaK97c2VExVtSxKAG3ew3hxwwsbYX7p9zciaJ9nzaMBCELSeKp2xz_qaUy-IRRUSqLtdu-sPRj4qKMC8CnwqIHpPb16A9G
+fXF6vuaYofd98kQANBp15s5I9MSsYKWKEcw4CIrL3kQ4GaIgvCncQxMMAdpSk50cL_YSQ7JBBgRaZ2LhLQxmEU4ZMwj-eipvYm64CFjVIjFmdmp-MwKDdYeO
+mUOdEpypHU6MlmPX3VwWoZ1wJVAPo9GTvEc1rSgLRcpiyjgPifmymEKCAZp8EdfvXDtbGOwgTtcYqg_p85YWa205fM6GBL9IPZ48AXWaLAIaO10VKb7gGL0f
+1q75C4YJcl9uRRsYSiUtZR9omnjVpm91wihFCFVdU_KL
+}
+
+AzureEntityColoring(Bastion)
+!define Bastion(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Bastion, Bastion)
+!define Bastion(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Bastion, Bastion)

@@ -63,6 +63,27 @@ AzureEntityColoring(EventGridTopics)
 !define EventGridTopics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventGridTopics, EventGridTopics)
 !define EventGridTopics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventGridTopics, EventGridTopics)
 
+sprite $EventHubClusters [70x70/16z] {
+xTO7QiH038LXrJ5x_mj79WzSi7Pa3sp_w2ZvrrMOJldviTOXLD2c3dzefNdgHCKezOuLCnCYOWc7KwKwdmBJ45JeDIgYWHwZVYoYzt7b7kdKKxcwzjXAVbrG
+uPGlbHmgbMb-BCCLtAFn2kRCSunRKDh2z82xoxe2F0MZAlonQ1YkmBQY5CpTSkxEIoKbtgF_bRQa-MfbGmZOWw9Ych7x5Pc2eIAKOKojhMqhMgmanYl0WGBZ
+cfFCQ0_JCfzHedT6unKxgB26mlyB7nwBIi16vSgkopV3cKg-3L4X4Wk5Ih8DyOdIRe7lLdYHV9jKAekshYodShcoEHN1LJfV0LHwP6FxUTsIIjrjLdXsAvMh
+c3chO5h0xfxi5qobNCaylYASaM95l4SVLk7n2hQJv5ILliRF7m
+}
+
+AzureEntityColoring(EventHubClusters)
+!define EventHubClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventHubClusters, EventHubClusters)
+!define EventHubClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventHubClusters, EventHubClusters)
+
+sprite $EventHubs [70x70/16z] {
+xTTL0WCn24LH80diVyNrDswHEkUdogsCqvCvlYgSn62qIdgjMBNGf9BsAbvXogTOHg-jU4M0ZrTmLxj8WaXxudsK9xkNIINRFrNuhgeI3R8w747e8Xa85VCA
+Y45Sg2Hz2BGf6EXeIIkFFa8pAcjVr2iI8QiY1cc-f7dquXO6cbH6h_xVrbYxbvekwNOL5g2AoiHNL1GZsHMSCqX__YBpIi5PaCoFQXMLAQ_aqs-vLlDAQ7Hj
+VyLLQ9Kx0m
+}
+
+AzureEntityColoring(EventHubs)
+!define EventHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)
+!define EventHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)
+
 sprite $IntegrationAccounts [70x70/16z] {
 xTT50iD0241H64FkVzzweHhtvEtdRyRXhmEIT5VWWRIF_AY8za5BhGYtzrqfq9xifHAYmUwLcCogAaVbgA03TvmC60nSeMjH4JNf6Y6tzSfHEIhLTbs93W40
 Y_byc8IAIY4JhwFKmKKYayUliFbPOLDLeSQLCdv5pAzA5jEmahfNU9YAcfyLDJHyfNhL8RcALRVGFSs3L3HrhMps9yo3L8hsaU4XKtSPDkaC

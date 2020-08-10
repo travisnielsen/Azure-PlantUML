@@ -1,9 +1,0 @@
-sprite $EventHubs [70x70/16z] {
-xTTL0WCn24LH80diVyNrDswHEkUdogsCqvCvlYgSn62qIdgjMBNGf9BsAbvXogTOHg-jU4M0ZrTmLxj8WaXxudsK9xkNIINRFrNuhgeI3R8w747e8Xa85VCA
-Y45Sg2Hz2BGf6EXeIIkFFa8pAcjVr2iI8QiY1cc-f7dquXO6cbH6h_xVrbYxbvekwNOL5g2AoiHNL1GZsHMSCqX__YBpIi5PaCoFQXMLAQ_aqs-vLlDAQ7Hj
-VyLLQ9Kx0m
-}
-
-AzureEntityColoring(EventHubs)
-!define EventHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)
-!define EventHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)

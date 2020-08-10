@@ -1,0 +1,10 @@
+sprite $DedicatedHSM [70x70/16z] {
+xTI5RiKm38NXs2uiiT__UTSsygWWdPxnze_XVcgmV4gonX5gcN86wOYzJJWa4m8X63jExYAgQi_T6e--NIwvyIYoT_57aQFVmTljwFaK7P0SFY2gx7_BA_zA
+hhGU_XBUTOVBZv-0mr_XTwNiZoUGPIghePPHLrqcpFqFZoTJ3icKGp8XvcJd40PoUFuLl7z5Z4mNOsuNLUlLzYgFLxbD3LVYRLvXnMDVGvK8Nl5WbOTn7ATO
+cfPlrcUgozSPLePX66DfNBxPbENhTANKtYkbuefbgNZmoeA4vnBbD6-_09GMfm5A_09bw75AnYYP1wKaGYbfy8e7htZqvXwg9B8BLmAjKW-IJSo3P5xcoZv8
+D2sbA9cKNzWZ
+}
+
+AzureEntityColoring(DedicatedHSM)
+!define DedicatedHSM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DedicatedHSM, DedicatedHSM)
+!define DedicatedHSM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DedicatedHSM, DedicatedHSM)

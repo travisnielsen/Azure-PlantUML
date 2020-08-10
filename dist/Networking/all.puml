@@ -22,15 +22,18 @@ AzureEntityColoring(AzureFirewallManager)
 !define AzureFirewallManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFirewallManager, AzureFirewallManager)
 !define AzureFirewallManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFirewallManager, AzureFirewallManager)
 
-sprite $CDNProfiles [70x70/16z] {
-xTM5aO0m48NXjxwv_liz5vomC7QJhu0VugWPXc4WCOztRa8eOei9OnIGnO8HhkBOmBX6OfDK8_M_uTX5wEQnoz5Buu2WKnmg_4hnPyGYZrd7R-Ifm369x45O
-8lxZsOUnGFOdifCIvjX-UVOBtQbuNYFpXVsMLpdM99_8H3wGeQmGp6cM0A09pn9bdygQi7cbbQGNAtFoI0N44rwjp72rCfUFLAnL1EQeLUZorSXMGFWaxGx3
-5sqtv6o5gmW_n2VQ5KdOeUL5dhFsqYCOnrWzyaYu4lwbOHZU
+sprite $Bastion [70x70/16z] {
+fTU5aYH120HGIcbWvF-_zbnoDfBREeQGzHTP0jlzVAlk4VSVd_Wkbtf4XEj-FhTKQtdyA9EwqgxuNQkiJ8y_fLL58zvMXY7YewHiVq6c59HcWMLT2ify3R95
+Y79qlXYae0mFB1KfA1eVjXMKsld6rGIKulakaVzNkf5jJPN6aKNEDrEwUlWuEL-cu3aIPlBpvKhpNtdx1mG9cXML5K4Pf-VB5RnJtWIAdEz9bWX3niYsveeO
+PoOxtrnfo63xa6qb2cCk-FuL4ThaK97c2VExVtSxKAG3ew3hxwwsbYX7p9zciaJ9nzaMBCELSeKp2xz_qaUy-IRRUSqLtdu-sPRj4qKMC8CnwqIHpPb16A9G
+fXF6vuaYofd98kQANBp15s5I9MSsYKWKEcw4CIrL3kQ4GaIgvCncQxMMAdpSk50cL_YSQ7JBBgRaZ2LhLQxmEU4ZMwj-eipvYm64CFjVIjFmdmp-MwKDdYeO
+mUOdEpypHU6MlmPX3VwWoZ1wJVAPo9GTvEc1rSgLRcpiyjgPifmymEKCAZp8EdfvXDtbGOwgTtcYqg_p85YWa205fM6GBL9IPZ48AXWaLAIaO10VKb7gGL0f
+1q75C4YJcl9uRRsYSiUtZR9omnjVpm91wihFCFVdU_KL
 }
 
-AzureEntityColoring(CDNProfiles)
-!define CDNProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CDNProfiles, CDNProfiles)
-!define CDNProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CDNProfiles, CDNProfiles)
+AzureEntityColoring(Bastion)
+!define Bastion(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Bastion, Bastion)
+!define Bastion(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Bastion, Bastion)
 
 sprite $Connections [70x70/16z] {
 rPU9cgKw28IJ423m_kzxxupA-H15cNscUb_oMnHWs-tVK0Ua9QAgifZcQD-kGKl5IrLuVfiBN78dLHvb1aagrGKb2Dg9jHWdZ2-2kILadFwUnp84Zc1nid6m
@@ -200,16 +203,6 @@ AzureEntityColoring(ProximityPlacementGroups)
 !define ProximityPlacementGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ProximityPlacementGroups, ProximityPlacementGroups)
 
 sprite $PublicIPAddresses [70x70/16z] {
-xPC5ZWD130JRjFJ_1vySddDm6Lp2KcigMSA1I7WG14UwWTHUQRkX281kC3f-HVadf7bMQV4ZTenA9_GJ7Exk07PRgGR3MId9IbQK2IHsLNDb2-lxYX0Siikf
-Y-fbnGcsznN51QuSyyYb6jRN5SOLTPMRYYlTrDvLZ5uTOrzHhAyhkC6nebzMgc__YtvtNyZA-w9XZPLuOwHK3ckin0p_q-Br8Vdy1IYpMAbwCnDV5_yQiv8L
-ULd9IZqOhrI3Amn0XqOgE2o3OFn6alm1
-}
-
-AzureEntityColoring(PublicIPAddresses(Classic))
-!define PublicIPAddresses(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, PublicIPAddresses(Classic), PublicIPAddresses(Classic))
-!define PublicIPAddresses(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, PublicIPAddresses(Classic), PublicIPAddresses(Classic))
-
-sprite $PublicIPAddresses [70x70/16z] {
 xPG5ZiH030IDWVz_-1JqjRI1qKB89NJQgWnJ6KcYvkzWt4cyVPEcixHlen-ns7zBKvVnsi9KXh-oD5I8dTho_hfCr5KPk4TlS4vBzJRw4OlSo9AMj9YgUPGE
 9QJB5ky-4UjSCfJSfxPiYROEZOOEWPHjtQ8qmjwFdoPiTaQwQ66Qq2cFmJY3TD7YD2Ce5KnrfqMBBG7Zc6L9QeiMM4uUIeRbr1ZPigL3S1CKjXPJj23AH2nT
 Mun6R2452-Bkw-NnTpejQT55Irhgj-d7yhQ5u-5wPq959CaV
@@ -287,17 +280,6 @@ AzureEntityColoring(VirtualNetworkGateways)
 !define VirtualNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworkGateways, VirtualNetworkGateways)
 
 sprite $VirtualNetworks [70x70/16z] {
-xT47RYOX341Xqs7lV-15CR5YDEMff_1IaU7xfyXlxtGwvHOVfhKoP8nnpxGnEaCyioE4oKEJoweE6qIwN5Q6CGG9SbqrXY600GXaEC8PZr268vpn26Sumfcq
-8Pm12640mfXh94RvKeZ1hU8bapSajrcILQnpLSmfEdHCtn3RPpkZhgfeaxnaTYIsbJlMyZxqZ4FqVZIz_RQgUfrz5Orn5RbKmeiI-pgkltCMBRLLSDTIt8iO
-OI4vTtqmLH5Zt379pfIXLKCceu-ZAlB9nDPdkizk8eaMnxzPC-I3qMUQyagqN4iIAvQQWrYbrcI85hQruFmXm004C00134000n0mmOYVOGHC0GBc0E4x-1Q-
-npOaTjC00KoKgo1YpCDG4S8y31KXpDCm2Il8J-rqElq7
-}
-
-AzureEntityColoring(VirtualNetworks(Classic))
-!define VirtualNetworks(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualNetworks(Classic), VirtualNetworks(Classic))
-!define VirtualNetworks(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworks(Classic), VirtualNetworks(Classic))
-
-sprite $VirtualNetworks [70x70/16z] {
 xTC5ZWCn38NXW4FtFt39hdSJDQDVl91Nj1n_m-6lv-JaH5gwwDRAa376dcbZT8OeiqC88qEpEHnjDeBiDrU6CGo9cmNL6OO01Y200GXW008OW10688JX26Vo
 Wd0688G1265sI9gUw9WctAgLaGMHrdiN7wgFgheZzP4yC_q3Kfv87sA8LlqxqjhAB8YFZM4BhH9jAj9QM9W52M9ZGxVthdGkAz9xMXXB2PQYOwP4gqmHGrn9
 tSRrMoHeShU6xjoxgjeqn0zVfEk9gOeuOsDjVZ9iurMHwiYBUQ9L4MDi9zjyLsIhuWjfZZnZUvR5ydKvS_2aKekIsYmbEwA9InrmvY7000Gm004CG0034D31
@@ -307,21 +289,6 @@ oDp32EW21FG1mbVm9NoDByZie042cFIn2n5djar56BDjAiAOYwOY837yrfoSdDm1
 AzureEntityColoring(VirtualNetworks)
 !define VirtualNetworks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualNetworks, VirtualNetworks)
 !define VirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworks, VirtualNetworks)
-
-sprite $VirtualWAN [70x70/16z] {
-jPM9biGe24LP18N__-0PgykqRpHBvvovlTPsyq0qT8TeiNyfHPbU8iLcb5x0u7ZfKTlnnxgAxH5w3XlmiYgxG5wKyxutOfSKkeP5X9di1hqSiSUyAM957uxf
-Yywe_HL-AK7afGJHYxw-RmpRAueAByF-qWJrl4UUHN7tMjrlsdnfQ963QDLF-omNYl7v6Awe9sdqqj5CcJfIBpnorfRM5ONfYtU1bSyVtzIq3nAPJMcWaHcz
-VEBkMUDiBJszqO7D3wLbnga59I5qK3CR4qZZtj8_HI1n0dJHKDb8wjXXFHKKTw9PLjf_aqXsZeUeQM0HGoA3jNXh4Vb5QQ7WIX6jJKbW58XKg8cm91yJwbPg
-3jgQXYFRR66i9zELH-g3q4rDamN3pAlAG-4zLML2vZ1uDhGCg7siaLI8iuJ1WpVIq7A4q7LkCYiSLFBRMwQvegBAur7xxsBLKLB1ixTcGEIW6PyqK1BZtQJ1
-ZkcFW4_l8Qk3vBjIaGNgLa8yuGsHjPS3i5gcq86C9c6_XOMFiBMC3q14nhOiH7QQVACv3S02NTXlvW_orEBhBcGPUoj-hbDlBHMk95OZ9wHRphBmri8McKYO
-d5H4cRAnVCjeLaHcMsrfj25Ibxxmn-4wMlv3y-mKsb2x7DUezFHb7kXEC5698pfIii64XUFzhUCnRayAYu7Z2XV5qmdtroXv9R8GDY1e0AN2ctTl6Bull9jV
-A6Y1ZtsS0zdMFGhRKxETMd0u5M8YF6O0DinkE0EZ89x1yyr8Jom6KHOYsxJG9vkM5UTsrpl_H55Hp-IjHMBrhtSh-huhJawgoA0RBBD-rqQx4HXRY-aEpnmP
-VBFKBJE4xh7VzxL5uv3aMZEs8GTUkCHJoJYRl7zS8aDdHnezHrjcXcbFazR5fPjXOfzvejDgBwB51sFw7_a7
-}
-
-AzureEntityColoring(VirtualWAN)
-!define VirtualWAN(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualWAN, VirtualWAN)
-!define VirtualWAN(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualWAN, VirtualWAN)
 
 sprite $WebApplicationFirewallPolicies [70x70/16z] {
 pPVNWgmW44G5xSJe___kbR5ORMmdtdHUDX-he9Lr-CEaaLYjei9J_aGnifKEfVHU2c8f4JgzxCZ2H6GbXbxBmJKx4PSBx8KyKwdKC5gkqFpOaGJN8tGoy4wj

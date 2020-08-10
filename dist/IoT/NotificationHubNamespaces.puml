@@ -1,8 +1,0 @@
-sprite $NotificationHubNamespaces [70x70/16z] {
-xTT5GiHG50NHv-n_nVZ5sbDu_pEBLTpiUYmEsOD8okvbKMvczNiggv8UnIjXvhkZBg_SIrvHXbSiFeoAoxWzyPtm9WuhagmYgGeJgZ3Uzy8eLP8eLHevfx8g
-2OGg5SJhjj3Aau8LPM15O4KIL7OpUVdrCc_LKsKkibEPOXNfY2XScKvMaHvKaNzPMPKQgC_wAQbv8sE7dSVdbG7DAf8tJyQG65KGRrMOKeK9LHZljAkst04
-}
-
-AzureEntityColoring(NotificationHubNamespaces)
-!define NotificationHubNamespaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NotificationHubNamespaces, NotificationHubNamespaces)
-!define NotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NotificationHubNamespaces, NotificationHubNamespaces)

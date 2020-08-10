@@ -1,5 +1,0 @@
-sprite $Elixir [70x70/16z] xSm70S0m40IW__ClkXAwLm82gCq00000alGbIxwoT5Am
-
-AzureEntityColoring(Elixir)
-!define Elixir(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Elixir, Elixir)
-!define Elixir(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Elixir, Elixir)

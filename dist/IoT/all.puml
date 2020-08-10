@@ -1,46 +1,3 @@
-sprite $DigitalTwins [63x70/16z] {
-xPS7Zkmm241j2E2IV__h_bGYhS6xq-kRFkZXZfBwDuB3o-kfJ_bDboxFfWCH3T7LKqeTFR8iaAtdEfCz7JJ0czxqLNr3Pr66Lazr9vawoWJZ83EnqOlg9Q_K
-YG5tU1jrb0bizDhmRw8gCW5XOfXxVwfUbZxRkjzvKjOfcs2py_cNgHiM7u3jgTFcYxDmSa3MjYbdRnjT-fB4qzNdQEkYFMzr7JzZ26VgGMg5y1ZzgySFrL5I
-8l3qrDVXaNLU3kZCEa-8V5ATL_Ow7nvGv_lwvPrFVwdp17YhEf_lK-Vf_2CZYU1A1xRyP1p7Sb3xkhLHndhmlBeerjGfbkvIguGUNzq3SfROrtD6JsQP8J_1
-83Di9a3PyNm-BkSRG1JsR0Nj89D6dVp4rcOCSTV8RduBn2qD62DdpLDgYrfaZ1xtAXuCtRWTC4R6EiHae9F2XXwt9GVMRbYB3lhPpem2bXxbW7jHylUSdpzQ
-jks37sOCBi1wAFu3
-}
-
-AzureEntityColoring(DigitalTwins)
-!define DigitalTwins(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DigitalTwins, DigitalTwins)
-!define DigitalTwins(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DigitalTwins, DigitalTwins)
-
-sprite $EventGridSubscriptions [70x70/16z] {
-xTTNigGm38LXnQFzxtXaIjMveMpDpNpFw2Sd-bWdjK4Ns8Of8Rf69jgiAZt-cok-uFdeCir3RBHREIjYfjojE0PzMr4VZ7OPqbD6BgE7E2cAqngDX0jPZ7Gh
-5V4455wC62KKxqH8giADI187O8r8uKfq8gMsogKPCMoijoM75uxQXKToUuQqlp4Mnt3niHKM7Sl97aSnUayouxI3KPWw6RqyhbePDdTZeeNCyyDx9UCOj9Tn
-O3wZbRbc2sY6n1koaEbMI77hKc5Qnr507TRSbAAHi1DX7OGEYF3UADOtrf--NuJcuLChPqLb7dxAlzfP4I8In02VXqXG-b2dVm
-}
-
-AzureEntityColoring(EventGridSubscriptions)
-!define EventGridSubscriptions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventGridSubscriptions, EventGridSubscriptions)
-!define EventGridSubscriptions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventGridSubscriptions, EventGridSubscriptions)
-
-sprite $EventHubs [70x70/16z] {
-xTTL0WCn24LH80diVyNrDswHEkUdogsCqvCvlYgSn62qIdgjMBNGf9BsAbvXogTOHg-jU4M0ZrTmLxj8WaXxudsK9xkNIINRFrNuhgeI3R8w747e8Xa85VCA
-Y45Sg2Hz2BGf6EXeIIkFFa8pAcjVr2iI8QiY1cc-f7dquXO6cbH6h_xVrbYxbvekwNOL5g2AoiHNL1GZsHMSCqX__YBpIi5PaCoFQXMLAQ_aqs-vLlDAQ7Hj
-VyLLQ9Kx0m
-}
-
-AzureEntityColoring(EventHubs)
-!define EventHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)
-!define EventHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, EventHubs, EventHubs)
-
-sprite $FunctionApps [70x70/16z] {
-xTI7ZiCm30DG3Jgj__-3RtGPBWF9yEamIupk1vOn8hlvnFmz6uXwXUB_KqKhgbX95Tc8OyuMedYBLbInYYekE_4AHBT7KP-hy2ZcENBjXpnYf__7UsyvqbyC
-vhmGOXZv3LvLQ1Jjjo17keygT5AkWucGyoh-_gMsX0YDmaoE68r2J8u8ZP8mX50L3xuSla-Zv0o_QpHApl1xXEGClsCqIiem8cYlOF6CCc9j1E0eNN3hX0XQ
-6D2vKKR44aJf-5qO4ImYWxah5wKg4JA2ks8t1D3LAZE2rcytHxyX68oj8uuRS_m-FUOZgZubGO1so6yqFEaP0XE961x90cGm5bG9a9H1ZkICvaZ4S1KFa9ZH
-55bXS8w0aO2n3OGP94Z2w5m50H8nhog462CS7TynGcv9aC7Og4A8o40YngTL81GtMGu8sOXL8092jgl87qFtnvrO1I8bY5KWKe9O1I8bY3MJadpo3G
-}
-
-AzureEntityColoring(FunctionApps)
-!define FunctionApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FunctionApps, FunctionApps)
-!define FunctionApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FunctionApps, FunctionApps)
-
 sprite $IoTCentralApplications [70x70/16z] {
 fTLPTiCW44HHzyZ-Lvm9JbH6b53BzPdX2bvY-xMRHBFNf_FsivIF36jZyTpGRCVycI7HtcVFWinBAGSv1lUAfq7YdVGdGLB7zGfv-6z8OfvIaA2tl1yavUAG
 NWWoBy21xnUUHVFm8ELkF4Zro79rOT5PNUTJedVZPm3plxebl-cOi3m9IYOSRpA8unr1vO-nnMLmvxzwvgoa48CxlbLqEIafecooLT3WkwdePdAbX0x4hn4F
@@ -90,24 +47,6 @@ C1rmUPVgPQNTiIAT5GqLK3Fs3A5fr4mzapXgO6e1yrNueMy_mSU7Ldehe42qlM9W-bjUhoy
 AzureEntityColoring(LogicApps)
 !define LogicApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogicApps, LogicApps)
 !define LogicApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogicApps, LogicApps)
-
-sprite $NotificationHubNamespaces [70x70/16z] {
-xTT5GiHG50NHv-n_nVZ5sbDu_pEBLTpiUYmEsOD8okvbKMvczNiggv8UnIjXvhkZBg_SIrvHXbSiFeoAoxWzyPtm9WuhagmYgGeJgZ3Uzy8eLP8eLHevfx8g
-2OGg5SJhjj3Aau8LPM15O4KIL7OpUVdrCc_LKsKkibEPOXNfY2XScKvMaHvKaNzPMPKQgC_wAQbv8sE7dSVdbG7DAf8tJyQG65KGRrMOKeK9LHZljAkst04
-}
-
-AzureEntityColoring(NotificationHubNamespaces)
-!define NotificationHubNamespaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NotificationHubNamespaces, NotificationHubNamespaces)
-!define NotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NotificationHubNamespaces, NotificationHubNamespaces)
-
-sprite $NotificationHubs [70x70/16z] {
-xTT5GiHG50NHv-n_nVZ5sbDu_pEBLTpiUYmEsOD8okvbKMvczNiggv8UnIjXvhkZBg_SIrvHXbSiFeoAoxWzyPtm9WuhagmYgGeJgZ3Uzy8eLP8eLHevfx8g
-2OGg5SJhjj3Aau8LPM15O4KIL7OpUVdrCc_LKsKkibEPOXNfY2XScKvMaHvKaNzPMPKQgC_wAQbv8sE7dSVdbG7DAf8tJyQG65KGRrMOKeK9LHZljAkst04
-}
-
-AzureEntityColoring(NotificationHubs)
-!define NotificationHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NotificationHubs, NotificationHubs)
-!define NotificationHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NotificationHubs, NotificationHubs)
 
 sprite $StreamAnalyticsJobs [70x70/16z] {
 xPS7pkGW58EVN-F-9zuM8Xm2Yn0gV_lKPf9WR9CgdvpF3_m2SeB5XSa97XKv076ZPu4gBZj0c6X02CDYSbSErB2dGopA91qFeak9kGXt2Oidhk2cC1LfM8pm
