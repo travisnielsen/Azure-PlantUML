@@ -64,7 +64,7 @@
   - Source: 00057-icon-service-Notification-Hubs
     Target: NotificationHubs
   - Source: 10035-icon-service-App-Services
-    Target: AppServices
+    Target: WebApp
   - Source: 10849-icon-service-Web-Slots
     Target: WebSlots
   - Source: 10042-icon-service-API-Management-Services
@@ -81,24 +81,16 @@
     Target: MeshApplications
   - Source: 10025-icon-service-Availability-Sets
     Target: AvailabilitySets
-  - Source: 10026-icon-service-Disks-Snapshots
-    Target: DisksSnapshots
-  - Source: 10027-icon-service-OS-Images-(Classic)
-    Target: OSImages(Classic)
   - Source: 10029-icon-service-Function-Apps
     Target: FunctionApps
   - Source: 10030-icon-service-Cloud-Services-(Classic)
     Target: CloudServices(Classic)
   - Source: 10031-icon-service-Batch-Accounts
     Target: BatchAccounts
-  - Source: 10032-icon-service-Disks
-    Target: Disks
   - Source: 10033-icon-service-Images
     Target: Images
   - Source: 10034-icon-service-VM-Scale-Sets
     Target: VMScaleSets
-  - Source: 10035-icon-service-App-Services
-    Target: AppServices
   - Source: 10036-icon-service-Service-Fabric-Clusters
     Target: ServiceFabricClusters
   - Source: 10037-icon-service-Image-Definitions
@@ -107,8 +99,6 @@
     Target: ImageVersions
   - Source: 10039-icon-service-Shared-Image-Galleries
     Target: SharedImageGalleries
-  - Source: 10040-icon-service-VM-Images-(Classic)
-    Target: VMImages(Classic)
 - Name: Containers
   Services:
   - Source: 10023-icon-service-Kubernetes-Services
@@ -463,6 +453,10 @@
     Target: RemoteRendering
 - Name: Networking
   Services:
+  - Source: 10084-icon-service-Firewalls
+    Target: AzureFirewall
+  - Source: 10076-icon-service-Application-Gateways
+    Target: ApplicationGateway
   - Source: 00023-icon-service-Network-Watcher
     Target: NetworkWatcher
   - Source: 00271-icon-service-Azure-Firewall-Manager
@@ -504,13 +498,13 @@
   - Source: 10085-icon-service-Service-Endpoint-Policies
     Target: ServiceEndpointPolicies
   - Source: 10310-icon-service-NAT
-    Target: NAT
+    Target: VirtualNetworkNAT
+  - Source: 00701-icon-service-IP-Groups
+    Target: IPGroups
   - Source: 10362-icon-service-Web-Application-Firewall-Policies(WAF)
     Target: WebApplicationFirewallPolicies(WAF)
   - Source: 10365-icon-service-Proximity-Placement-Groups
     Target: ProximityPlacementGroups
-  - Source: 10371-icon-service-Reserved-IP-Addresses-(Classic)
-    Target: ReservedIPAddresses(Classic)
   - Source: 10372-icon-service-Public-IP-Prefixes
     Target: PublicIPPrefixes
   - Source: Bastion
@@ -523,18 +517,8 @@
     Target: DiskEncryptionSets
   - Source: 00469-icon-service-Internet-Analyzer-Profiles
     Target: InternetAnalyzerProfiles
-  - Source: 00701-icon-service-IP-Groups
-    Target: IPGroups
   - Source: 10003-icon-service-Reservations
     Target: Reservations
-  - Source: 10076-icon-service-Application-Gateways
-    Target: ApplicationGateways
-  - Source: 10084-icon-service-Firewalls
-    Target: Firewalls
-  - Source: 10139-icon-service-Instance-Pools
-    Target: InstancePools
-  - Source: 10310-icon-service-NAT
-    Target: NAT
   - Source: Azure-Maps
     Target: AzureMaps
   - Source: Managed-Applications
@@ -551,6 +535,10 @@
     Target: WebEnvironment
 - Name: Storage
   Services:
+  - Source: 10032-icon-service-Disks
+    Target: Disks
+  - Source: 10026-icon-service-Disks-Snapshots
+    Target: DiskSnapshots
   - Source: 00017-icon-service-Recovery-Services-Vaults
     Target: RecoveryServicesVaults
   - Source: 00691-icon-service-Azure-Stack-Edge

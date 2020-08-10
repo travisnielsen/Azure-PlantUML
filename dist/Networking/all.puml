@@ -1,3 +1,16 @@
+sprite $ApplicationGateway [70x70/16z] {
+rT9PskGW28LXeXv1zh_WBdzhEFtGN8IUlvkQg3U9AlzJRMh_UKGVZPz7cAaZpDGHPke8CtM4cJh2J1rXfewO4LD2J9Vl5Z5t4NEVqqz6p5t45_IBcC3CcHmv
+YYjCiPjJSoP7dW-pXGEkbCaHc_174u3TMXj6T1bwwm1qOlcDdM94NUNHjOK9EumcJ8geN-UByrYADfPhmgI8FPNBTrz_wswHoP6e-DXlII4c8fH3TlCeKqG6
+ASH4X1Nlbrn3_JGx35EPoH1k6MmPCDrjqNaX9aKukFi2qEGoFY-HoP6hJzwUZNHDc1mHmMTXEp1dfobc8ZB76n6nm_IhsJ8Rdxd6J4GKCWv2stp2PxA9VXX2
+x1L4kctaABRyj8QSsaP4xTqWX1Jf7yHKMXzzyFG3OSL027_rHhQowqRCJeqQuHimGifkiC9TGI645MAYifzn1EKWKR4UbCyCVgJ0eg8jAlRUKR1232c4a488
+CQm8I26454Ps88L7MUaI5KQOqK_slQ9KG8W9iS8bICwGaY8SxYcCSBYdCC8XLt8aXbp9aHXo9I9vI9HR23Cw7dNPNMCNaJnaeoCW1IOW1IOW1IOW1IOW1IOY
+9IOWDQQCC6DbX1b62g6ESAWZ7Ee81qRgWP5wOAJUN8kGSgtB7-eR
+}
+
+AzureEntityColoring(ApplicationGateway)
+!define ApplicationGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ApplicationGateway, ApplicationGateway)
+!define ApplicationGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ApplicationGateway, ApplicationGateway)
+
 sprite $ApplicationSecurityGroups [70x70/16z] {
 rT69KYmz241XiW6dVV_dlUwfbiwOTFHVxbUhpimf8FATqjGTt4rBaZtDERCizrKdqhlp90Dmqmzc3dYvFuZf5-Q0hO-J3N2zCC2hB2b67oHomDjadbIgGHma
 ZWFUIfQ1-d4_-b4VwLzpDzNq9GAdpoRCdKyc9mtSNkWoU-50gEW6ZnNN3VPNL6p1h6Aiy7d5PvOgCjCMAYupzR-hbFppIcwjrRHSiNTuQBmfeM8VLYgfjYvl
@@ -10,6 +23,17 @@ v8VQojiy0m
 AzureEntityColoring(ApplicationSecurityGroups)
 !define ApplicationSecurityGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ApplicationSecurityGroups, ApplicationSecurityGroups)
 !define ApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ApplicationSecurityGroups, ApplicationSecurityGroups)
+
+sprite $AzureFirewall [70x70/16z] {
+xTBL6jmW48RX7nZ3xlzowzs9hC2IUj_JoVC5mo_qNqo9Y58AU5SWKSS9RuYYHuH9WTMvX1b97s2COtr8mbB4CmiH9tDdid8sGS_cRqhqDRmITG2jBCMD7EtI
+oKGI7IGhgt2uAuXDYS0PsQI4CxPPX1EnQPB2oagS4k2IlSqxmHPeyFsiYBwKvGpRgW30bWcGR5q2spg5v0iaonVWIohcbHNNL2HVWV8LOhu2zWTJsvXogF0k
+qWUrlAK8-qghRlVjTj8E5G9uNockLxdHxQGUAW60-NYyKZO40E9Y9GTyHciLmbViuzxSFjaUJ0JViLV6U4NXKjukjNNJcz9h-S8dvXN1Lj1THUMczBAhR0yf
+4mwYJbSOE0jK9YfAU426Am6FoUqENB_nIQzuGWxlfJgV35J6tku_MAckLtE72PxWFgZYcTo6LC9Fyzz7
+}
+
+AzureEntityColoring(AzureFirewall)
+!define AzureFirewall(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFirewall, AzureFirewall)
+!define AzureFirewall(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFirewall, AzureFirewall)
 
 sprite $AzureFirewallManager [70x70/16z] {
 xTG75k8m34LHoP9-cht_xSvng1QGQ3IzF3gOcsxwxVjVsLgkXP-KZkIQdfIMRXcLpLNRDesjhuDUbNMijXLZIsjkpCzL_YlLrLhrn_vra5EIVLgNTvjMx_b1
@@ -102,6 +126,16 @@ AzureEntityColoring(FrontDoors)
 !define FrontDoors(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, FrontDoors, FrontDoors)
 !define FrontDoors(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, FrontDoors, FrontDoors)
 
+sprite $IPGroups [70x70/16z] {
+xTS5aiCm38LX6IBg_U-xup9fzSgKhmpw9nu8q0lCPbroJ9a5ea4LquXTK2aKChn2CSKhjOJ0RG4ygyA8Iea9KLvHOSzPpogw01XKSGwjVeSgJA7wx8grq0HM
+04-gJ7pMT2YfOFfBAkevArd54HsgS0yPNgaKuljKdhaYm1qhLFUrmygL1uZwWifS4Jbw8t9vnTnTnwoxs-OBkR0YFgo7HqPzkAoo7X9cNq_R_vK2L2of36NV
+9hCQNkTalKI5Jv5uJMqr8wh2mtZ5Au0hAtE54Ur95G6qkrmE5dg-sUmF
+}
+
+AzureEntityColoring(IPGroups)
+!define IPGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, IPGroups, IPGroups)
+!define IPGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, IPGroups, IPGroups)
+
 sprite $LoadBalancers [70x70/16z] {
 fTO7ZiGW341HYespzx_miX2Xlo4Z2yzNcSeJf2Ult9gaRolMa-yHC75afjyYPE88cJX29euq1HD6f8A98vLC724JHyW4aJ139CmG2JD40WoGoVHkIiTx0-CZ
 R2eB0ECWhaB6HwZu315V8UCZL8oHyH4g3aF4Kto622kvL_GpuoEjfBki7aD4-6_vV2bNCFZBzPT9rMjLKsBPhfLMjVdc5O4YQ_XYe83P42WjZQIPcKweGW6p
@@ -114,19 +148,6 @@ r1dEfYs-bxaW7dRwHCX0kVBBSvr1UI1aeBI4WrVsCu38nhJdAPt74JWoA4HsPYXO4y9FIeJCIsMxl20W
 AzureEntityColoring(LoadBalancers)
 !define LoadBalancers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LoadBalancers, LoadBalancers)
 !define LoadBalancers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LoadBalancers, LoadBalancers)
-
-sprite $NAT [70x70/16z] {
-fTK7akCW54NH1_oFFVlVy1XQw7RqAw5RIQLmb46sMdM_oCoY-mZCFGHc7u7PHs3k8p3x2Cm-0dCNWTb7OBOH5SzuH5-PNSGp7Z7C1SGn7l6CHppZ4Sju9Cgh
-9Op2Co341ILv9lht3gN_28P0Z68O4AV0E8HG30DY5CE0N55WG3OK690h2fMVIBJQmYlPQWqOWN1v9OrIpwDWGBJATmedRwpuOfR8A8EPVLToLYMrZ2hELa1Y
-_Vj3gwFugcIThPCqgVR5d4jj_T6nbFn3gUVVpkFccOd1u6-bI6sD3IZwSIrv_LgQolBMSwbEqRhnoWMycCVeU4S3KMtnAiTQpUOEOrshnsvjQ8zPas1IgrfR
-pbKeH-Dwj6eW4anPI8NH3EHWG4A2cKKzWa4P2BKE8fXLRp0e800WXa4nY64qCuXXK0m2msQOfHZ4CPgTo8D0B5CrCuXbK3m2Gmr4UeDuHcT_8fuv_jyOw_z2
-F2F64ls1UAQVurf10N7CywD-Zh5LMYkVNn7FFAJ2jO1SP8eKQ-u1kSgaf1fH9NMGgmm7XK7irOmIP8jvzeZ-1DbW26IN0TbZxY8m8FUPb6un_qOWkymzX84Y
-vFeF
-}
-
-AzureEntityColoring(NAT)
-!define NAT(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NAT, NAT)
-!define NAT(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NAT, NAT)
 
 sprite $NetworkInterfaces [70x70/16z] {
 xTU5aeCm481XM4VU_tcl2JEtnoqMKc__aIeVBcdkqxUsi2M3j3W94EY9f6PHl0EA3UDYdV-bFQ2Co_NNLY0N5VPqNw5S6nJqQXJsDNe2HMXAgnJ6QeMIeZbx
@@ -222,15 +243,6 @@ AzureEntityColoring(PublicIPPrefixes)
 !define PublicIPPrefixes(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, PublicIPPrefixes, PublicIPPrefixes)
 !define PublicIPPrefixes(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, PublicIPPrefixes, PublicIPPrefixes)
 
-sprite $ReservedIPAddresses [70x70/16z] {
-xTG5aiCm341HnI2w_trtowrSr8GJ_K7JAmHWDqMfTnq0Q_yIo7QLchozKZ9uarqe1PnrHkdHXfMA_Hj6wRQZX18ACPCTCZvaXkyKqbCtHqv3jaFveh2gOUGo
-b6RuMT5hOb4bE-HF2gizfbOLE_GhsWmdLT3nYtp_BltsxoBrkzAMaNTt7P-7xYS0co4nnVkbAPHGS35A0gJ-BKdf89NUPTXBqJy
-}
-
-AzureEntityColoring(ReservedIPAddresses(Classic))
-!define ReservedIPAddresses(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ReservedIPAddresses(Classic), ReservedIPAddresses(Classic))
-!define ReservedIPAddresses(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ReservedIPAddresses(Classic), ReservedIPAddresses(Classic))
-
 sprite $RouteFilters [70x70/16z] {
 xT85Oi0m241H4hJS_xwJjdHCKf_d7-1507vAlLuFQNUbYP0UgCdeaV2dASXpvGD5Q8wt59_ZzufiVdWeWBiKt520Rb7ieXB8TSNyiXA8uHKb480wd5RAX2Wy
 LV6aGe7CAILbhC9SuQOY8o8GcLCe1v905iLvIs6C92aCa1Nd3GMMQYY19CNbk6AS6tnYZYeV9hSehhSe_dFkec3jac9JueFc0ZciL4Z9XAmgQNSNnRrcPKAI
@@ -278,6 +290,19 @@ G4X0o7C50mQ4ugICsKCm8EG71MF9UNQPuwiY8CM6xriQ9_ugzl20xWy
 AzureEntityColoring(VirtualNetworkGateways)
 !define VirtualNetworkGateways(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualNetworkGateways, VirtualNetworkGateways)
 !define VirtualNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworkGateways, VirtualNetworkGateways)
+
+sprite $VirtualNetworkNAT [70x70/16z] {
+fTK7akCW54NH1_oFFVlVy1XQw7RqAw5RIQLmb46sMdM_oCoY-mZCFGHc7u7PHs3k8p3x2Cm-0dCNWTb7OBOH5SzuH5-PNSGp7Z7C1SGn7l6CHppZ4Sju9Cgh
+9Op2Co341ILv9lht3gN_28P0Z68O4AV0E8HG30DY5CE0N55WG3OK690h2fMVIBJQmYlPQWqOWN1v9OrIpwDWGBJATmedRwpuOfR8A8EPVLToLYMrZ2hELa1Y
+_Vj3gwFugcIThPCqgVR5d4jj_T6nbFn3gUVVpkFccOd1u6-bI6sD3IZwSIrv_LgQolBMSwbEqRhnoWMycCVeU4S3KMtnAiTQpUOEOrshnsvjQ8zPas1IgrfR
+pbKeH-Dwj6eW4anPI8NH3EHWG4A2cKKzWa4P2BKE8fXLRp0e800WXa4nY64qCuXXK0m2msQOfHZ4CPgTo8D0B5CrCuXbK3m2Gmr4UeDuHcT_8fuv_jyOw_z2
+F2F64ls1UAQVurf10N7CywD-Zh5LMYkVNn7FFAJ2jO1SP8eKQ-u1kSgaf1fH9NMGgmm7XK7irOmIP8jvzeZ-1DbW26IN0TbZxY8m8FUPb6un_qOWkymzX84Y
+vFeF
+}
+
+AzureEntityColoring(VirtualNetworkNAT)
+!define VirtualNetworkNAT(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualNetworkNAT, VirtualNetworkNAT)
+!define VirtualNetworkNAT(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualNetworkNAT, VirtualNetworkNAT)
 
 sprite $VirtualNetworks [70x70/16z] {
 xTC5ZWCn38NXW4FtFt39hdSJDQDVl91Nj1n_m-6lv-JaH5gwwDRAa376dcbZT8OeiqC88qEpEHnjDeBiDrU6CGo9cmNL6OO01Y200GXW008OW10688JX26Vo

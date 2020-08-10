@@ -74,6 +74,30 @@ AzureEntityColoring(DataShares)
 !define DataShares(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DataShares, DataShares)
 !define DataShares(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DataShares, DataShares)
 
+sprite $Disks [70x70/16z] {
+xT07jkGW34HHaQGgUVQ_tHyv0swmstXok0ju2YB__HTYZEb3Z378ifYBsa1BlXnBnKwL59uc582T0g19ZeK2u4hbJGa73UMrIAMpJi9Q14GU8eN4KeLlT8oi
+hZ9cqc44rJH2PkbW6g5lsvTgSySO8QK9d5HO2yqsLZosIfn4h4Pw72AU-ieOCVZZAjv7QYMtIa2hz4ZVtbwplN5oSe-pT1KEaT4iukWhpiL8hS1t5UTYfKOU
+AaxSYVGLyNV0IeHmVwZGnyvv1VufIbEy8d0fuXMbLzDZQ8o0taJf1VeEtZrK282-asGlm6V8ocUI38eliY0JGPSQKGw4mjN6_P0bUIOMmqc8i1AV9wm2k8kH
+1Amw2oMropJ9L5HReb56sPQL8LBi1WsJo3gLNh8Z-6G7idJqeC3EF2LDc3Oui55ibVXTAk7ye0esaSRA25_PbEQk0hkhh_1cHhchtCnmNxcJKR1MAl96Xtoe
+69Sx_1IaIMHbbu2LIa_PmCwnGP0nqm2dEuoHgd2P1Hb4un9acKgssfYB1Rp2aWmMGvQ3N11IiNaAcgEi237beghsHbLBIJ78h_3VAm
+}
+
+AzureEntityColoring(Disks)
+!define Disks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Disks, Disks)
+!define Disks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Disks, Disks)
+
+sprite $DiskSnapshots [70x70/16z] {
+xTXNigim381XMLRdxd-zDssE1sC5CRpcUqk0dru1iDFGeMGt2Jx_q1s40jIT3Y3NA_ESvLsHeK51aq4VNXM66_XNUVfL6dPYPdbYfexjQWL9T46ujse5MRyG
+QdD5093sVvFQ6K4O6X72XDGgf46kYLNrFA9MHv0GE_8tEq9OGfl5jltxsBQv9B14DdabXh2zOYLscSrB5RO3ZzXU8joiNgcBf19Mvv5MmhmgiWh5WvKZ3aiO
+KUp4ayAQnflRQU818U7n9oaC12cBoJJz5CcGHuKrIDGxrk5Sbwy9HgZfOXuhhjoW15dVpFuEi0UpmqqWXwBd-7kdYTOGv53Bk12van4ziWyzwDL5CVTX3Wai
+TPtudfKhzvU5TCLUT06MM2-nfE9wWQSLjteagv0_Q8cvky9IyvTIuu5XJVpZDF5Wa54VB2ky6KAAlKWRV87g1KOmGxpOCJfEpwfJkP5woXWFvmrdRnF8QZxJ
+wJKWgKom4p6pCDFqIf9KodwLNqLeW18Qv5sv_qM90UZ-5oM2_m
+}
+
+AzureEntityColoring(DiskSnapshots)
+!define DiskSnapshots(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DiskSnapshots, DiskSnapshots)
+!define DiskSnapshots(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DiskSnapshots, DiskSnapshots)
+
 sprite $ImportExportJobs [70x70/16z] {
 xT9NWjim34NH9rJQ-zzl2YEu6oI5z9dpgN9PyNiGCJDjbOAQ1-LZ9Ov4qFKEcJyJh15_oPQce-wbJ4Jg6VM4OGvxIZ5Zym6QFfxocjphazd4XnGfKfyoSpQL
 9P7vD2vD94XolFEiE9DWWYVaO-FpzcDePbE4bixAsoi2RDvoDnb-5nbdV4EmDv6f348IYSnuJPH48ZEU36UHSORGIHOPPoGgIMISCNISHSOPVxsxMtS9TDhU

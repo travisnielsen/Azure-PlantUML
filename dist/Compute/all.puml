@@ -54,22 +54,6 @@ AzureEntityColoring(AppServicePlans)
 !define AppServicePlans(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AppServicePlans, AppServicePlans)
 !define AppServicePlans(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AppServicePlans, AppServicePlans)
 
-sprite $AppServices [70x70/16z] {
-rTPNqiFS2O3XS-Ym_mK7uKX1Cb_DNvyPtxu3naNhNm98r3oP2i7wXKqM3yO_B04YnS1vh-zYngGnakzrEC8naSTClh6BHH9CcPivVZb8SSAauPUVZ7FTHJ6H
-tqNKpG-urqUsnuKniNScr7oK0O-Jk-D1_AHCcCRCF8aVj3BwtmIMUmUc2FT8OZnODWXlFfk6s7ia4IOImYSY5bKp7IBilP4C4M73ey1grzsV6M1chKYZ6Taz
-Gs9UpWoj6qxoh4X64ZmIFRDlaNAF62F-BqDgvjtxJjkhubrTviomMhbL2goBH5NKBoPOAWCeLeQChTEE44xoY9HQQCxSX-48vSCGGSRIC_Cxun76YPIE1L0O
-BsAAXOTCFnD6X1-HtNzt2wlPbEaLNaKY2SDgzZb8mKBpC7Okb1JMtH7Hr3DgPLffnu7MmqPj4AgZKmLNmZPMHzeHj5EvMQl8IjoltkcKuOpK6O1lRqnzbTU0
-zOQna6IZR7jLV2MheGQWTu8b8rScodaYMeEjJnLfmAyZHS8zqJUKbKwh0Z-icE3kw5QXFO2XOh0xl5Lq3_2dbO3z000oH0oXewlYaGZUwLHXwDZF6raaXpSy
-LXIwrz_FIX87WGSQ8_TXY9FvIXI5uGRLveeHdeXVLe8eGjWHoH0fWY_gKX5QX_CPZAWraaoHeiAYdemJL4KZrQ14JFLwuR5n_vNApYeKYQaodepff6QtHldW
-hwGMgehw8oDs40JW5dd-O9uhMLLeU0vKuxqAZH5VfQuab91zoE0wuLIHTRAWeduoVKGAVVe4Wq75Ix5pdDsPJwESX0xidUbxXSTHJa073R-nZEFky1dXrI4b
-Z_1dvr5XKMiHNtSPuKZ-8D0X7PZbXM7TRIA98MFGlI8NN4z05bC67nLkrZlqYA5ZtuyKZZ6ZU6ALMsH6CNQCiEZhDkTFmYfpPku8YrttBRe-1XwDtqJ7wrCQ
-t-2m1iEfFYFh6_ZpZkur-5b7O7qVQWoCzleXOFLUa9RucGr82M6lly1_
-}
-
-AzureEntityColoring(AppServices)
-!define AppServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AppServices, AppServices)
-!define AppServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AppServices, AppServices)
-
 sprite $AvailabilitySets [70x70/16z] {
 xTXbmjmm38HXpKZ6-z-t4AMr5_pP6s-vpy_06qRvhTHQWqYgJaHGNP2dWwE8nEfmp6vlh0I8W4w-e8Ei34O-AggG7MgGtqkjb1svsbBbVmKpAvLOPtHKYH5j
 m4oK1p6TwOsA-ncLibm90ODAKLYPLYpGZz7pIY00nbabLnjN8k4qNQza8npjUYLHrHksLI5DeRPTeGRRhDXNuL2Qo1FkAgGyLdAQePpGYlULDANI_6QLMhbG
@@ -105,30 +89,6 @@ y2vkIooa_XP6a_hhFWN-Vem1Ayfx6QNOq3jrah5dTR_8Y2sdaz85ruY8NoB2F-oFF_xu1
 AzureEntityColoring(CloudServices(Classic))
 !define CloudServices(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, CloudServices(Classic), CloudServices(Classic))
 !define CloudServices(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, CloudServices(Classic), CloudServices(Classic))
-
-sprite $Disks [70x70/16z] {
-xT07jkGW34HHaQGgUVQ_tHyv0swmstXok0ju2YB__HTYZEb3Z378ifYBsa1BlXnBnKwL59uc582T0g19ZeK2u4hbJGa73UMrIAMpJi9Q14GU8eN4KeLlT8oi
-hZ9cqc44rJH2PkbW6g5lsvTgSySO8QK9d5HO2yqsLZosIfn4h4Pw72AU-ieOCVZZAjv7QYMtIa2hz4ZVtbwplN5oSe-pT1KEaT4iukWhpiL8hS1t5UTYfKOU
-AaxSYVGLyNV0IeHmVwZGnyvv1VufIbEy8d0fuXMbLzDZQ8o0taJf1VeEtZrK282-asGlm6V8ocUI38eliY0JGPSQKGw4mjN6_P0bUIOMmqc8i1AV9wm2k8kH
-1Amw2oMropJ9L5HReb56sPQL8LBi1WsJo3gLNh8Z-6G7idJqeC3EF2LDc3Oui55ibVXTAk7ye0esaSRA25_PbEQk0hkhh_1cHhchtCnmNxcJKR1MAl96Xtoe
-69Sx_1IaIMHbbu2LIa_PmCwnGP0nqm2dEuoHgd2P1Hb4un9acKgssfYB1Rp2aWmMGvQ3N11IiNaAcgEi237beghsHbLBIJ78h_3VAm
-}
-
-AzureEntityColoring(Disks)
-!define Disks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Disks, Disks)
-!define Disks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Disks, Disks)
-
-sprite $DisksSnapshots [70x70/16z] {
-xTXNigim381XMLRdxd-zDssE1sC5CRpcUqk0dru1iDFGeMGt2Jx_q1s40jIT3Y3NA_ESvLsHeK51aq4VNXM66_XNUVfL6dPYPdbYfexjQWL9T46ujse5MRyG
-QdD5093sVvFQ6K4O6X72XDGgf46kYLNrFA9MHv0GE_8tEq9OGfl5jltxsBQv9B14DdabXh2zOYLscSrB5RO3ZzXU8joiNgcBf19Mvv5MmhmgiWh5WvKZ3aiO
-KUp4ayAQnflRQU818U7n9oaC12cBoJJz5CcGHuKrIDGxrk5Sbwy9HgZfOXuhhjoW15dVpFuEi0UpmqqWXwBd-7kdYTOGv53Bk12van4ziWyzwDL5CVTX3Wai
-TPtudfKhzvU5TCLUT06MM2-nfE9wWQSLjteagv0_Q8cvky9IyvTIuu5XJVpZDF5Wa54VB2ky6KAAlKWRV87g1KOmGxpOCJfEpwfJkP5woXWFvmrdRnF8QZxJ
-wJKWgKom4p6pCDFqIf9KodwLNqLeW18Qv5sv_qM90UZ-5oM2_m
-}
-
-AzureEntityColoring(DisksSnapshots)
-!define DisksSnapshots(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, DisksSnapshots, DisksSnapshots)
-!define DisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, DisksSnapshots, DisksSnapshots)
 
 sprite $FunctionApps [70x70/16z] {
 xTI7ZiCm30DG3Jgj__-3RtGPBWF9yEamIupk1vOn8hlvnFmz6uXwXUB_KqKhgbX95Tc8OyuMedYBLbInYYekE_4AHBT7KP-hy2ZcENBjXpnYf__7UsyvqbyC
@@ -212,18 +172,6 @@ AzureEntityColoring(NotificationHubs)
 !define NotificationHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, NotificationHubs, NotificationHubs)
 !define NotificationHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, NotificationHubs, NotificationHubs)
 
-sprite $OSImages [70x70/16z] {
-tTPNefWW54NHSpkG-Oyt5GtoiA6fwykwxGN_7TBd2F46ZZVOQnNZ9wnM64zGhT1x5J9V6VQfhum-L3mQs1SDxohzt7qUZL655cYHTEEBkcPVmOYOcM3aUeNj
-1tbG8RM5ycn5hALqK4afyR32rfDnvMjXhy8smlSgP6CyhlXE9NpGIEMiuk6RIeIhjJHAsLGy0dq5XAuIOQrIkWgOFbRGLRQTNDfAwxnI3qjJARELojHBULm9
-B_zM9UVC-8gLRbRgwuk-5jPAHDoiUFWhbJYh-CDAfODAC6vMmDvLaW1tAfLuKya6x5PYNAdKbqeGfYiW-rv93CnLAdRF2bolo8BG4hI85p6gJFmp_Amijv9D
-LFHxvMjXhK1q9TWdjb9qbKbjHV24r4hs9tAjFFHQnNDvBXDabwMMoIuSqKyjmnpxQol-Hok-gGJcfD9Ac5EsC8Mx2cE6TvN012ezdeZaqiktCvhBHzbm7Mda
-CfR369TuFkRNZkMCuLpAft1Ep-4N-G8
-}
-
-AzureEntityColoring(OSImages(Classic))
-!define OSImages(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, OSImages(Classic), OSImages(Classic))
-!define OSImages(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, OSImages(Classic), OSImages(Classic))
-
 sprite $ServiceFabricClusters [70x70/16z] {
 rTO7akGm20LGChx_XJVRBVUdAKaxyLMO_2Lm6OQ-4n4Lfl_2vdyfxJD_uEsG63XlXuoSTd0yiVshZ9ZM1L1Q9W7iJL9y8oN1fwLG0gLbcY1ebMT5TfkotnhB
 buAfmypdPv4TU_m5tOdvRoQtjjhZSsUEiIfMc5viVc7F4r_volSwHVqYPuZ70Fk8FQ_UKO_066sUVzn9EKUw9w55IZ0H1wPODm6pcXWMGAZZ0OW2KSi2y7gA
@@ -258,18 +206,6 @@ AzureEntityColoring(VirtualMachine)
 !define VirtualMachine(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualMachine, VirtualMachine)
 !define VirtualMachine(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualMachine, VirtualMachine)
 
-sprite $VMImages [70x70/16z] {
-tTPNefWW54NHSpkG-Oyt5GtoiA6fwykwxGN_7TBd2F46ZZVOQnNZ9wnM64zGhT1x5J9V6VQfhum-L3mQs1SDxohzt7qUZL655cYHTEEBkcPVmOYOcM3aUeNj
-1tbG8RM5ycn5hALqK4afyR32rfDnvMjXhy8smlSgP6CyhlXE9NpGIEMiuk6RIeIhjJHAsLGy0dq5XAuIOQrIkWgOFbRGLRQTNDfAwxnI3qjJARELojHBULm9
-B_zM9UVC-8gLRbRgwuk-5jPAHDoiUFWhbJYh-CDAfODAC6vMmDvLaW1tAfLuKya6x5PYNAdKbqeGfYiW-rv93CnLAdRF2bolo8BG4hI85p6gJFmp_Amijv9D
-LFHxvMjXhK1q9TWdjb9qbKbjHV24r4hs9tAjFFHQnNDvBXDabwMMoIuSqKyjmnpxQol-Hok-gGJcfD9Ac5EsC8Mx2cE6TvN012ezdeZaqiktCvhBHzbm7Mda
-CfR369TuFkRNZkMCuLpAft1Ep-4N-G8
-}
-
-AzureEntityColoring(VMImages(Classic))
-!define VMImages(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VMImages(Classic), VMImages(Classic))
-!define VMImages(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VMImages(Classic), VMImages(Classic))
-
 sprite $VMScaleSets [70x70/16z] {
 xSu95jiW34NHwEiBaDtzhxSXk3uUCXZKkNqBkEVT_iQGhcGV5FzogVHUcQuf-OzMvk-XE3b5bSb416cEA7E6FD8ohhZA6gTHnGXPWfLX1MGpQ0me05L4ZOmf
 K3Coh40PLfXIoezytbIuIzuhdAxrJicmYugyKcgUWafh_hsLp19Md292Zoa6gI45b0pvbfPHnRbHx9rYq-iSkZWWUL9Unxq2A4M45bG0LYEim1XHlDYZr2hR
@@ -280,6 +216,22 @@ KHOVKbe9Kf5c32ajGfDxLF7sqQTCb_gTbFGpNZJlAwryI6vTUIlVGfLMKCcjz1ieabenHMq9aHMkZHlW
 AzureEntityColoring(VMScaleSets)
 !define VMScaleSets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VMScaleSets, VMScaleSets)
 !define VMScaleSets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VMScaleSets, VMScaleSets)
+
+sprite $WebApp [70x70/16z] {
+rTPNqiFS2O3XS-Ym_mK7uKX1Cb_DNvyPtxu3naNhNm98r3oP2i7wXKqM3yO_B04YnS1vh-zYngGnakzrEC8naSTClh6BHH9CcPivVZb8SSAauPUVZ7FTHJ6H
+tqNKpG-urqUsnuKniNScr7oK0O-Jk-D1_AHCcCRCF8aVj3BwtmIMUmUc2FT8OZnODWXlFfk6s7ia4IOImYSY5bKp7IBilP4C4M73ey1grzsV6M1chKYZ6Taz
+Gs9UpWoj6qxoh4X64ZmIFRDlaNAF62F-BqDgvjtxJjkhubrTviomMhbL2goBH5NKBoPOAWCeLeQChTEE44xoY9HQQCxSX-48vSCGGSRIC_Cxun76YPIE1L0O
+BsAAXOTCFnD6X1-HtNzt2wlPbEaLNaKY2SDgzZb8mKBpC7Okb1JMtH7Hr3DgPLffnu7MmqPj4AgZKmLNmZPMHzeHj5EvMQl8IjoltkcKuOpK6O1lRqnzbTU0
+zOQna6IZR7jLV2MheGQWTu8b8rScodaYMeEjJnLfmAyZHS8zqJUKbKwh0Z-icE3kw5QXFO2XOh0xl5Lq3_2dbO3z000oH0oXewlYaGZUwLHXwDZF6raaXpSy
+LXIwrz_FIX87WGSQ8_TXY9FvIXI5uGRLveeHdeXVLe8eGjWHoH0fWY_gKX5QX_CPZAWraaoHeiAYdemJL4KZrQ14JFLwuR5n_vNApYeKYQaodepff6QtHldW
+hwGMgehw8oDs40JW5dd-O9uhMLLeU0vKuxqAZH5VfQuab91zoE0wuLIHTRAWeduoVKGAVVe4Wq75Ix5pdDsPJwESX0xidUbxXSTHJa073R-nZEFky1dXrI4b
+Z_1dvr5XKMiHNtSPuKZ-8D0X7PZbXM7TRIA98MFGlI8NN4z05bC67nLkrZlqYA5ZtuyKZZ6ZU6ALMsH6CNQCiEZhDkTFmYfpPku8YrttBRe-1XwDtqJ7wrCQ
+t-2m1iEfFYFh6_ZpZkur-5b7O7qVQWoCzleXOFLUa9RucGr82M6lly1_
+}
+
+AzureEntityColoring(WebApp)
+!define WebApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, WebApp, WebApp)
+!define WebApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, WebApp, WebApp)
 
 sprite $WebSlots [70x70/16z] {
 xTC54i8m48NXjnh8_U-BKvTDSFd7gj-q4Nnah7THJE-YcDv5CRsBOdeNnVGkIZr3n2AYLi-mg3NLCTm8zOpON7e78ywmBKS8fBvO3B4x86I-NFXBxe-OYZ2p

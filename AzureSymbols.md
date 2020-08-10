@@ -61,12 +61,9 @@ Compute | AppServiceCertificates </br> (App Service Certificates) | ![AppService
 Compute | AppServiceDomains </br> (App Service Domains) | ![AppServiceDomains](dist/Compute/AppServiceDomains.png?raw=true) | ![AppServiceDomains](dist/Compute/AppServiceDomains(m).png?raw=true) | Compute/AppServiceDomains.puml
 Compute | AppServiceEnvironments </br> (App Service Environments) | ![AppServiceEnvironments](dist/Compute/AppServiceEnvironments.png?raw=true) | ![AppServiceEnvironments](dist/Compute/AppServiceEnvironments(m).png?raw=true) | Compute/AppServiceEnvironments.puml
 Compute | AppServicePlans </br> (App Service Plans) | ![AppServicePlans](dist/Compute/AppServicePlans.png?raw=true) | ![AppServicePlans](dist/Compute/AppServicePlans(m).png?raw=true) | Compute/AppServicePlans.puml
-Compute | AppServices </br> (App Services) | ![AppServices](dist/Compute/AppServices.png?raw=true) | ![AppServices](dist/Compute/AppServices(m).png?raw=true) | Compute/AppServices.puml
 Compute | AvailabilitySets </br> (Availability Sets) | ![AvailabilitySets](dist/Compute/AvailabilitySets.png?raw=true) | ![AvailabilitySets](dist/Compute/AvailabilitySets(m).png?raw=true) | Compute/AvailabilitySets.puml
 Compute | BatchAccounts </br> (Batch Accounts) | ![BatchAccounts](dist/Compute/BatchAccounts.png?raw=true) | ![BatchAccounts](dist/Compute/BatchAccounts(m).png?raw=true) | Compute/BatchAccounts.puml
 Compute | CloudServices(Classic) </br> (Cloud Services( Classic)) | ![CloudServices(Classic)](dist/Compute/CloudServices(Classic).png?raw=true) | ![CloudServices(Classic)](dist/Compute/CloudServices(Classic)(m).png?raw=true) | Compute/CloudServices(Classic).puml
-Compute | Disks </br> (Disks) | ![Disks](dist/Compute/Disks.png?raw=true) | ![Disks](dist/Compute/Disks(m).png?raw=true) | Compute/Disks.puml
-Compute | DisksSnapshots </br> (Disks Snapshots) | ![DisksSnapshots](dist/Compute/DisksSnapshots.png?raw=true) | ![DisksSnapshots](dist/Compute/DisksSnapshots(m).png?raw=true) | Compute/DisksSnapshots.puml
 Compute | FunctionApps </br> (Function Apps) | ![FunctionApps](dist/Compute/FunctionApps.png?raw=true) | ![FunctionApps](dist/Compute/FunctionApps(m).png?raw=true) | Compute/FunctionApps.puml
 Compute | ImageDefinitions </br> (Image Definitions) | ![ImageDefinitions](dist/Compute/ImageDefinitions.png?raw=true) | ![ImageDefinitions](dist/Compute/ImageDefinitions(m).png?raw=true) | Compute/ImageDefinitions.puml
 Compute | Images </br> (Images) | ![Images](dist/Compute/Images.png?raw=true) | ![Images](dist/Compute/Images(m).png?raw=true) | Compute/Images.puml
@@ -74,12 +71,11 @@ Compute | ImageVersions </br> (Image Versions) | ![ImageVersions](dist/Compute/I
 Compute | KubernetesServices </br> (Kubernetes Services) | ![KubernetesServices](dist/Compute/KubernetesServices.png?raw=true) | ![KubernetesServices](dist/Compute/KubernetesServices(m).png?raw=true) | Compute/KubernetesServices.puml
 Compute | MeshApplications </br> (Mesh Applications) | ![MeshApplications](dist/Compute/MeshApplications.png?raw=true) | ![MeshApplications](dist/Compute/MeshApplications(m).png?raw=true) | Compute/MeshApplications.puml
 Compute | NotificationHubs </br> (Notification Hubs) | ![NotificationHubs](dist/Compute/NotificationHubs.png?raw=true) | ![NotificationHubs](dist/Compute/NotificationHubs(m).png?raw=true) | Compute/NotificationHubs.puml
-Compute | OSImages(Classic) </br> (OS Images( Classic)) | ![OSImages(Classic)](dist/Compute/OSImages(Classic).png?raw=true) | ![OSImages(Classic)](dist/Compute/OSImages(Classic)(m).png?raw=true) | Compute/OSImages(Classic).puml
 Compute | ServiceFabricClusters </br> (Service Fabric Clusters) | ![ServiceFabricClusters](dist/Compute/ServiceFabricClusters.png?raw=true) | ![ServiceFabricClusters](dist/Compute/ServiceFabricClusters(m).png?raw=true) | Compute/ServiceFabricClusters.puml
 Compute | SharedImageGalleries </br> (Shared Image Galleries) | ![SharedImageGalleries](dist/Compute/SharedImageGalleries.png?raw=true) | ![SharedImageGalleries](dist/Compute/SharedImageGalleries(m).png?raw=true) | Compute/SharedImageGalleries.puml
 Compute | VirtualMachine </br> (Virtual Machine) | ![VirtualMachine](dist/Compute/VirtualMachine.png?raw=true) | ![VirtualMachine](dist/Compute/VirtualMachine(m).png?raw=true) | Compute/VirtualMachine.puml
-Compute | VMImages(Classic) </br> (VM Images( Classic)) | ![VMImages(Classic)](dist/Compute/VMImages(Classic).png?raw=true) | ![VMImages(Classic)](dist/Compute/VMImages(Classic)(m).png?raw=true) | Compute/VMImages(Classic).puml
 Compute | VMScaleSets </br> (VM Scale Sets) | ![VMScaleSets](dist/Compute/VMScaleSets.png?raw=true) | ![VMScaleSets](dist/Compute/VMScaleSets(m).png?raw=true) | Compute/VMScaleSets.puml
+Compute | WebApp </br> (Web App) | ![WebApp](dist/Compute/WebApp.png?raw=true) | ![WebApp](dist/Compute/WebApp(m).png?raw=true) | Compute/WebApp.puml
 Compute | WebSlots </br> (Web Slots) | ![WebSlots](dist/Compute/WebSlots.png?raw=true) | ![WebSlots](dist/Compute/WebSlots(m).png?raw=true) | Compute/WebSlots.puml
 Compute | Workspaces </br> (Workspaces) | ![Workspaces](dist/Compute/Workspaces.png?raw=true) | ![Workspaces](dist/Compute/Workspaces(m).png?raw=true) | Compute/Workspaces.puml
 **Containers** | | | | **Containers/all.puml**
@@ -253,7 +249,9 @@ Migrate | DataBoxEdge </br> (Data Box Edge) | ![DataBoxEdge](dist/Migrate/DataBo
 **MixedReality** | | | | **MixedReality/all.puml**
 MixedReality | RemoteRendering </br> (Remote Rendering) | ![RemoteRendering](dist/MixedReality/RemoteRendering.png?raw=true) | ![RemoteRendering](dist/MixedReality/RemoteRendering(m).png?raw=true) | MixedReality/RemoteRendering.puml
 **Networking** | | | | **Networking/all.puml**
+Networking | ApplicationGateway </br> (Application Gateway) | ![ApplicationGateway](dist/Networking/ApplicationGateway.png?raw=true) | ![ApplicationGateway](dist/Networking/ApplicationGateway(m).png?raw=true) | Networking/ApplicationGateway.puml
 Networking | ApplicationSecurityGroups </br> (Application Security Groups) | ![ApplicationSecurityGroups](dist/Networking/ApplicationSecurityGroups.png?raw=true) | ![ApplicationSecurityGroups](dist/Networking/ApplicationSecurityGroups(m).png?raw=true) | Networking/ApplicationSecurityGroups.puml
+Networking | AzureFirewall </br> (Azure Firewall) | ![AzureFirewall](dist/Networking/AzureFirewall.png?raw=true) | ![AzureFirewall](dist/Networking/AzureFirewall(m).png?raw=true) | Networking/AzureFirewall.puml
 Networking | AzureFirewallManager </br> (Azure Firewall Manager) | ![AzureFirewallManager](dist/Networking/AzureFirewallManager.png?raw=true) | ![AzureFirewallManager](dist/Networking/AzureFirewallManager(m).png?raw=true) | Networking/AzureFirewallManager.puml
 Networking | Bastion </br> (Bastion) | ![Bastion](dist/Networking/Bastion.png?raw=true) | ![Bastion](dist/Networking/Bastion(m).png?raw=true) | Networking/Bastion.puml
 Networking | Connections </br> (Connections) | ![Connections](dist/Networking/Connections.png?raw=true) | ![Connections](dist/Networking/Connections(m).png?raw=true) | Networking/Connections.puml
@@ -261,8 +259,8 @@ Networking | DDoSProtectionPlans </br> (D DoS Protection Plans) | ![DDoSProtecti
 Networking | DNSZones </br> (D NSZones) | ![DNSZones](dist/Networking/DNSZones.png?raw=true) | ![DNSZones](dist/Networking/DNSZones(m).png?raw=true) | Networking/DNSZones.puml
 Networking | ExpressRouteCircuits </br> (Express Route Circuits) | ![ExpressRouteCircuits](dist/Networking/ExpressRouteCircuits.png?raw=true) | ![ExpressRouteCircuits](dist/Networking/ExpressRouteCircuits(m).png?raw=true) | Networking/ExpressRouteCircuits.puml
 Networking | FrontDoors </br> (Front Doors) | ![FrontDoors](dist/Networking/FrontDoors.png?raw=true) | ![FrontDoors](dist/Networking/FrontDoors(m).png?raw=true) | Networking/FrontDoors.puml
+Networking | IPGroups </br> (IP Groups) | ![IPGroups](dist/Networking/IPGroups.png?raw=true) | ![IPGroups](dist/Networking/IPGroups(m).png?raw=true) | Networking/IPGroups.puml
 Networking | LoadBalancers </br> (Load Balancers) | ![LoadBalancers](dist/Networking/LoadBalancers.png?raw=true) | ![LoadBalancers](dist/Networking/LoadBalancers(m).png?raw=true) | Networking/LoadBalancers.puml
-Networking | NAT </br> (NAT) | ![NAT](dist/Networking/NAT.png?raw=true) | ![NAT](dist/Networking/NAT(m).png?raw=true) | Networking/NAT.puml
 Networking | NetworkInterfaces </br> (Network Interfaces) | ![NetworkInterfaces](dist/Networking/NetworkInterfaces.png?raw=true) | ![NetworkInterfaces](dist/Networking/NetworkInterfaces(m).png?raw=true) | Networking/NetworkInterfaces.puml
 Networking | NetworkSecurityGroups </br> (Network Security Groups) | ![NetworkSecurityGroups](dist/Networking/NetworkSecurityGroups.png?raw=true) | ![NetworkSecurityGroups](dist/Networking/NetworkSecurityGroups(m).png?raw=true) | Networking/NetworkSecurityGroups.puml
 Networking | NetworkWatcher </br> (Network Watcher) | ![NetworkWatcher](dist/Networking/NetworkWatcher.png?raw=true) | ![NetworkWatcher](dist/Networking/NetworkWatcher(m).png?raw=true) | Networking/NetworkWatcher.puml
@@ -271,24 +269,19 @@ Networking | PrivateLinkService </br> (Private Link Service) | ![PrivateLinkServ
 Networking | ProximityPlacementGroups </br> (Proximity Placement Groups) | ![ProximityPlacementGroups](dist/Networking/ProximityPlacementGroups.png?raw=true) | ![ProximityPlacementGroups](dist/Networking/ProximityPlacementGroups(m).png?raw=true) | Networking/ProximityPlacementGroups.puml
 Networking | PublicIPAddresses </br> (Public IPAddresses) | ![PublicIPAddresses](dist/Networking/PublicIPAddresses.png?raw=true) | ![PublicIPAddresses](dist/Networking/PublicIPAddresses(m).png?raw=true) | Networking/PublicIPAddresses.puml
 Networking | PublicIPPrefixes </br> (Public IPPrefixes) | ![PublicIPPrefixes](dist/Networking/PublicIPPrefixes.png?raw=true) | ![PublicIPPrefixes](dist/Networking/PublicIPPrefixes(m).png?raw=true) | Networking/PublicIPPrefixes.puml
-Networking | ReservedIPAddresses(Classic) </br> (Reserved IPAddresses( Classic)) | ![ReservedIPAddresses(Classic)](dist/Networking/ReservedIPAddresses(Classic).png?raw=true) | ![ReservedIPAddresses(Classic)](dist/Networking/ReservedIPAddresses(Classic)(m).png?raw=true) | Networking/ReservedIPAddresses(Classic).puml
 Networking | RouteFilters </br> (Route Filters) | ![RouteFilters](dist/Networking/RouteFilters.png?raw=true) | ![RouteFilters](dist/Networking/RouteFilters(m).png?raw=true) | Networking/RouteFilters.puml
 Networking | ServiceEndpointPolicies </br> (Service Endpoint Policies) | ![ServiceEndpointPolicies](dist/Networking/ServiceEndpointPolicies.png?raw=true) | ![ServiceEndpointPolicies](dist/Networking/ServiceEndpointPolicies(m).png?raw=true) | Networking/ServiceEndpointPolicies.puml
 Networking | TrafficManagerProfiles </br> (Traffic Manager Profiles) | ![TrafficManagerProfiles](dist/Networking/TrafficManagerProfiles.png?raw=true) | ![TrafficManagerProfiles](dist/Networking/TrafficManagerProfiles(m).png?raw=true) | Networking/TrafficManagerProfiles.puml
 Networking | VirtualNetworkGateways </br> (Virtual Network Gateways) | ![VirtualNetworkGateways](dist/Networking/VirtualNetworkGateways.png?raw=true) | ![VirtualNetworkGateways](dist/Networking/VirtualNetworkGateways(m).png?raw=true) | Networking/VirtualNetworkGateways.puml
+Networking | VirtualNetworkNAT </br> (Virtual Network NAT) | ![VirtualNetworkNAT](dist/Networking/VirtualNetworkNAT.png?raw=true) | ![VirtualNetworkNAT](dist/Networking/VirtualNetworkNAT(m).png?raw=true) | Networking/VirtualNetworkNAT.puml
 Networking | VirtualNetworks </br> (Virtual Networks) | ![VirtualNetworks](dist/Networking/VirtualNetworks.png?raw=true) | ![VirtualNetworks](dist/Networking/VirtualNetworks(m).png?raw=true) | Networking/VirtualNetworks.puml
 Networking | WebApplicationFirewallPolicies(WAF) </br> (Web Application Firewall Policies( WAF)) | ![WebApplicationFirewallPolicies(WAF)](dist/Networking/WebApplicationFirewallPolicies(WAF).png?raw=true) | ![WebApplicationFirewallPolicies(WAF)](dist/Networking/WebApplicationFirewallPolicies(WAF)(m).png?raw=true) | Networking/WebApplicationFirewallPolicies(WAF).puml
 **Other** | | | | **Other/all.puml**
-Other | ApplicationGateways </br> (Application Gateways) | ![ApplicationGateways](dist/Other/ApplicationGateways.png?raw=true) | ![ApplicationGateways](dist/Other/ApplicationGateways(m).png?raw=true) | Other/ApplicationGateways.puml
 Other | AzureMaps </br> (Azure Maps) | ![AzureMaps](dist/Other/AzureMaps.png?raw=true) | ![AzureMaps](dist/Other/AzureMaps(m).png?raw=true) | Other/AzureMaps.puml
 Other | Detonation </br> (Detonation) | ![Detonation](dist/Other/Detonation.png?raw=true) | ![Detonation](dist/Other/Detonation(m).png?raw=true) | Other/Detonation.puml
 Other | DiskEncryptionSets </br> (Disk Encryption Sets) | ![DiskEncryptionSets](dist/Other/DiskEncryptionSets.png?raw=true) | ![DiskEncryptionSets](dist/Other/DiskEncryptionSets(m).png?raw=true) | Other/DiskEncryptionSets.puml
-Other | Firewalls </br> (Firewalls) | ![Firewalls](dist/Other/Firewalls.png?raw=true) | ![Firewalls](dist/Other/Firewalls(m).png?raw=true) | Other/Firewalls.puml
-Other | InstancePools </br> (Instance Pools) | ![InstancePools](dist/Other/InstancePools.png?raw=true) | ![InstancePools](dist/Other/InstancePools(m).png?raw=true) | Other/InstancePools.puml
 Other | InternetAnalyzerProfiles </br> (Internet Analyzer Profiles) | ![InternetAnalyzerProfiles](dist/Other/InternetAnalyzerProfiles.png?raw=true) | ![InternetAnalyzerProfiles](dist/Other/InternetAnalyzerProfiles(m).png?raw=true) | Other/InternetAnalyzerProfiles.puml
-Other | IPGroups </br> (IP Groups) | ![IPGroups](dist/Other/IPGroups.png?raw=true) | ![IPGroups](dist/Other/IPGroups(m).png?raw=true) | Other/IPGroups.puml
 Other | ManagedApplications </br> (Managed Applications) | ![ManagedApplications](dist/Other/ManagedApplications.png?raw=true) | ![ManagedApplications](dist/Other/ManagedApplications(m).png?raw=true) | Other/ManagedApplications.puml
-Other | NAT </br> (NAT) | ![NAT](dist/Other/NAT.png?raw=true) | ![NAT](dist/Other/NAT(m).png?raw=true) | Other/NAT.puml
 Other | Reservations </br> (Reservations) | ![Reservations](dist/Other/Reservations.png?raw=true) | ![Reservations](dist/Other/Reservations(m).png?raw=true) | Other/Reservations.puml
 Other | SiteRecovery </br> (Site Recovery) | ![SiteRecovery](dist/Other/SiteRecovery.png?raw=true) | ![SiteRecovery](dist/Other/SiteRecovery(m).png?raw=true) | Other/SiteRecovery.puml
 **Preview** | | | | **Preview/all.puml**
@@ -307,6 +300,8 @@ Storage | DataBox </br> (Data Box) | ![DataBox](dist/Storage/DataBox.png?raw=tru
 Storage | DataBoxEdge </br> (Data Box Edge) | ![DataBoxEdge](dist/Storage/DataBoxEdge.png?raw=true) | ![DataBoxEdge](dist/Storage/DataBoxEdge(m).png?raw=true) | Storage/DataBoxEdge.puml
 Storage | DataShareInvitations </br> (Data Share Invitations) | ![DataShareInvitations](dist/Storage/DataShareInvitations.png?raw=true) | ![DataShareInvitations](dist/Storage/DataShareInvitations(m).png?raw=true) | Storage/DataShareInvitations.puml
 Storage | DataShares </br> (Data Shares) | ![DataShares](dist/Storage/DataShares.png?raw=true) | ![DataShares](dist/Storage/DataShares(m).png?raw=true) | Storage/DataShares.puml
+Storage | Disks </br> (Disks) | ![Disks](dist/Storage/Disks.png?raw=true) | ![Disks](dist/Storage/Disks(m).png?raw=true) | Storage/Disks.puml
+Storage | DiskSnapshots </br> (Disk Snapshots) | ![DiskSnapshots](dist/Storage/DiskSnapshots.png?raw=true) | ![DiskSnapshots](dist/Storage/DiskSnapshots(m).png?raw=true) | Storage/DiskSnapshots.puml
 Storage | ImportExportJobs </br> (Import Export Jobs) | ![ImportExportJobs](dist/Storage/ImportExportJobs.png?raw=true) | ![ImportExportJobs](dist/Storage/ImportExportJobs(m).png?raw=true) | Storage/ImportExportJobs.puml
 Storage | RecoveryServicesVaults </br> (Recovery Services Vaults) | ![RecoveryServicesVaults](dist/Storage/RecoveryServicesVaults.png?raw=true) | ![RecoveryServicesVaults](dist/Storage/RecoveryServicesVaults(m).png?raw=true) | Storage/RecoveryServicesVaults.puml
 Storage | SSD </br> (SSD) | ![SSD](dist/Storage/SSD.png?raw=true) | ![SSD](dist/Storage/SSD(m).png?raw=true) | Storage/SSD.puml

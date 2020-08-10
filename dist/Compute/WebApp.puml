@@ -1,4 +1,4 @@
-sprite $AppServices [70x70/16z] {
+sprite $WebApp [70x70/16z] {
 rTPNqiFS2O3XS-Ym_mK7uKX1Cb_DNvyPtxu3naNhNm98r3oP2i7wXKqM3yO_B04YnS1vh-zYngGnakzrEC8naSTClh6BHH9CcPivVZb8SSAauPUVZ7FTHJ6H
 tqNKpG-urqUsnuKniNScr7oK0O-Jk-D1_AHCcCRCF8aVj3BwtmIMUmUc2FT8OZnODWXlFfk6s7ia4IOImYSY5bKp7IBilP4C4M73ey1grzsV6M1chKYZ6Taz
 Gs9UpWoj6qxoh4X64ZmIFRDlaNAF62F-BqDgvjtxJjkhubrTviomMhbL2goBH5NKBoPOAWCeLeQChTEE44xoY9HQQCxSX-48vSCGGSRIC_Cxun76YPIE1L0O
@@ -10,6 +10,6 @@ Z_1dvr5XKMiHNtSPuKZ-8D0X7PZbXM7TRIA98MFGlI8NN4z05bC67nLkrZlqYA5ZtuyKZZ6ZU6ALMsH6
 t-2m1iEfFYFh6_ZpZkur-5b7O7qVQWoCzleXOFLUa9RucGr82M6lly1_
 }
 
-AzureEntityColoring(AppServices)
-!define AppServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AppServices, AppServices)
-!define AppServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AppServices, AppServices)
+AzureEntityColoring(WebApp)
+!define WebApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, WebApp, WebApp)
+!define WebApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, WebApp, WebApp)

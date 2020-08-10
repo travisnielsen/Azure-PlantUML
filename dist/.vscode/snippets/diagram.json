@@ -415,22 +415,6 @@
       "$0"
     ]
   },
-  "AppServices": {
-    "prefix": "App Services",
-    "description": "Add App Services to diagram",
-    "body": [
-      "AppServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AppServices_Descr": {
-    "prefix": "App Services with Description",
-    "description": "Add App Services with Description to diagram",
-    "body": [
-      "AppServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AvailabilitySets": {
     "prefix": "Availability Sets",
     "description": "Add Availability Sets to diagram",
@@ -476,38 +460,6 @@
     "description": "Add Cloud Services(Classic) with Description to diagram",
     "body": [
       "CloudServices(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "Disks": {
-    "prefix": "Disks",
-    "description": "Add Disks to diagram",
-    "body": [
-      "Disks(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "Disks_Descr": {
-    "prefix": "Disks with Description",
-    "description": "Add Disks with Description to diagram",
-    "body": [
-      "Disks(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "DisksSnapshots": {
-    "prefix": "Disks Snapshots",
-    "description": "Add Disks Snapshots to diagram",
-    "body": [
-      "DisksSnapshots(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "DisksSnapshots_Descr": {
-    "prefix": "Disks Snapshots with Description",
-    "description": "Add Disks Snapshots with Description to diagram",
-    "body": [
-      "DisksSnapshots(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -623,22 +575,6 @@
       "$0"
     ]
   },
-  "OSImages(Classic)": {
-    "prefix": "O S Images(Classic)",
-    "description": "Add O S Images(Classic) to diagram",
-    "body": [
-      "OSImages(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "OSImages(Classic)_Descr": {
-    "prefix": "O S Images(Classic) with Description",
-    "description": "Add O S Images(Classic) with Description to diagram",
-    "body": [
-      "OSImages(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "ServiceFabricClusters": {
     "prefix": "Service Fabric Clusters",
     "description": "Add Service Fabric Clusters to diagram",
@@ -687,22 +623,6 @@
       "$0"
     ]
   },
-  "VMImages(Classic)": {
-    "prefix": "V M Images(Classic)",
-    "description": "Add V M Images(Classic) to diagram",
-    "body": [
-      "VMImages(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "VMImages(Classic)_Descr": {
-    "prefix": "V M Images(Classic) with Description",
-    "description": "Add V M Images(Classic) with Description to diagram",
-    "body": [
-      "VMImages(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "VMScaleSets": {
     "prefix": "V M Scale Sets",
     "description": "Add V M Scale Sets to diagram",
@@ -716,6 +636,22 @@
     "description": "Add V M Scale Sets with Description to diagram",
     "body": [
       "VMScaleSets(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "WebApp": {
+    "prefix": "Web App",
+    "description": "Add Web App to diagram",
+    "body": [
+      "WebApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "WebApp_Descr": {
+    "prefix": "Web App with Description",
+    "description": "Add Web App with Description to diagram",
+    "body": [
+      "WebApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -3343,6 +3279,22 @@
       "$0"
     ]
   },
+  "ApplicationGateway": {
+    "prefix": "Application Gateway",
+    "description": "Add Application Gateway to diagram",
+    "body": [
+      "ApplicationGateway(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "ApplicationGateway_Descr": {
+    "prefix": "Application Gateway with Description",
+    "description": "Add Application Gateway with Description to diagram",
+    "body": [
+      "ApplicationGateway(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "ApplicationSecurityGroups": {
     "prefix": "Application Security Groups",
     "description": "Add Application Security Groups to diagram",
@@ -3356,6 +3308,22 @@
     "description": "Add Application Security Groups with Description to diagram",
     "body": [
       "ApplicationSecurityGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureFirewall": {
+    "prefix": "Azure Firewall",
+    "description": "Add Azure Firewall to diagram",
+    "body": [
+      "AzureFirewall(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureFirewall_Descr": {
+    "prefix": "Azure Firewall with Description",
+    "description": "Add Azure Firewall with Description to diagram",
+    "body": [
+      "AzureFirewall(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -3471,6 +3439,22 @@
       "$0"
     ]
   },
+  "IPGroups": {
+    "prefix": "I P Groups",
+    "description": "Add I P Groups to diagram",
+    "body": [
+      "IPGroups(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "IPGroups_Descr": {
+    "prefix": "I P Groups with Description",
+    "description": "Add I P Groups with Description to diagram",
+    "body": [
+      "IPGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "LoadBalancers": {
     "prefix": "Load Balancers",
     "description": "Add Load Balancers to diagram",
@@ -3484,22 +3468,6 @@
     "description": "Add Load Balancers with Description to diagram",
     "body": [
       "LoadBalancers(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "NAT": {
-    "prefix": "N A T",
-    "description": "Add N A T to diagram",
-    "body": [
-      "NAT(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "NAT_Descr": {
-    "prefix": "N A T with Description",
-    "description": "Add N A T with Description to diagram",
-    "body": [
-      "NAT(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -3631,22 +3599,6 @@
       "$0"
     ]
   },
-  "ReservedIPAddresses(Classic)": {
-    "prefix": "Reserved I P Addresses(Classic)",
-    "description": "Add Reserved I P Addresses(Classic) to diagram",
-    "body": [
-      "ReservedIPAddresses(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "ReservedIPAddresses(Classic)_Descr": {
-    "prefix": "Reserved I P Addresses(Classic) with Description",
-    "description": "Add Reserved I P Addresses(Classic) with Description to diagram",
-    "body": [
-      "ReservedIPAddresses(Classic)(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "RouteFilters": {
     "prefix": "Route Filters",
     "description": "Add Route Filters to diagram",
@@ -3711,6 +3663,22 @@
       "$0"
     ]
   },
+  "VirtualNetworkNAT": {
+    "prefix": "Virtual Network N A T",
+    "description": "Add Virtual Network N A T to diagram",
+    "body": [
+      "VirtualNetworkNAT(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "VirtualNetworkNAT_Descr": {
+    "prefix": "Virtual Network N A T with Description",
+    "description": "Add Virtual Network N A T with Description to diagram",
+    "body": [
+      "VirtualNetworkNAT(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "VirtualNetworks": {
     "prefix": "Virtual Networks",
     "description": "Add Virtual Networks to diagram",
@@ -3740,22 +3708,6 @@
     "description": "Add Web Application Firewall Policies(W A F) with Description to diagram",
     "body": [
       "WebApplicationFirewallPolicies(WAF)(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "ApplicationGateways": {
-    "prefix": "Application Gateways",
-    "description": "Add Application Gateways to diagram",
-    "body": [
-      "ApplicationGateways(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "ApplicationGateways_Descr": {
-    "prefix": "Application Gateways with Description",
-    "description": "Add Application Gateways with Description to diagram",
-    "body": [
-      "ApplicationGateways(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -3807,38 +3759,6 @@
       "$0"
     ]
   },
-  "Firewalls": {
-    "prefix": "Firewalls",
-    "description": "Add Firewalls to diagram",
-    "body": [
-      "Firewalls(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "Firewalls_Descr": {
-    "prefix": "Firewalls with Description",
-    "description": "Add Firewalls with Description to diagram",
-    "body": [
-      "Firewalls(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "InstancePoolsOther": {
-    "prefix": "Instance Pools Other",
-    "description": "Add Instance Pools Other to diagram",
-    "body": [
-      "InstancePoolsOther(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "InstancePoolsOther_Descr": {
-    "prefix": "Instance Pools Other with Description",
-    "description": "Add Instance Pools Other with Description to diagram",
-    "body": [
-      "InstancePoolsOther(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "InternetAnalyzerProfiles": {
     "prefix": "Internet Analyzer Profiles",
     "description": "Add Internet Analyzer Profiles to diagram",
@@ -3855,22 +3775,6 @@
       "$0"
     ]
   },
-  "IPGroups": {
-    "prefix": "I P Groups",
-    "description": "Add I P Groups to diagram",
-    "body": [
-      "IPGroups(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "IPGroups_Descr": {
-    "prefix": "I P Groups with Description",
-    "description": "Add I P Groups with Description to diagram",
-    "body": [
-      "IPGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "ManagedApplications": {
     "prefix": "Managed Applications",
     "description": "Add Managed Applications to diagram",
@@ -3884,22 +3788,6 @@
     "description": "Add Managed Applications with Description to diagram",
     "body": [
       "ManagedApplications(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "NATOther": {
-    "prefix": "N A T Other",
-    "description": "Add N A T Other to diagram",
-    "body": [
-      "NATOther(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "NATOther_Descr": {
-    "prefix": "N A T Other with Description",
-    "description": "Add N A T Other with Description to diagram",
-    "body": [
-      "NATOther(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -4140,6 +4028,38 @@
     "description": "Add Data Shares with Description to diagram",
     "body": [
       "DataShares(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "Disks": {
+    "prefix": "Disks",
+    "description": "Add Disks to diagram",
+    "body": [
+      "Disks(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Disks_Descr": {
+    "prefix": "Disks with Description",
+    "description": "Add Disks with Description to diagram",
+    "body": [
+      "Disks(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "DiskSnapshots": {
+    "prefix": "Disk Snapshots",
+    "description": "Add Disk Snapshots to diagram",
+    "body": [
+      "DiskSnapshots(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "DiskSnapshots_Descr": {
+    "prefix": "Disk Snapshots with Description",
+    "description": "Add Disk Snapshots with Description to diagram",
+    "body": [
+      "DiskSnapshots(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

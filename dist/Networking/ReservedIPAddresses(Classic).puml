@@ -1,8 +1,0 @@
-sprite $ReservedIPAddresses [70x70/16z] {
-xTG5aiCm341HnI2w_trtowrSr8GJ_K7JAmHWDqMfTnq0Q_yIo7QLchozKZ9uarqe1PnrHkdHXfMA_Hj6wRQZX18ACPCTCZvaXkyKqbCtHqv3jaFveh2gOUGo
-b6RuMT5hOb4bE-HF2gizfbOLE_GhsWmdLT3nYtp_BltsxoBrkzAMaNTt7P-7xYS0co4nnVkbAPHGS35A0gJ-BKdf89NUPTXBqJy
-}
-
-AzureEntityColoring(ReservedIPAddresses(Classic))
-!define ReservedIPAddresses(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, ReservedIPAddresses(Classic), ReservedIPAddresses(Classic))
-!define ReservedIPAddresses(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, ReservedIPAddresses(Classic), ReservedIPAddresses(Classic))
