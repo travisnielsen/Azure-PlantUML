@@ -1,47 +1,58 @@
 #! "netcoreapp3.1"
+#load "Config.csx"
 
-#load "lib/Config.csx"
+/*
+    This script generates a new Config.yaml file based on the folder structre based on the contents of the /source/official and /source/manual directories.
+    The folders within these directories are used as "categories" in the Config.yaml file
+*/
 
 using System.Collections.Generic;
 using System.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-var sourceFolder = @"../source";
+private string sourceDir;
 
-var originalSourceFolder = Path.Combine(sourceFolder, "official");
+private string targetDir;
 
-var manualSourceFolder = Path.Combine(sourceFolder, "manual");
+private string  originalSourceFolder;
 
-var targetFolder = @"../dist";
+private string manualSourceFolder; 
 
 List<ConfigLookupEntry> configList;
 
-Main();
+// Main();
 
-public void Main()
+public bool CreateConfig(string srcDir, string trgDir, string configFileName)
 {
+    sourceDir = srcDir;
+    originalSourceFolder = Path.Combine(sourceDir, "official");
+    manualSourceFolder = Path.Combine(sourceDir, "manual");
+    
+    targetDir = trgDir;
+    
     configList = new List<ConfigLookupEntry>();
     ProcessDirectory(originalSourceFolder);
     ProcessDirectory(manualSourceFolder);
-    WriteConfig(configList, "Config-new.yaml");
+    WriteConfig(configList, configFileName);
+    return true;
 }
 
-private void ProcessDirectory(string targetDirectory)
+private void ProcessDirectory(string dir)
 {
     // Process the list of files found in the directory.
-    string [] fileEntries = Directory.GetFiles(targetDirectory);
+    string [] fileEntries = Directory.GetFiles(dir);
     foreach(string fileName in fileEntries)
         ProcessFile(fileName);
 
     // Recurse into subdirectories of this directory.
-    string [] subdirectoryEntries = Directory.GetDirectories(targetDirectory);
+    string [] subdirectoryEntries = Directory.GetDirectories(dir);
     foreach(string subdirectory in subdirectoryEntries)
         ProcessDirectory(subdirectory);
 
 }
 
-public void ProcessFile(string path) 
+private void ProcessFile(string path) 
 {
     string fileName = Path.GetFileName(path);
     if (fileName == "README.md") return;

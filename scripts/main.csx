@@ -1,9 +1,12 @@
 #! "netcoreapp3.1"
 
+#r "nuget: System.Drawing.Common, 4.7.0"
+
 #load "lib/Config.csx"
 #load "lib/HSLColor.csx"
 #load "lib/MarkdownGeneration.csx"
 #load "lib/VSCodeSnippets.csx"
+#load "lib/CreateConfig.csx"
 
 using System.Diagnostics;
 using System.Drawing;
@@ -26,12 +29,14 @@ var inkScapePath = @"C:\Program Files\Inkscape\bin\inkscape.exe";
 
 static string rsvgConvertPath = @"C:\ProgramData\chocolatey\bin\rsvg-convert.exe";
 
+string configFileName = "Config.yaml";
 
 Main();
 
 public void Main()
 {
-    var lookupTable = ReadConfig("Config-new.yaml");
+    var configDone = CreateConfig(sourceFolder, targetFolder, configFileName);
+    var lookupTable = ReadConfig(configFileName);
 
     // Cleanup
     if (Directory.Exists(targetFolder))

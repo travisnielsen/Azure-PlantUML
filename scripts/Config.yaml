@@ -1,247 +1,683 @@
-Categories:
-- Name: General
-  Services:
-  - Source: Azure_logo_icon_50
-    Target: Azure
-
+﻿Categories:
 - Name: AIMachineLearning
   Services:
-  - Source: Azure Batch AI
-    Target: AzureBatchAI   
-  - Source: Azure Bot Service
-    Target: AzureBotService
-  - Source: Azure Cognitive Services
-    Target: AzureCognitiveServices
-  - Source: Azure Machine Learning Service
-    Target: AzureMachineLearningService
-  - Source: Azure Machine Learning Studio
-    Target: AzureMachineLearningStudio
-  - Source: Microsoft Genomics
+  - Source: 00029-icon-service-Cognitive-Services
+    Target: CognitiveServices
+  - Source: 10162-icon-service-Cognitive-Services
+    Target: CognitiveServices
+  - Source: 10165-icon-service-Bot-Services
+    Target: BotServices
+  - Source: Machine-Learning-Service
+    Target: MachineLearningService
+  - Source: Microsoft-Genomics
     Target: MicrosoftGenomics
-
 - Name: Analytics
   Services:
-  - Source: AzureStreamAnalytics
-    Target: AzureStreamAnalytics
-  - Source: Azure Databricks
+  - Source: 00009-icon-service-Log-Analytics-Workspaces
+    Target: LogAnalyticsWorkspaces
+  - Source: 00037-icon-service-HD-Insight-Clusters
+    Target: HDInsightClusters
+  - Source: 00039-icon-service-Event-Hubs
+    Target: EventHubs
+  - Source: 00040-icon-service-Azure-Data-Explorer-Clusters
+    Target: AzureDataExplorerClusters
+  - Source: 00041-icon-service-Data-Factory
+    Target: DataFactory
+  - Source: 00042-icon-service-Stream-Analytics-Jobs
+    Target: StreamAnalyticsJobs
+  - Source: 00043-icon-service-Analysis-Services
+    Target: AnalysisServices
+  - Source: 00044-icon-service-Event-Hub-Clusters
+    Target: EventHubClusters
+  - Source: 00045-icon-service-Data-Lake-Store-Gen1
+    Target: DataLakeStoreGen1
+  - Source: 00606-icon-service-Azure-Synapse-Analytics
+    Target: AzureSynapseAnalytics
+  - Source: 10142-icon-service-HD-Insight-Clusters
+    Target: HDInsightClusters
+  - Source: 10148-icon-service-Analysis-Services
+    Target: AnalysisServices
+  - Source: 10149-icon-service-Event-Hub-Clusters
+    Target: EventHubClusters
+  - Source: 10150-icon-service-Data-Lake-Store-Gen1
+    Target: DataLakeStoreGen1
+  - Source: Azure-Databricks
     Target: AzureDatabricks
-  - Source: AzureHDInsight
-    Target: AzureHDInsight
-  - Source: Azure Data Lake Analytics
-    Target: AzureDataLakeAnalytics
-  - Source: Azure Analysis Service
-    Target: AzureAnalysisServices
-  - Source: Azure Event Hubs
-    Target: AzureEventHub    
-  - Source: Azure Data Catalog
-    Target: AzureDataCatalog
-  - Source: Azure Data Explorer
-    Target: AzureDataExplorer    
-
+  - Source: Time-Series-Insights
+    Target: TimeSeriesInsights
+- Name: AppServices
+  Services:
+  - Source: 00046-icon-service-App-Service-Plans
+    Target: AppServicePlans
+  - Source: 00047-icon-service-App-Service-Environments
+    Target: AppServiceEnvironments
+  - Source: 00049-icon-service-App-Service-Certificates
+    Target: AppServiceCertificates
+  - Source: 00050-icon-service-App-Service-Domains
+    Target: AppServiceDomains
+  - Source: 00053-icon-service-Notification-Hub-Namespaces
+    Target: NotificationHubNamespaces
+  - Source: 00054-icon-service-Search-Services
+    Target: SearchServices
+  - Source: 00056-icon-service-CDN-Profiles
+    Target: CDNProfiles
+  - Source: 00057-icon-service-Notification-Hubs
+    Target: NotificationHubs
+  - Source: 10035-icon-service-App-Services
+    Target: AppServices
+  - Source: 10042-icon-service-API-Management-Services
+    Target: APIManagementServices
+  - Source: 10044-icon-service-Search-Services
+    Target: SearchServices
+  - Source: 10045-icon-service-Notification-Hubs
+    Target: NotificationHubs
+  - Source: 10047-icon-service-App-Service-Environments
+    Target: AppServiceEnvironments
+- Name: AzureStack
+  Services:
+  - Source: 00965-icon-service-Multi-Tenancy
+    Target: MultiTenancy
+- Name: AzureVMwareSolution
+  Services:
+  - Source: 00524-icon-service-AVS
+    Target: AVS
+- Name: Blockchain
+  Services:
+  - Source: 00211-icon-service-Azure-Blockchain-Service
+    Target: AzureBlockchainService
+  - Source: 10366-icon-service-Azure-Blockchain-Service
+    Target: AzureBlockchainService
 - Name: Compute
   Services:
-  - Source: Azure Virtual Machine
-    Target: AzureVirtualMachine
-  - Source: Azure App Service
-    Target: AzureAppService
-  - Source: Azure Functions
-    Target: AzureFunction
-  - Source: Azure Batch
-    Target: AzureBatch
-  - Source: Azure Service Fabric
-    Target: AzureServiceFabric
-  - Source: Azure VM Scale Set
-    Target: AzureVirtualMachineScaleSet
-
+  - Source: 00400-icon-service-Workspaces
+    Target: Workspaces
+  - Source: 10021-icon-service-Virtual-Machine
+    Target: VirtualMachine
+  - Source: 10023-icon-service-Kubernetes-Services
+    Target: KubernetesServices
+  - Source: 10024-icon-service-Mesh-Applications
+    Target: MeshApplications
+  - Source: 10025-icon-service-Availability-Sets
+    Target: AvailabilitySets
+  - Source: 10026-icon-service-Disks-Snapshots
+    Target: DisksSnapshots
+  - Source: 10027-icon-service-OS-Images-(Classic)
+    Target: OSImages(Classic)
+  - Source: 10028-icon-service-Virtual-Machines-(Classic)
+    Target: VirtualMachines(Classic)
+  - Source: 10029-icon-service-Function-Apps
+    Target: FunctionApps
+  - Source: 10030-icon-service-Cloud-Services-(Classic)
+    Target: CloudServices(Classic)
+  - Source: 10031-icon-service-Batch-Accounts
+    Target: BatchAccounts
+  - Source: 10032-icon-service-Disks
+    Target: Disks
+  - Source: 10033-icon-service-Images
+    Target: Images
+  - Source: 10034-icon-service-VM-Scale-Sets
+    Target: VMScaleSets
+  - Source: 10035-icon-service-App-Services
+    Target: AppServices
+  - Source: 10036-icon-service-Service-Fabric-Clusters
+    Target: ServiceFabricClusters
+  - Source: 10037-icon-service-Image-Definitions
+    Target: ImageDefinitions
+  - Source: 10038-icon-service-Image-Versions
+    Target: ImageVersions
+  - Source: 10039-icon-service-Shared-Image-Galleries
+    Target: SharedImageGalleries
+  - Source: 10040-icon-service-VM-Images-(Classic)
+    Target: VMImages(Classic)
+  - Source: 10041-icon-service-Disks-(Classic)
+    Target: Disks(Classic)
+  - Source: 10049-icon-service-Container-Services-(Deprecated)
+    Target: ContainerServices(Deprecated)
 - Name: Containers
   Services:
-  - Source: Azure Container Registry
-    Target: AzureContainerRegistry
-  - Source: container-instances
-    Target: AzureContainerInstance
-  - Source: Azure Service Fabric Mesh
-    Target: AzureServiceFabricMesh
-  - Source: Azure Kubernetes Service
-    Target: AzureKubernetesService   
-  - Source: app-service-containers
-    Target: AzureWebAppForContainers
-
+  - Source: 10023-icon-service-Kubernetes-Services
+    Target: KubernetesServices
+  - Source: 10031-icon-service-Batch-Accounts
+    Target: BatchAccounts
+  - Source: 10035-icon-service-App-Services
+    Target: AppServices
+  - Source: 10036-icon-service-Service-Fabric-Clusters
+    Target: ServiceFabricClusters
+  - Source: 10105-icon-service-Container-Registries
+    Target: ContainerRegistries
+  - Source: Container-Instances
+    Target: ContainerInstances
+- Name: CXP
+  Services:
+  - Source: 00474-Icon-Service-Elixir Purple
+    Target: Elixir Purple
+  - Source: 00474-Icon-Service-Elixir
+    Target: Elixir
 - Name: Databases
   Services:
-  - Source: Azure SQL Database
-    Target: AzureSqlDatabase
-  - Source: CosmosDB
-    Target: AzureCosmosDb
-  - Source: Azure SQL DataWarehouse
-    Target: AzureSqlDataWarehouse
-  - Source: Azure Data Factory
-    Target: AzureDataFactory
-  - Source: Azure Cache including Redis
-    Target: AzureRedisCache
-  - Source: Azure SQL Stretch Database
-    Target: AzureSqlStretchDatabase
-  - Source: postgresql
-    Target: AzureDatabaseForPostgreSQL
-  - Source: mysql
-    Target: AzureDatabaseForMySQL
-  - Source: Azure Database MariaDB
-    Target: AzureDatabaseForMariaDB
-
+  - Source: 00036-icon-service-SQL-Data-Warehouses
+    Target: SQLDataWarehouses
+  - Source: 00041-icon-service-Data-Factory
+    Target: DataFactory
+  - Source: 00606-icon-service-Azure-Synapse-Analytics
+    Target: AzureSynapseAnalytics
+  - Source: 10121-icon-service-Azure-Cosmos-DB
+    Target: AzureCosmosDB
+  - Source: 10122-icon-service-Azure-Database-MySQL-Server
+    Target: AzureDatabaseMySQLServer
+  - Source: 10123-icon-service-Azure-Database-MariaDB-Server
+    Target: AzureDatabaseMariaDBServer
+  - Source: 10124-icon-service-Azure-SQL-VM
+    Target: AzureSQLVM
+  - Source: 10126-icon-service-Data-Factory
+    Target: DataFactory
+  - Source: 10127-icon-service-Virtual-Clusters
+    Target: VirtualClusters
+  - Source: 10128-icon-service-Elastic-Job-Agents
+    Target: ElasticJobAgents
+  - Source: 10130-icon-service-SQL-Database
+    Target: SQLDatabase
+  - Source: 10131-icon-service-Azure-Database-PostgreSQL-Server
+    Target: AzureDatabasePostgreSQLServer
+  - Source: 10132-icon-service-SQL-Server
+    Target: SQLServer
+  - Source: 10134-icon-service-SQL-Elastic-Pools
+    Target: SQLElasticPools
+  - Source: 10135-icon-service-Managed-Database
+    Target: ManagedDatabase
+  - Source: 10136-icon-service-SQL-Managed-Instance
+    Target: SQLManagedInstance
+  - Source: 10137-icon-service-Azure-SQL-Server-Stretch-Databases
+    Target: AzureSQLServerStretchDatabases
+  - Source: 10137-icon-service-Cache-Redis
+    Target: CacheRedis
+  - Source: 10139-icon-service-Instance-Pools
+    Target: InstancePools
+  - Source: 10145-icon-service-Azure-Data-Explorer-Clusters
+    Target: AzureDataExplorerClusters
 - Name: DevOps
   Services:
-  - Source: Azure DevOps
+  - Source: 00012-icon-service-Application-Insights
+    Target: ApplicationInsights
+  - Source: 10261-icon-service-Azure-DevOps
     Target: AzureDevOps
-  - Source: Azure Boards
-    Target: AzureBoards
-  - Source: Azure Pipelines
-    Target: AzurePipelines
-  - Source: Azure Repos
-    Target: AzureRepos
-  - Source: Azure Test Plans
-    Target: AzureTestPlans
-  - Source: Azure Artifacts
-    Target: AzureArtifacts
-  - Source: Azure Application Insights
-    Target: AzureApplicationInsights
-  - Source: Azure DevTest Labs
-    Target: AzureDevTestLabs
-  - Source: Azure Lab Services
-    Target: AzureLabServices
-
+  - Source: 10264-icon-service-DevTest-Labs
+    Target: DevTestLabs
+  - Source: 10265-icon-service-Lab-Services
+    Target: LabServices
+  - Source: Artifacts
+    Target: Artifacts
+  - Source: Boards
+    Target: Boards
+  - Source: Pipelines
+    Target: Pipelines
+  - Source: Repos
+    Target: Repos
+  - Source: TestPlans
+    Target: TestPlans
+- Name: General
+  Services:
+  - Source: 10001-icon-service-All-Resources
+    Target: AllResources
+  - Source: 10002-icon-service-Subscriptions
+    Target: Subscriptions
+  - Source: 10004-icon-service-Service-Health
+    Target: ServiceHealth
+  - Source: 10005-icon-service-Information
+    Target: Information
+  - Source: 10006-icon-service-Recent
+    Target: Recent
+  - Source: 10007-icon-service-Resource-Groups
+    Target: ResourceGroups
+  - Source: 10008-icon-service-Marketplace
+    Target: Marketplace
+  - Source: 10010-icon-service-Quickstart-Center
+    Target: QuickstartCenter
+  - Source: 10011-icon-service-Management-Groups
+    Target: ManagementGroups
+  - Source: 10013-icon-service-Help-and-Support
+    Target: HelpandSupport
+  - Source: 10015-icon-service-Dashboard
+    Target: Dashboard
+  - Source: 10019-icon-service-Cost-Management
+    Target: CostManagement
+  - Source: 10779-icon-service-Biz-Talk
+    Target: BizTalk
+  - Source: 10780-icon-service-Blob-Block
+    Target: BlobBlock
+  - Source: 10781-icon-service-Blob-Page
+    Target: BlobPage
+  - Source: 10782-icon-service-Branch
+    Target: Branch
+  - Source: 10783-icon-service-Browser
+    Target: Browser
+  - Source: 10784-icon-service-Bug
+    Target: Bug
+  - Source: 10785-icon-service-Builds
+    Target: Builds
+  - Source: 10786-icon-service-Cache
+    Target: Cache
+  - Source: 10787-icon-service-Code
+    Target: Code
+  - Source: 10788-icon-service-Commit
+    Target: Commit
+  - Source: 10789-icon-service-Controls
+    Target: Controls
+  - Source: 10790-icon-service-Controls-Horizontal
+    Target: ControlsHorizontal
+  - Source: 10791-icon-service-Cost-Alerts
+    Target: CostAlerts
+  - Source: 10792-icon-service-Cost-Analysis
+    Target: CostAnalysis
+  - Source: 10793-icon-service-Cost-Budgets
+    Target: CostBudgets
+  - Source: 10794-icon-service-Counter
+    Target: Counter
+  - Source: 10795-icon-service-Cubes
+    Target: Cubes
+  - Source: 10796-icon-service-Dev-Console
+    Target: DevConsole
+  - Source: 10797-icon-service-Download
+    Target: Download
+  - Source: 10798-icon-service-Error
+    Target: Error
+  - Source: 10799-icon-service-Extensions
+    Target: Extensions
+  - Source: 10800-icon-service-File
+    Target: File
+  - Source: 10801-icon-service-Files
+    Target: Files
+  - Source: 10802-icon-service-Folder-Blank
+    Target: FolderBlank
+  - Source: 10803-icon-service-Folder-Website
+    Target: FolderWebsite
+  - Source: 10804-icon-service-FTP
+    Target: FTP
+  - Source: 10805-icon-service-Gear
+    Target: Gear
+  - Source: 10806-icon-service-Globe
+    Target: Globe
+  - Source: 10807-icon-service-Globe-Error
+    Target: GlobeError
+  - Source: 10808-icon-service-Globe-Success
+    Target: GlobeSuccess
+  - Source: 10809-icon-service-Globe-Warning
+    Target: GlobeWarning
+  - Source: 10810-icon-service-Guide
+    Target: Guide
+  - Source: 10811-icon-service-Heart
+    Target: Heart
+  - Source: 10812-icon-service-Image
+    Target: Image
+  - Source: 10813-icon-service-Input-Output
+    Target: InputOutput
+  - Source: 10814-icon-service-Journey-Hub
+    Target: JourneyHub
+  - Source: 10815-icon-service-Launch-Portal
+    Target: LaunchPortal
+  - Source: 10816-icon-service-Learn
+    Target: Learn
+  - Source: 10817-icon-service-Load-Test
+    Target: LoadTest
+  - Source: 10818-icon-service-Location
+    Target: Location
+  - Source: 10819-icon-service-Log-Streaming
+    Target: LogStreaming
+  - Source: 10820-icon-service-Management-Portal
+    Target: ManagementPortal
+  - Source: 10821-icon-service-Media-File
+    Target: MediaFile
+  - Source: 10822-icon-service-Mobile
+    Target: Mobile
+  - Source: 10823-icon-service-Mobile-Engagement
+    Target: MobileEngagement
+  - Source: 10824-icon-service-Power
+    Target: Power
+  - Source: 10825-icon-service-Powershell
+    Target: Powershell
+  - Source: 10826-icon-service-Power-Up
+    Target: PowerUp
+  - Source: 10827-icon-service-Preview
+    Target: Preview
+  - Source: 10828-icon-service-Process-Explorer
+    Target: ProcessExplorer
+  - Source: 10829-icon-service-Production-Ready-Database
+    Target: ProductionReadyDatabase
+  - Source: 10830-icon-service-Resource-Group-List
+    Target: ResourceGroupList
+  - Source: 10831-icon-service-Resource-Linked
+    Target: ResourceLinked
+  - Source: 10832-icon-service-Scale
+    Target: Scale
+  - Source: 10833-icon-service-Scheduler
+    Target: Scheduler
+  - Source: 10834-icon-service-Search
+    Target: Search
+  - Source: 10835-icon-service-Server-Farm
+    Target: ServerFarm
+  - Source: 10836-icon-service-Service-Bus
+    Target: ServiceBus
+  - Source: 10837-icon-service-SSD
+    Target: SSD
+  - Source: 10838-icon-service-Storage-Azure-Files
+    Target: StorageAzureFiles
+  - Source: 10839-icon-service-Storage-Container
+    Target: StorageContainer
+  - Source: 10840-icon-service-Storage-Queue
+    Target: StorageQueue
+  - Source: 10841-icon-service-Table
+    Target: Table
+  - Source: 10842-icon-service-Tags
+    Target: Tags
+  - Source: 10843-icon-service-TFS-VC-Repository
+    Target: TFSVCRepository
+  - Source: 10844-icon-service-Toolbox
+    Target: Toolbox
+  - Source: 10845-icon-service-Versions
+    Target: Versions
+  - Source: 10847-icon-service-Website-Power
+    Target: WebsitePower
+  - Source: 10848-icon-service-Website-Staging
+    Target: WebsiteStaging
+  - Source: 10849-icon-service-Web-Slots
+    Target: WebSlots
+  - Source: 10850-icon-service-Web-Test
+    Target: WebTest
+  - Source: 10851-icon-service-Workbooks
+    Target: Workbooks
+  - Source: 10852-icon-service-Workflow
+    Target: Workflow
+  - Source: 10853-icon-service-Backlog
+    Target: Backlog
+  - Source: 10854-icon-service-Media
+    Target: Media
+  - Source: 10855-icon-service-Module
+    Target: Module
+  - Source: 10856-icon-service-Search-Grid
+    Target: SearchGrid
 - Name: Identity
   Services:
-  - Source: Azure Active Directory
+  - Source: 10221-icon-service-Azure-Active-Directory
     Target: AzureActiveDirectory
-  - Source: ActiveDirectoryDomain
-    Target: AzureActiveDirectoryDomainServices
-  - Source: ActiveDirectoryB2C
-    Target: AzureActiveDirectoryB2C
-
+  - Source: 10222-icon-service-Azure-AD-Domain-Services
+    Target: AzureADDomainServices
+  - Source: 10223-icon-service-Groups
+    Target: Groups
+  - Source: 10224-icon-service-Active-Directory-Connect-Health
+    Target: ActiveDirectoryConnectHealth
+  - Source: 10225-icon-service-Enterprise-Applications
+    Target: EnterpriseApplications
+  - Source: 10230-icon-service-Users
+    Target: Users
+  - Source: 10232-icon-service-App-Registrations
+    Target: AppRegistrations
+  - Source: 10235-icon-service-Identity-Governance
+    Target: IdentityGovernance
+  - Source: ActiveDirectory-B2C
+    Target: ActiveDirectoryB2C
 - Name: Integration
   Services:
-  - Source: Azure Event Grid
-    Target: AzureEventGrid
-  - Source: Azure Logic Apps
-    Target: AzureLogicApps
-  - Source: Azure Service Bus
-    Target: AzureServiceBus
-
-- Name: InternetOfThings
+  - Source: 00036-icon-service-SQL-Data-Warehouses
+    Target: SQLDataWarehouses
+  - Source: 00041-icon-service-Data-Factory
+    Target: DataFactory
+  - Source: 10042-icon-service-API-Management-Services
+    Target: APIManagementServices
+  - Source: 10201-icon-service-Logic-Apps
+    Target: LogicApps
+  - Source: 10206-icon-service-Event-Grid-Topics
+    Target: EventGridTopics
+  - Source: 10209-icon-service-Relays
+    Target: Relays
+  - Source: 10214-icon-service-Service-Bus
+    Target: ServiceBus
+  - Source: 10215-icon-service-Event-Grid-Domains
+    Target: EventGridDomains
+  - Source: 10216-icon-service-Azure-Data-Catalog
+    Target: AzureDataCatalog
+  - Source: 10218-icon-service-Integration-Accounts
+    Target: IntegrationAccounts
+  - Source: 10221-icon-service-Event-Grid-Subscriptions
+    Target: EventGridSubscriptions
+- Name: Intune
   Services:
-  - Source: Azure IoT Hub
-    Target: AzureIoTHub
-  - Source: IOT edge
-    Target: AzureIoTEdge
-  - Source: IoT_Central_50
-    Target: AzureIoTCentral
-  - Source: Azure Time Series Insights
-    Target: AzureTimeSeriesInsights
-  - Source: azure-maps
-    Target: AzureMaps
-  - Source: Azure Digital Twins
-    Target: AzureDigitalTwins
-
-- Name: Management
+  - Source: 00399-icon-service-Device-Security-Apple
+    Target: DeviceSecurityApple
+  - Source: 00399-icon-service-Device-Security-Google
+    Target: DeviceSecurityGoogle
+  - Source: 00399-icon-service-Device-Security-Windows
+    Target: DeviceSecurityWindows
+- Name: IoT
   Services:
-  - Source: Azure Backup
-    Target: AzureBackup
-  - Source: Azure Site Recovery
-    Target: AzureSiteRecovery
-  - Source: Azure Scheduler
-    Target: AzureScheduler
-  - Source: Azure Automation
-    Target: AzureAutomation
-  - Source: Azure Log Analytics
-    Target: AzureLogAnalytics
-  - Source: Azure Monitor
-    Target: AzureMonitor
-  - Source: Azure Resource Groups
-    Target: AzureResourceGroups
-  - Source: AzurePolicy
-    Target: AzurePolicy
-  - Source: Azure Blueprints
-    Target: AzureBlueprints
-  - Source: Azure Subscription New
-    Target: AzureSubscription
-  - Source: Azure Management Groups
-    Target: AzureManagementGroups
-  - Source: Azure Managed Applications
-    Target: AzureManagedApplications   
-           
-- Name: Media
+  - Source: 00039-icon-service-Event-Hubs
+    Target: EventHubs
+  - Source: 00042-icon-service-Stream-Analytics-Jobs
+    Target: StreamAnalyticsJobs
+  - Source: 00053-icon-service-Notification-Hub-Namespaces
+    Target: NotificationHubNamespaces
+  - Source: 00057-icon-service-Notification-Hubs
+    Target: NotificationHubs
+  - Source: 10029-icon-service-Function-Apps
+    Target: FunctionApps
+  - Source: 10045-icon-service-Notification-Hubs
+    Target: NotificationHubs
+  - Source: 10183-icon-service-Event-Grid-Subscriptions
+    Target: EventGridSubscriptions
+  - Source: 10184-icon-service-IoT-Central-Applications
+    Target: IoTCentralApplications
+  - Source: 10201-icon-service-Logic-Apps
+    Target: LogicApps
+  - Source: Digital-Twins
+    Target: DigitalTwins
+  - Source: IoT-Edge
+    Target: IoTEdge
+  - Source: IoT-Hub
+    Target: IoTHub
+- Name: ManagementGovernance
   Services:
-  - Source: Azure Media Services
-    Target: AzureMediaServices
-
-- Name: Mobile
+  - Source: 00001-icon-service-Monitor
+    Target: Monitor
+  - Source: 00002-icon-service-Alerts
+    Target: Alerts
+  - Source: 00003-icon-service-Advisor
+    Target: Advisor
+  - Source: 00005-icon-service-User-Privacy
+    Target: UserPrivacy
+  - Source: 00006-icon-service-Blueprints
+    Target: Blueprints
+  - Source: 00007-icon-service-Activity-Log
+    Target: ActivityLog
+  - Source: 00008-icon-service-Diagnostics-Settings
+    Target: DiagnosticsSettings
+  - Source: 00009-icon-service-Log-Analytics-Workspaces
+    Target: LogAnalyticsWorkspaces
+  - Source: 00012-icon-service-Application-Insights
+    Target: ApplicationInsights
+  - Source: 00014-icon-service-My-Customers
+    Target: MyCustomers
+  - Source: 00015-icon-service-Managed-Applications-Center
+    Target: ManagedApplicationsCenter
+  - Source: 00017-icon-service-Recovery-Services-Vaults
+    Target: RecoveryServicesVaults
+  - Source: 00018-icon-service-Policy
+    Target: Policy
+  - Source: 00019-icon-service-Resource-Graph-Explorer
+    Target: ResourceGraphExplorer
+  - Source: 00020-icon-service-Metrics
+    Target: Metrics
+  - Source: 00021-icon-service-Solutions
+    Target: Solutions
+  - Source: 00022-icon-service-Automation-Accounts
+    Target: AutomationAccounts
+  - Source: 00023-icon-service-Network-Watcher
+    Target: NetworkWatcher
+  - Source: 00024-icon-service-Operation-Log-(Classic)
+    Target: OperationLog(Classic)
+  - Source: 00025-icon-service-Service-Providers
+    Target: ServiceProviders
+  - Source: 00026-icon-service-Education
+    Target: Education
+  - Source: 00471-icon-service-Azure-Lighthouse
+    Target: AzureLighthouse
+  - Source: 00756-icon-service-Azure-Arc
+    Target: AzureArc
+  - Source: 10303-icon-service-User-Privacy
+    Target: UserPrivacy
+  - Source: 10313-icon-service-Managed-Applications-Center
+    Target: ManagedApplicationsCenter
+  - Source: 10316-icon-service-Policy
+    Target: Policy
+  - Source: 10450-icon-service-MachinesAzureArc
+    Target: MachinesAzureArc
+- Name: Migrate
   Services:
-  - Source: AzureNotificationHubs
-    Target: AzureNotificationHubs
-  - Source: Azure App Service - Mobile App
-    Target: AzureMobileApp
-    
+  - Source: 00017-icon-service-Recovery-Services-Vaults
+    Target: RecoveryServicesVaults
+  - Source: 10094-icon-service-Data-Box
+    Target: DataBox
+  - Source: 10095-icon-service-Data-Box-Edge
+    Target: DataBoxEdge
+- Name: MixedReality
+  Services:
+  - Source: 00698-icon-service-Remote-Rendering
+    Target: RemoteRendering
 - Name: Networking
   Services:
-  - Source: Azure ExpressRoute
-    Target: AzureExpressRoute 
-  - Source: Azure DNS
-    Target: AzureDNS   
-  - Source: Azure Virtual Network
-    Target: AzureVirtualNetwork
-  - Source: Azure Traffic Manager
-    Target: AzureTrafficManager
-  - Source: Azure Load Balancer (feature)
-    Target: AzureLoadBalancer
-  - Source: Azure VPN Gateway
-    Target: AzureVPNGateway
-  - Source: AzureApplicationGateway
-    Target: AzureApplicationGateway
-  - Source: ddos-protection
-    Target: AzureAzureDDoSProtection
-  - Source: virtual-wan
-    Target: AzureVirtualWAN
-  - Source: Azure Front Door Service
-    Target: AzureFrontDoorService
-
-- Name: Security
+  - Source: 00023-icon-service-Network-Watcher
+    Target: NetworkWatcher
+  - Source: 00056-icon-service-CDN-Profiles
+    Target: CDNProfiles
+  - Source: 00271-icon-service-Azure-Firewall-Manager
+    Target: AzureFirewallManager
+  - Source: 00427-icon-service-Private-Link
+    Target: PrivateLink
+  - Source: 01105-icon-service-Private-Link-Service
+    Target: PrivateLinkService
+  - Source: 10061-icon-service-Virtual-Networks
+    Target: VirtualNetworks
+  - Source: 10062-icon-service-Load-Balancers
+    Target: LoadBalancers
+  - Source: 10063-icon-service-Virtual-Network-Gateways
+    Target: VirtualNetworkGateways
+  - Source: 10064-icon-service-DNS-Zones
+    Target: DNSZones
+  - Source: 10065-icon-service-Traffic-Manager-Profiles
+    Target: TrafficManagerProfiles
+  - Source: 10066-icon-service-Network-Watcher
+    Target: NetworkWatcher
+  - Source: 10067-icon-service-Network-Security-Groups
+    Target: NetworkSecurityGroups
+  - Source: 10068-icon-service-Public-IP-Addresses-(Classic)
+    Target: PublicIPAddresses(Classic)
+  - Source: 10069-icon-service-Public-IP-Addresses
+    Target: PublicIPAddresses
+  - Source: 10071-icon-service-Route-Filters
+    Target: RouteFilters
+  - Source: 10072-icon-service-DDoS-Protection-Plans
+    Target: DDoSProtectionPlans
+  - Source: 10073-icon-service-Front-Doors
+    Target: FrontDoors
+  - Source: 10075-icon-service-Virtual-Networks-(Classic)
+    Target: VirtualNetworks(Classic)
+  - Source: 10079-icon-service-ExpressRoute-Circuits
+    Target: ExpressRouteCircuits
+  - Source: 10080-icon-service-Network-Interfaces
+    Target: NetworkInterfaces
+  - Source: 10081-icon-service-Connections
+    Target: Connections
+  - Source: 10083-icon-service-Application-Security-Groups
+    Target: ApplicationSecurityGroups
+  - Source: 10085-icon-service-Service-Endpoint-Policies
+    Target: ServiceEndpointPolicies
+  - Source: 10310-icon-service-NAT
+    Target: NAT
+  - Source: 10362-icon-service-Web-Application-Firewall-Policies(WAF)
+    Target: WebApplicationFirewallPolicies(WAF)
+  - Source: 10365-icon-service-Proximity-Placement-Groups
+    Target: ProximityPlacementGroups
+  - Source: 10371-icon-service-Reserved-IP-Addresses-(Classic)
+    Target: ReservedIPAddresses(Classic)
+  - Source: 10372-icon-service-Public-IP-Prefixes
+    Target: PublicIPPrefixes
+  - Source: Virtual-WAN
+    Target: VirtualWAN
+- Name: Other
   Services:
-  - Source: Azure Key Vault
-    Target: AzureKeyVault
-  - Source: Azure Sentinel
-    Target: AzureSentinel    
-
+  - Source: 00378-icon-service-Detonation
+    Target: Detonation
+  - Source: 00398-icon-service-Disk-Encryption-Sets
+    Target: DiskEncryptionSets
+  - Source: 00469-icon-service-Internet-Analyzer-Profiles
+    Target: InternetAnalyzerProfiles
+  - Source: 00701-icon-service-IP-Groups
+    Target: IPGroups
+  - Source: 10003-icon-service-Reservations
+    Target: Reservations
+  - Source: 10076-icon-service-Application-Gateways
+    Target: ApplicationGateways
+  - Source: 10084-icon-service-Firewalls
+    Target: Firewalls
+  - Source: 10139-icon-service-Instance-Pools
+    Target: InstancePools
+  - Source: 10310-icon-service-NAT
+    Target: NAT
+  - Source: Azure-Maps
+    Target: AzureMaps
+  - Source: Managed-Applications
+    Target: ManagedApplications
+  - Source: Site-Recovery
+    Target: SiteRecovery
+- Name: Preview
+  Services:
+  - Source: 00559-icon-service-Azure-Cloud-Shell
+    Target: AzureCloudShell
+  - Source: 02209-icon-service-Private-Link-Hub
+    Target: PrivateLinkHub
+  - Source: 10846-icon-service-Web-Environment
+    Target: WebEnvironment
 - Name: Storage
   Services:
-  - Source: Azure Storage
-    Target: AzureStorage
-  - Source: Azure StorSimple
-    Target: AzureStorSimple
-  - Source: Azure Data Lake Store
-    Target: AzureDataLakeStorage
-  - Source: Azure Storage - Blob
-    Target: AzureBlobStorage
-  - Source: disks
-    Target: AzureDiskStorage
-  - Source: managed-disks
-    Target: AzureManagedDisks
-  - Source: Azure Storage - Queue
-    Target: AzureQueueStorage
-  - Source: Azure Storage - Files
-    Target: AzureFileStorage
-  - Source: Azure Data Box
-    Target: AzureDataBox
-  - Source: Azure NetApp Files
+  - Source: 00017-icon-service-Recovery-Services-Vaults
+    Target: RecoveryServicesVaults
+  - Source: 00045-icon-service-Data-Lake-Store-Gen1
+    Target: DataLakeStoreGen1
+  - Source: 00691-icon-service-Azure-Stack-Edge
+    Target: AzureStackEdge
+  - Source: 00776-icon-service-Azure-HCP-Cache
+    Target: AzureHCPCache
+  - Source: 10086-icon-service-Storage-Accounts
+    Target: StorageAccounts
+  - Source: 10087-icon-service-Storage-Accounts-(Classic)
+    Target: StorageAccounts(Classic)
+  - Source: 10089-icon-service-StorSimple-Device-Managers
+    Target: StorSimpleDeviceManagers
+  - Source: 10090-icon-service-Data-Lake-Storage-Gen1
+    Target: DataLakeStorageGen1
+  - Source: 10092-icon-service-StorSimple-Data-Managers
+    Target: StorSimpleDataManagers
+  - Source: 10094-icon-service-Data-Box
+    Target: DataBox
+  - Source: 10095-icon-service-Data-Box-Edge
+    Target: DataBoxEdge
+  - Source: 10096-icon-service-Azure-NetApp-Files
     Target: AzureNetAppFiles
-
+  - Source: 10097-icon-service-Data-Share-Invitations
+    Target: DataShareInvitations
+  - Source: 10098-icon-service-Data-Shares
+    Target: DataShares
+  - Source: 10100-icon-service-Import-Export-Jobs
+    Target: ImportExportJobs
 - Name: Web
   Services:
-  - Source: Azure Content Delivery Network (CDN)
-    Target: AzureCDN
-  - Source: Azure API Management
-    Target: AzureAPIManagement
-  - Source: Azure Search
-    Target: AzureSearch
-  - Source: Azure App Service - Web App (was Websites)
-    Target: AzureWebApp
-  - Source: Azure SignalR Service
-    Target: AzureSignalRService
+  - Source: 10053-icon-service-Notification-Hub-Namespaces
+    Target: NotificationHubNamespaces
+  - Source: 10309-icon-service-Azure-Media-Service
+    Target: AzureMediaService
+  - Source: SignalR-Service
+    Target: SignalRService
+- Name: Security
+  Services:
+  - Source: Key-Vault
+    Target: KeyVault
+  - Source: Sentinel
+    Target: Sentinel
